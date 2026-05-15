@@ -36,22 +36,16 @@ function CategoryLayout({ service }: { service: Service }) {
         }}
       >
         <Container>
-          <h1 className="fw-bold display-4 mb-3">{service.hero.heading}</h1>
-          <p className="lead mb-4 mx-auto" style={{ maxWidth: "850px" }}>
-            {service.hero.subHeading}
-          </p>
+          <h1 className="fw-bold mb-3" style={service.slug === "software-development" ? { whiteSpace: "nowrap", fontSize: "clamp(1.5rem, 3.2vw, 2.8rem)" } : {}}>{service.hero.heading}</h1>
+          <div
+            className="lead mb-4 mx-auto"
+            style={{ maxWidth: "850px" }}
+            dangerouslySetInnerHTML={{ __html: service.hero.subHeading }}
+          />
 
           {service.hero.trustPara && (
             <div className="mt-4 mb-4">
-              <p className="mb-0 text-white fw-medium d-flex align-items-center justify-content-center gap-2 flex-nowrap" style={{ whiteSpace: "nowrap" }}>
-                <span className="bg-success rounded d-flex align-items-center justify-content-center" style={{ width: "20px", height: "20px" }}>
-                  <i className="bi bi-check-lg text-white" style={{ fontSize: "14px" }}></i>
-                </span>
-                <span className="small">{service.hero.trustPara.split('|')[0].trim()}</span>
-                <span className="mx-1 text-white-50">|</span>
-                <i className="bi bi-star-fill text-warning"></i>
-                <span className="small">{service.hero.trustPara.split('|')[1].trim()}</span>
-              </p>
+              <p className="mb-0 text-white fw-medium text-center" dangerouslySetInnerHTML={{ __html: service.hero.trustPara }} />
             </div>
           )}
 
@@ -96,33 +90,31 @@ function CategoryLayout({ service }: { service: Service }) {
         </Container>
       </section>
 
-      {service.subSection && (
-        <section className="py-5 bg-light">
-          <Container className="text-center">
-            <h2 className="fw-bold mb-3">{service.subSection.heading}</h2>
-            <p className="text-muted mx-auto" style={{ maxWidth: "700px" }}>
-              {service.subSection.description}
-            </p>
+      <section className={`py-5 ${service.slug === "software-development" ? "services-section" : ""}`}>
+        {service.subSection && (
+          <Container className="text-center mb-5">
+            <h2 className="fw-bold mb-3 primaryClr" dangerouslySetInnerHTML={{ __html: service.subSection.heading }} />
+            <div className="mx-auto" style={{ maxWidth: "700px", color: "#333", fontSize: "1.1rem" }} dangerouslySetInnerHTML={{ __html: service.subSection.description }} />
           </Container>
-        </section>
-      )}
+        )}
 
-      <section className="py-5">
-        <Container>
-          <Row className="g-4">
-            {service.items?.map((item, index) => (
-              <Col md={4} key={index} className="mx-auto">
-                <article className="solution-card h-100 text-center">
-                  <Link href={`/${item.link}`} className="text-decoration-none text-dark">
-                    <i className={`bi ${item.icon} solution-icon`} style={item.color ? { color: item.color } : {}}></i>
-                    <h5 className="fw-bold">{item.title}</h5>
-                    <p className="text-muted small">{item.description}</p>
-                  </Link>
-                </article>
-              </Col>
-            ))}
-          </Row>
-        </Container>
+        {service.items && service.items.length > 0 && (
+          <Container>
+            <Row className="g-4">
+              {service.items.map((item, index) => (
+                <Col md={4} key={index} className="mx-auto">
+                  <article className="solution-card p-4 h-100 text-center">
+                    <Link href={`/${item.link}`} className="text-decoration-none text-dark d-block">
+                      <i className={`bi ${item.icon} icon`} style={item.color ? { color: item.color } : {}}></i>
+                      <h5 className="fw-bold">{item.title}</h5>
+                      <p className="text-muted small mb-0">{item.description}</p>
+                    </Link>
+                  </article>
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        )}
       </section>
 
       {service.fullDetails && (
@@ -147,7 +139,7 @@ function CategoryLayout({ service }: { service: Service }) {
         </section>
       )}
 
-      <section className="why-choose-us py-5 text-white" style={{ backgroundColor: "#064267" }}>
+      <section className="why-choose-us py-5 text-white" style={{ background: "linear-gradient(to right, #064267, #1485cb)" }}>
         <Container>
           <div className="text-center mb-5">
             <h2 className="fw-bold">Why Choose Ananya Hi Solutions?</h2>
@@ -157,11 +149,11 @@ function CategoryLayout({ service }: { service: Service }) {
             {[
               { title: "ROI Focused", desc: "We deliver measurable growth with strategies built for results.", icon: "bi-graph-up-arrow" },
               { title: "24/7 Support", desc: "Round the clock assistance to ensure your business never stops.", icon: "bi-headset" },
-              { title: "Expert Team", desc: "Our skilled professionals bring innovation & expertise to every project.", icon: "bi-people-fill" },
-              { title: "Proven Results", desc: "Trusted by clients with successful projects & long-term partnerships.", icon: "bi-patch-check-fill" }
+              { title: "Expert Team", desc: "Our skilled professionals bring innovation & expertise to every project.", icon: "bi-people" },
+              { title: "Proven Results", desc: "Trusted by clients with successful projects & long-term partnerships.", icon: "bi-award" }
             ].map((item, idx) => (
               <Col md={3} key={idx}>
-                <div className="text-center p-4 rounded h-100 shadow-sm" style={{ backgroundColor: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)" }}>
+                <div className="text-center p-4 rounded h-100 shadow-sm" style={{ backgroundColor: "rgba(255,255,255,0.15)", border: "1px solid rgba(255,255,255,0.2)", backdropFilter: "blur(5px)" }}>
                   <i className={`bi ${item.icon} fs-1 mb-3 d-block text-white`}></i>
                   <h5 className="fw-bold">{item.title}</h5>
                   <p className="small opacity-75 mb-0">{item.desc}</p>
@@ -186,10 +178,12 @@ function DetailLayout({ service }: { service: Service }) {
         style={service.hero.heroImage ? { backgroundImage: `linear-gradient(rgba(6, 66, 103, 0.85), rgba(6, 66, 103, 0.85)), url('/${service.hero.heroImage}')` } : {}}
       >
         <Container>
-          <h1 className="fw-bold display-4 mb-3">{service.hero.heading}</h1>
-          <p className="lead mb-4 mx-auto" style={{ maxWidth: "800px" }}>
-            {service.hero.subHeading}
-          </p>
+          <h1 className="fw-bold mb-3" style={service.slug === "software-development" ? { whiteSpace: "nowrap", fontSize: "clamp(1.5rem, 3.2vw, 2.8rem)" } : {}}>{service.hero.heading}</h1>
+          <div
+            className="lead mb-4 mx-auto"
+            style={{ maxWidth: "800px" }}
+            dangerouslySetInnerHTML={{ __html: service.hero.subHeading }}
+          />
 
           <div className="mt-4 d-flex justify-content-center flex-wrap gap-2">
             {service.hero.ctaButton ? (
@@ -221,8 +215,9 @@ function DetailLayout({ service }: { service: Service }) {
         </Container>
       </section>
 
-      <section className="container py-5">
-        <Row className="align-items-center g-4 text-center text-md-start">
+      <section className="py-5" style={{ backgroundColor: "#e9efef" }}>
+        <Container>
+          <Row className="align-items-center g-4 text-center text-md-start">
           <Col xs={12}>
             <h2 className="fw-bold mb-3 text-center">{detailSection.heading1}</h2>
             <p className="text-muted">{detailSection.paragraph1}</p>
@@ -272,6 +267,7 @@ function DetailLayout({ service }: { service: Service }) {
             />
           </div>
         )}
+        </Container>
       </section>
 
       <section className="cta-final text-white text-center py-5" style={{ background: "linear-gradient(rgba(6, 66, 103, 0.9), rgba(6, 66, 103, 0.9))" }}>

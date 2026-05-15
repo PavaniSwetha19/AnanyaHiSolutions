@@ -1068,7 +1068,7 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "Custom Software Development Company in Hyderabad",
-      subHeading: "Get scalable, secure, and SEO optimized software solutions tailored for your business needs. Ananya Hi Solutions specializes in CRM, Billing, College & Learning Management Software that help you streamline operations and drive growth.",
+      subHeading: "Get <strong>scalable, secure, and SEO-optimized software solutions</strong> tailored for your business needs. Ananya Hi Solutions specializes in <strong>CRM, Billing, College & Learning Management Software</strong> that help you streamline operations and drive growth.",
       trustPara: "✅ 50+ Custom Software Projects Delivered | ⭐ Rated 5/5 by Businesses & Institutions",
       ctaButton: {
         text: "Choose Package",
@@ -1078,8 +1078,8 @@ export const servicesData: Record<string, Service> = {
       },
     },
     subSection: {
-      heading: "Software Development Services for Businesses & Institutions",
-      description: "We build custom software solutions designed to automate workflows, increase productivity, and improve customer experience. From CRM to LMS, our expert team delivers high-performance applications.",
+      heading: "Software Development Services for <br className='d-none d-md-block' /> Businesses & Institutions",
+      description: "We build <strong>custom software solutions</strong> designed to automate workflows, increase productivity, and improve customer experience. From CRM to LMS, our expert team delivers high-performance applications.",
     },
     items: [
       {
@@ -1112,16 +1112,16 @@ export const servicesData: Record<string, Service> = {
         <div class="row">
           <div class="col-12">
             <h2 class="fw-bold mb-4 text-dark text-center">Custom Software Development Services in Hyderabad</h2>
-            <p class="mb-3 text-muted text-center">
+            <p class="mb-3 text-muted" style="text-align: justify;">
               Custom software development empowers businesses to address unique operational challenges, improve efficiency, and gain competitive advantages. Ananya Hi Solutions delivers tailored software solutions that streamline processes, enhance productivity, and drive digital transformation.
             </p>
-            <p class="mb-3 text-muted">
+            <p class="mb-3 text-muted" style="text-align: justify;">
               Our software development expertise encompasses enterprise resource planning (ERP) systems integrating all business functions, customer relationship management (CRM) platforms optimizing sales and customer service, inventory and supply chain management solutions, human resource management systems (HRMS), accounting and financial management software, project management applications, and custom business automation tools.
             </p>
-            <p class="mb-3 text-muted">
+            <p class="mb-3 text-muted" style="text-align: justify;">
               We leverage modern technologies and frameworks including Python (Django, Flask) for rapid development, PHP (Laravel, CodeIgniter) for web applications, Java for enterprise solutions, .NET for Windows-based systems, Node.js for real-time applications, and cloud technologies (AWS, Azure, Google Cloud) for scalable deployments. Our solutions are platform-agnostic and integrate seamlessly with existing systems.
             </p>
-            <p class="mb-3 text-muted">
+            <p class="mb-3 text-muted" style="text-align: justify;">
               Our development methodology follows agile principles with regular sprints, continuous stakeholder involvement, iterative development and feedback cycles, comprehensive testing at every stage, detailed documentation, and seamless deployment. We ensure solutions are scalable to accommodate business growth, secure with industry-standard protocols, maintainable with clean code practices, and user-friendly with intuitive interfaces.
             </p>
           </div>
@@ -1135,19 +1135,19 @@ export const servicesData: Record<string, Service> = {
       },
       {
         question: "How does custom software development differ from off-the-shelf solutions?",
-        answer: "Custom software is built specifically for your unique business processes, providing exactly the features you need without unnecessary complexity. Unlike off-the-shelf software, you own the solution, it can scale with your business, and it integrates perfectly with your existing workflows.",
+        answer: "Custom software is specifically designed for your unique business processes, workflows, and requirements, offering perfect-fit functionality, competitive advantages, easier integration with existing systems, and no recurring licensing fees. Off-the-shelf software offers faster deployment and lower initial costs but may require process changes, includes unused features, has limitations, and incurs ongoing subscription costs. We help evaluate the best approach.",
       },
       {
         question: "What is the typical cost and timeline for custom software development?",
-        answer: "Costs and timelines vary based on project complexity, features, and platform requirements. A small internal tool might take 4-8 weeks, while a comprehensive enterprise ERP could take several months. We provide detailed estimates after an initial discovery phase.",
+        answer: "Costs vary significantly based on complexity, features, integrations, and user scale. Simple automation tools start from ₹2,00,000, medium complexity applications range ₹5,00,000–₹15,00,000, and enterprise-level systems can exceed ₹25,00,000. Timelines range from 3 months for simple applications to 12+ months for complex enterprise systems. We provide detailed project estimates after requirements analysis.",
       },
       {
         question: "How do you ensure software scalability and future-proofing?",
-        answer: "We use modern, modular architectures and industry-standard technologies that allow for easy expansion. Our code follows best practices, and we design databases to handle growth while ensuring the platform can be updated with new features as your business evolves.",
+        answer: "We build scalable architectures using modular design principles, cloud-based infrastructure for flexible resource allocation, microservices architecture for independent scaling, efficient database design and optimization, API-first development for easy integrations, strict code quality standards, comprehensive documentation, and technology choices aligned with long-term support. Regular performance testing ensures systems handle growth.",
       },
       {
         question: "What ongoing maintenance and support do you provide for custom software?",
-        answer: "We offer comprehensive post-launch support including bug fixes, security updates, performance monitoring, and feature enhancements. We also provide documentation and training to ensure your team can use the software effectively.",
+        answer: "We offer comprehensive post-deployment support including bug fixes and technical assistance, regular security updates and patches, performance monitoring and optimization, feature enhancements based on user feedback, server and database maintenance, backup and disaster recovery management, user training and documentation, and technology upgrades. Annual Maintenance Contracts (AMC) are available with defined SLAs and response times.",
       },
     ],
   },
@@ -1171,7 +1171,7 @@ export const servicesData: Record<string, Service> = {
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for CRM Software Development?",
       paragraph1: "We specialize in developing custom CRM software tailored to your business needs. Our Hyderabad-based team creates scalable, secure, and user-friendly CRM solutions that streamline sales, marketing, and support processes. From lead management to analytics, our CRM systems empower your team to deliver better customer experiences.",
-      image: "assets/front/images/services/crm-software-development-hyderabad.jpg",
+      image: "assets/front/images/services/crm-software-development-services-hyderabad.jpg",
       imageAlt: "crm software development hyderabad",
       heading2: "Our CRM Software Expertise",
       paragraph2: "We develop CRM solutions for businesses of all sizes, from startups to enterprises. Our CRM systems are designed for seamless lead management, sales tracking, marketing automation, and customer support. With real-time analytics and reporting, our software helps you make informed decisions and grow your business efficiently.",

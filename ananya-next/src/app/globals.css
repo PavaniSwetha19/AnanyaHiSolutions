@@ -213,6 +213,53 @@ body {
 
 /* End  Home Page Services */
 
+/* Solution Card for Service Inner Pages */
+.solution-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 12px;
+  background: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+}
+
+.solution-card .icon {
+  font-size: 40px;
+  color: #064267;
+  transition: all 0.3s ease;
+}
+
+.solution-card h5 {
+  margin-top: 10px;
+  font-weight: 800;
+  color: #064267;
+  transition: all 0.3s ease;
+}
+
+.solution-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.solution-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+}
+
+.solution-card:hover .icon {
+  color: #25d366;
+}
+
+.solution-card:hover h5 {
+  color: #25d366;
+}
+/* End Solution Card */
+
 
   /* Chatbot */
   .chatbot-wrapper {
@@ -1590,4 +1637,17 @@ header a,
 
 .animate-slide {
   animation: slideLR 0.5s infinite ease-in-out;
+}
+
+/* ===================== WhatsApp Button ===================== */
+.btn-whatsapp {
+  background-color: #25d366;
+  color: #ffffff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128c7e;
+  color: #ffffff;
 }
