@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Pandit Siragiri Guruji | Trusted Astrologer</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{font-family:Arial, sans-serif;}
+.hero{
+background:linear-gradient(135deg,#000203,#0c4960,#f4af4f);
+background-size:400% 400%;
+animation:gradientMove 10s ease infinite;
+color:#fff;
+padding:80px 0;
+}
+
+
+.fa-whatsapp{
+color:#25D366;
+}
+
+/* Gradient animation */
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* .btn-call{
+background:#ffcc00;
+color:#000;
+font-weight:700;
+font-size:20px;
+padding:14px 30px;
+border-radius:50px;
+} */
+
+/* Call */
+.btn-call{
+background:#ffcc00;
+color:#000;
+font-weight:700;
+font-size:20px;
+padding:14px 30px;
+border-radius:50px;
+display:inline-flex;
+align-items:center;
+gap:8px;
+animation:pulse 1.5s infinite;
+box-shadow:0 0 0 rgba(255,204,0,0.7);
+transition:all 0.4s ease;
+position:relative;
+overflow:hidden;
+}
+
+/* Hover Effect */
+.btn-call:hover{
+background:linear-gradient(45deg,#ff7a18,#ffd200);
+color:#fff;
+transform:translateY(-4px) scale(1.05);
+box-shadow:0 15px 35px rgba(255,122,24,0.6);
+}
+
+/* Phone icon move */
+.btn-call:hover span{
+transform:translateX(6px);
+}
+
+/* Pulse */
+@keyframes pulse {
+0%{
+transform:scale(1);
+box-shadow:0 0 0 0 rgba(255,204,0,0.7);
+}
+70%{
+transform:scale(1.08);
+box-shadow:0 0 0 20px rgba(255,204,0,0);
+}
+100%{
+transform:scale(1);
+box-shadow:0 0 0 0 rgba(255,204,0,0);
+}
+}
+
+/* Call */
+
+
+
+
+.section-padding{padding:70px 0;}
+.icon-box{
+background:#f8f9fa;
+border-radius:15px;
+padding:25px;
+text-align:center;
+height:100%;
+}
+.trust-box{
+background:#fff3cd;
+padding:30px;
+border-radius:15px;
+}
+.footer-cta{
+background:linear-gradient(135deg,#000203,#0c4960,#f4af4f);
+background-size:300% 300%;
+animation:ctaGlow 8s ease infinite;
+padding:90px 0;
+color:#fff;
+position:relative;
+overflow:hidden;
+}
+/* soft glow movement */
+@keyframes ctaGlow{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* golden light overlay */
+.footer-cta::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:radial-gradient(circle at top,#f4af4f33,transparent 60%);
+pointer-events:none;
+}
+
+
+/* Why Singapore Clients Trust Pandit Sirigiri? */
+
+ .trust-section{
+background:linear-gradient(180deg,#ffffff,#f8f9fa);
+}
+
+.trust-card{
+background:#fff;
+border-radius:18px;
+padding:30px 20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:0.4s ease;
+height:100%;
+}
+
+.trust-card:hover{
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+.trust-card .icon{
+font-size:45px;
+margin-bottom:15px;
+animation:floatIcon 3s ease-in-out infinite;
+}
+
+/* floating icon */
+@keyframes floatIcon{
+0%{transform:translateY(0);}
+50%{transform:translateY(-8px);}
+100%{transform:translateY(0);}
+}
+
+
+    .problem-section{
+background:linear-gradient(180deg,#f8f9fa,#ffffff);
+}
+
+.problem-card{
+background:#fff;
+border-radius:20px;
+padding:35px 25px;
+text-align:center;
+height:100%;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:0.4s ease;
+position:relative;
+overflow:hidden;
+}
+
+/* Hover effect */
+.problem-card:hover{
+transform:translateY(-12px) scale(1.05);
+box-shadow:0 25px 45px rgba(0,0,0,0.15);
+}
+
+/* Golden border animation */
+.problem-card::before{
+content:"";
+position:absolute;
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+background:linear-gradient(120deg,transparent,#f4af4f55,transparent);
+transition:0.5s;
+}
+
+.problem-card:hover::before{
+left:100%;
+}
+
+.problem-icon{
+font-size:48px;
+margin-bottom:15px;
+animation:floatIcon 3s ease-in-out infinite;
+}
+
+/* Floating icons */
+@keyframes floatIcon{
+0%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0);}
+}
+
+
+
+
+
+.astro-area-section{
+background:linear-gradient(135deg,#f9f9f9,#fff);
+}
+
+.area-card{
+border-radius:15px;
+transition:0.4s ease;
+cursor:pointer;
+position:relative;
+overflow:hidden;
+}
+
+.area-card::before{
+content:"";
+position:absolute;
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+background:linear-gradient(120deg,transparent,#ffd70040,transparent);
+transition:0.5s;
+}
+
+.area-card:hover::before{
+left:100%;
+}
+
+.area-card:hover{
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+.area-icon{
+font-size:35px;
+color:#d4af37;
+}
+
+.fade-up{
+animation:fadeUp 1s ease forwards;
+opacity:0;
+}
+
+@keyframes fadeUp{
+from{
+transform:translateY(40px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+
+.area-pro-card{
+background:rgba(255,255,255,0.85);
+backdrop-filter:blur(10px);
+border-radius:18px;
+padding:30px 20px;
+transition:0.4s ease;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+position:relative;
+overflow:hidden;
+}
+
+/* Hover glow */
+.area-pro-card:hover{
+transform:translateY(-12px) scale(1.05);
+box-shadow:0 25px 45px rgba(0,0,0,0.18);
+}
+
+/* golden shine */
+.area-pro-card::before{
+content:"";
+position:absolute;
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+background:linear-gradient(120deg,transparent,#f4af4f55,transparent);
+transition:0.5s;
+}
+
+.area-pro-card:hover::before{
+left:100%;
+}
+
+/* icon animation */
+.area-icon{
+font-size:42px;
+margin-bottom:10px;
+animation:pulseIcon 2.5s infinite;
+}
+
+@keyframes pulseIcon{
+0%{transform:scale(1);}
+50%{transform:scale(1.15);}
+100%{transform:scale(1);}
+}
+
+
+</style>
+<meta name="google-site-verification" content="YgrAG14H4R-NVuVQHFFM6HI9cMe7G4lRnCAsy04Zm88" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8LJJCK297"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8LJJCK297');
+</script>
+
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero text-center">
+<div class="container">
+<img src="logo.png" class="mb-4" width="250">
+
+<!-- <h1 class="fw-bold">Pandit Siragiri Guruji</h1> -->
+<h3 class="mt-1 fw-bold">63 Years of Experience in Astrology</h3>
+
+<p class="mt-4 fs-5">
+Are you suffering from life problems?  
+Career, love, marriage, finance, health, business –  
+<strong>Get instant solutions today</strong>
+</p>
+
+<a href="tel:+6585480520" class="btn btn-call mt-4">
+<span>📞</span> Call Now: +65 8548 0520
+</a>
+
+<p class="mt-3">Available in Tamil | Telugu | Hindi | English</p>
+</div>
+</section>
+
+
+
+
+<!-- TRUST -->
+<section class="section-padding bg-white trust-section">
+<div class="container text-center">
+
+<h2 class="fw-bold mb-2">Why Singapore Clients Trust Pandit Sirigiri?</h2>
+<p class="mt-3 fs-5 text-muted">
+Because real problems need real spiritual solutions.<br>
+Serving clients across <b class="text-dark">Singapore</b>
+</p>
+
+<p class="mb-5">
+Online & Offline consultation available
+</p>
+
+<div class="row g-4">
+
+<!-- Card 1 -->
+<div class="col-md-4">
+<div class="trust-card">
+<div class="icon">🔒</div>
+<h5>100% Privacy</h5>
+<p>Your details are kept strictly confidential</p>
+</div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-md-4">
+<div class="trust-card">
+<div class="icon">⚡</div>
+<h5>Same Day Consultation</h5>
+<p>Get guidance without waiting</p>
+</div>
+</div>
+
+<!-- Card 3 -->
+<div class="col-md-4">
+<div class="trust-card">
+<div class="icon">💰</div>
+<h5>Affordable Fees</h5>
+<p>Honest pricing, no hidden charges</p>
+</div>
+</div>
+
+<!-- Card 4 -->
+<div class="col-md-4">
+<div class="trust-card">
+<div class="icon">🕉️</div>
+<h5>63+ Years Experience</h5>
+<p>Decades of proven astrology knowledge</p>
+</div>
+</div>
+
+<!-- Card 5 -->
+<div class="col-md-4">
+<div class="trust-card">
+<div class="icon">⭐</div>
+<h5>Thousands of Clients</h5>
+<p>Happy families across Singapore</p>
+</div>
+</div>
+
+<!-- Card 6 -->
+<div class="col-md-4">
+<div class="trust-card">
+<div class="icon">🎯</div>
+<h5>Accurate Predictions</h5>
+<p>Ethical & honest spiritual guidance</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- CTA -->
+<section class="footer-cta text-center">
+<div class="container position-relative">
+
+<h2 class="fw-bold">Take First Step Towards Happy Life</h2>
+<p class="mt-3 fs-5">
+Don’t suffer in silence.<br>
+Solutions are just one call away.
+</p>
+
+<a href="tel:+6585480520" class="btn btn-call mt-4">
+<span>📞</span> Call Now: +65 8548 0520
+</a>
+
+<p class="mt-4 fst-italic">Om Namah Shivaya 🙏</p>
+
+</div>
+</section>
+
+
+
+
+
+
+
+<!-- PROBLEMS -->
+ <section class="section-padding bg-light problem-section">
+<div class="container">
+
+<h2 class="text-center fw-bold mb-2">We Solve All Life Problems</h2>
+<p class="text-center text-muted mb-5">
+Your pain has a solution. Choose your problem below.
+</p>
+
+<div class="row g-4">
+
+<!-- Card -->
+<div class="col-md-4">
+<div class="problem-card">
+<div class="problem-icon">❤️</div>
+<h5>Love & Marriage</h5>
+<p>Breakup, marriage delay, family opposition</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="problem-card">
+<div class="problem-icon">💼</div>
+<h5>Career & Business</h5>
+<p>Job loss, business failure, growth block</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="problem-card">
+<div class="problem-icon">💰</div>
+<h5>Finance</h5>
+<p>Debt, money blockage, financial stress</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="problem-card">
+<div class="problem-icon">🏥</div>
+<h5>Health</h5>
+<p>Chronic illness, mental stress</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="problem-card">
+<div class="problem-icon">🏠</div>
+<h5>Property & Legal</h5>
+<p>Disputes, court cases</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="problem-card">
+<div class="problem-icon">👶</div>
+<h5>Childbirth</h5>
+<p>Fertility & pregnancy issues</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+<div class="bg-light py-5">
+<section class="container my-5">
+
+<h2 class="text-center fw-bold mb-2">Tamil Astrology Services in Singapore</h2>
+<p class="text-center text-muted">
+Trusted guidance for Tamil community across Singapore
+</p>
+
+<div class="row mt-4 g-4">
+
+<!-- Card -->
+<div class="col-md-4 fade-up">
+<div class="area-pro-card text-center">
+
+<div class="area-icon">🛕</div>
+
+<h5>
+Little India
+</h5>
+
+<small>Serangoon Road</small>
+
+<p class="mt-2">
+Marriage matching, love problems & pariharam
+</p>
+
+<a href="https://wa.me/6585480520?text=Hello%20Guruji%20I%20need%20marriage%20astrology%20help"
+class="btn btn-sm btn-outline-warning mt-2">
+WhatsApp Now
+</a>
+
+</div>
+</div>
+
+
+<div class="col-md-4 fade-up">
+<div class="area-pro-card text-center">
+
+<div class="area-icon">💍</div>
+<h5>Race Course Road</h5>
+<small>Perumal Temple Area</small>
+
+<p class="mt-2">
+Dosha remedies & horoscope matching
+</p>
+
+<a href="https://wa.me/6585480520?text=Hello%20Guruji%20I%20need%20marriage%20astrology%20help"
+class="btn btn-sm btn-outline-warning mt-2">
+WhatsApp Now
+</a>
+
+</div>
+</div>
+
+<div class="col-md-4 fade-up">
+<div class="area-pro-card text-center">
+
+<div class="area-icon">💼</div>
+<h5>Farrer Park</h5>
+
+<p class="mt-2">
+Career, business & vastu solutions
+</p>
+
+<a href="https://wa.me/6585480520?text=Hello%20Guruji%20I%20need%20career%20guidance"
+class="btn btn-sm btn-outline-warning mt-2">
+WhatsApp Now
+</a>
+
+</div>
+</div>
+
+<div class="col-md-4 fade-up">
+<div class="area-pro-card text-center">
+
+<div class="area-icon">🙏</div>
+<h5>Jalan Besar</h5>
+<small>Syed Alwi Road</small>
+
+<p class="mt-2">
+Family disputes & spiritual healing
+</p>
+
+<a href="https://wa.me/6585480520?text=Hello%20Guruji%20family%20problem%20help"
+class="btn btn-sm btn-outline-warning mt-2">
+WhatsApp Now
+</a>
+
+</div>
+</div>
+
+<div class="col-md-4 fade-up">
+<div class="area-pro-card text-center">
+
+<div class="area-icon">⭐</div>
+<h5>Sultan Plaza</h5>
+<small>Jalan Sultan</small>
+
+<p class="mt-2">
+Nadi astrology & personal readings
+</p>
+
+<a href="https://wa.me/6585480520?text=Hello%20Guruji%20I%20need%20Nadi%20astrology"
+class="btn btn-sm btn-outline-warning mt-2">
+WhatsApp Now
+</a>
+
+</div>
+</div>
+
+<div class="col-md-4 fade-up">
+<div class="area-pro-card text-center">
+
+<div class="area-icon">🌊</div>
+<h5>Bedok</h5>
+<small>East Coast Area</small>
+
+<p class="mt-2">
+Love marriage issues & financial remedies
+</p>
+
+<a href="https://wa.me/6585480520?text=Hello%20Guruji%20I%20need%20Tamil%20astrology%20help%20in%20Bedok"
+class="btn btn-sm btn-outline-warning mt-2">
+WhatsApp Now
+</a>
+
+</div>
+</div>
+
+</div>
+</section>
+</div>
+
+
+<!-- BLACK MAGIC CTA -->
+<section class="section-padding footer-pro text-center"> <div class="container"> <h2 class="fw-bold"> Free Astrology Consultation </h2> <p class="mt-3 fs-5"> Speak directly with Pandit Siragiri Guruji<br> Get genuine guidance for your life problems </p> <p class="text-light"> ✔ Love & Marriage &nbsp; ✔ Career & Finance &nbsp; ✔ Black Magic Removal </p> <a href="https://wa.me/6585480520?text=Hello%20Guruji%20I%20need%20free%20astrology%20consultation" class="btn btn-whatsapp mt-4"> <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Free Consultation) </a> <p class="mt-4 fst-italic"> Om Namah Shivaya 🙏 </p> </div> </section>
+<style>
+    .footer-pro{
+background:linear-gradient(135deg,#000203,#0c4960,#f4af4f);
+background-size:300% 300%;
+animation:footerFlow 10s ease infinite;
+color:#fff;
+padding:110px 0;
+position:relative;
+overflow:hidden;
+}
+
+/* Smooth gradient motion */
+@keyframes footerFlow{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* Logo watermark FIXED */
+.footer-pro::before{
+content:"";
+position:absolute;
+inset:0;
+background:url('logo.png') no-repeat center;
+background-size:300px;
+opacity:0.07;
+pointer-events:none;   /* 🔥 THIS FIXES CLICK ISSUE */
+}
+
+/* Bring content above overlay */
+.footer-pro .container{
+position:relative;
+z-index:2;
+}
+
+.btn-whatsapp{
+background:#25D366;
+color:#fff;
+font-size:18px;
+font-weight:600;
+padding:14px 30px;
+border-radius:50px;
+box-shadow:0 10px 25px rgba(37,211,102,0.4);
+transition:0.4s ease;
+display:inline-flex;
+align-items:center;
+gap:10px;
+text-decoration:none;
+}
+
+/* Hover */
+.btn-whatsapp:hover{
+background:#1ebe5d;
+color:#fff;
+transform:translateY(-4px) scale(1.05);
+box-shadow:0 18px 35px rgba(37,211,102,0.6);
+}
+
+/* Pulse animation */
+.btn-whatsapp{
+animation:waPulse 1.5s infinite;
+}
+
+@keyframes waPulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.08);}
+100%{transform:scale(1);}
+}
+
+/* Icon shake */
+.btn-whatsapp i{
+animation:iconShake 1s infinite;
+}
+
+@keyframes iconShake{
+0%{transform:rotate(0);}
+25%{transform:rotate(10deg);}
+50%{transform:rotate(-10deg);}
+75%{transform:rotate(10deg);}
+100%{transform:rotate(0);}
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script>
+const cards=document.querySelectorAll(".fade-up");
+
+window.addEventListener("scroll",()=>{
+cards.forEach(card=>{
+let pos=card.getBoundingClientRect().top;
+let screen=window.innerHeight/1.2;
+if(pos<screen){
+card.style.opacity=1;
+card.style.animationPlayState="running";
+}
+});
+});
+</script>
+
+
+
+<script type="text/javascript">
+    (function () {
+        var options = {
+            call: "+6585480520", // Call phone number
+            call_to_action: "Message us", // Call to action
+            button_color: "#129BF4", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "whatsapp,call", // Order of buttons
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
+
+
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+6585480520", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            button_color: "#129BF4", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "whatsapp,call", // Order of buttons
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
