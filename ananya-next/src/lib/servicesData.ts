@@ -85,22 +85,40 @@ export const servicesData: Record<string, Service> = {
         title: "E-commerce Website",
         description: "Full-featured online stores with payment gateways & analytics.",
         icon: "bi-cart3",
-        link: "ecommerce-application-development",
+        link: "https://www.ananyahisolutions.com/ecommerce-website-developers-hyderabad",
       },
     ],
     fullDetails: `
-      <section class='bg-light py-5'>
-        <div class='container'>
+      <section class='py-5' style='background-color: #ffffff;'>
+        <div class='container text-center'>
           <h2>Professional Website Design and Development Services in Hyderabad</h2>
-          <p>In today's digital-first world, your website is often the first impression potential customers have of your business...</p>
-          <p>We specialize in diverse web solutions including corporate websites, e-commerce platforms, portfolio sites, and more.</p>
+          <p style='text-align: justify;'>In today's digital-first world, your website is often the first impression potential customers have of your business. At Ananya Hi Solutions, we create stunning, high-performance websites that not only look exceptional but drive real business results.</p>
+          <p style='text-align: justify;'>Our website design and development services combine aesthetic excellence with technical sophistication. Every website we build is fully responsive (mobile, tablet, desktop), optimized for search engines, designed for fast loading speeds, and focused on user experience and conversion optimization.</p>
+          <p style='text-align: justify;'>We specialize in diverse web solutions including corporate websites, e-commerce platforms, portfolio sites, landing pages, web applications, CMS-based sites (WordPress, Drupal, Joomla), and custom PHP/Python/Node.js development. Whether you need a simple brochure site or a complex web application, we have the expertise to deliver.</p>
+          <p style='text-align: justify;'>Our development process follows industry best practices: comprehensive discovery and planning, wireframing and prototyping, custom design creation, agile development methodology, rigorous testing across devices and browsers, SEO optimization, and comprehensive training and documentation. We ensure every website is secure, scalable, and maintainable.</p>
         </div>
       </section>
     `,
     faqs: [
       {
         question: "What technologies does Ananya Hi Solutions use for website development?",
-        answer: "We work with modern technologies including HTML5, CSS3, JavaScript frameworks (React, Vue, Angular), PHP frameworks (Laravel, CodeIgniter), and more.",
+        answer: "We work with modern technologies including HTML5, CSS3, JavaScript frameworks (React, Vue, Angular), PHP frameworks (Laravel, CodeIgniter), Python (Django, Flask), Node.js, WordPress, Shopify, Magento, and databases like MySQL, PostgreSQL, and MongoDB. We select the optimal technology stack based on your specific requirements.",
+      },
+      {
+        question: "How much does website design and development cost at Ananya Hi Solutions?",
+        answer: "Website costs vary based on complexity, features, and requirements. A basic business website starts from ₹9,000, while e-commerce platforms range from ₹75,000 to ₹3,00,000+. Custom web applications are quoted based on detailed requirements. We provide transparent, detailed quotes with no hidden costs after thorough consultation.",
+      },
+      {
+        question: "What is included in your website design package?",
+        answer: "Our comprehensive packages include custom responsive design, content management system, SEO-friendly structure, contact forms, Google Analytics integration, social media integration, SSL certificate setup, up to 10-15 pages, image optimization, cross-browser compatibility testing, 3 months technical support, and basic SEO setup. Advanced features are available in premium packages.",
+      },
+      {
+        question: "How do you ensure websites are mobile-friendly and responsive?",
+        answer: "Every website we build follows mobile-first design principles and responsive web design best practices. We test extensively across multiple devices (smartphones, tablets, desktops), browsers (Chrome, Firefox, Safari, Edge), and screen sizes to ensure consistent, optimal user experience everywhere. We use flexible grids, scalable images, and CSS media queries.",
+      },
+      {
+        question: "What ongoing support do you provide after website launch?",
+        answer: "We provide comprehensive post-launch support including 3 months free technical support, security updates and patches, performance monitoring, content updates (in select packages), backup management, bug fixes, hosting assistance, and analytics reporting. Extended maintenance packages are available for ongoing support and enhancements.",
       },
     ],
   },
@@ -115,10 +133,16 @@ export const servicesData: Record<string, Service> = {
       heading: "Digital Marketing Services in Hyderabad",
       subHeading: "Boost your business with SEO, social media marketing, PPC, email marketing & content strategies from Ananya Hi Solutions.",
       trustPara: "✅ Trusted by 100+ local businesses in Hyderabad | ⭐ Rated 5/5 for digital marketing results",
+      ctaButton: {
+        text: "Choose Package",
+        link: "/ananya-hi-solutions-package",
+        icon: "bi-cart-check",
+        className: "btn-package",
+      },
     },
     subSection: {
       heading: "Comprehensive Digital Marketing Solutions for Startups & Brands",
-      description: "Get SEO-friendly campaigns, social media strategies, paid ads & analytics-driven marketing that drive growth.",
+      description: "Get <strong>SEO-friendly campaigns, social media strategies, paid ads & analytics-driven marketing</strong> that drive growth. We help you attract more traffic, generate leads & convert sales.",
     },
     items: [
       {
@@ -133,11 +157,68 @@ export const servicesData: Record<string, Service> = {
         icon: "bi-facebook",
         link: "social-media-marketing-services-hyderabad",
       },
+      {
+        title: "Pay-Per-Click Advertising (PPC)",
+        description: "Targeted campaigns on Google Ads and social media to get instant leads.",
+        icon: "bi-currency-dollar",
+        link: "ppc-services-hyderabad",
+      },
+      {
+        title: "Content Marketing",
+        description: "Create SEO-friendly content that engages your audience and builds authority.",
+        icon: "bi-pencil-square",
+        link: "content-marketing-services-hyderabad",
+      },
+      {
+        title: "Email Marketing",
+        description: "Reach your customers directly with high-converting email campaigns.",
+        icon: "bi-envelope-heart",
+        link: "email-marketing-services-hyderabad",
+      },
     ],
+    fullDetails: `
+      <section class="py-5 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="fw-bold mb-4 text-start">Results-Driven Digital Marketing Services in Hyderabad</h2>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                In the competitive digital landscape, strategic marketing is essential for business growth. <a href="/" class="text-primary text-decoration-none fw-semibold border-bottom border-primary">Ananya Hi Solutions</a> is Hyderabad's premier digital marketing agency, delivering data-driven campaigns that generate qualified leads, increase brand visibility, and maximize return on investment.
+              </p>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                Our comprehensive digital marketing services encompass Search Engine Optimization (SEO) for organic rankings, Pay-Per-Click (PPC) advertising for immediate results, Social Media Marketing across all major platforms, Content Marketing that engages and converts, Email Marketing for nurturing leads, Conversion Rate Optimization, and comprehensive Analytics and Reporting.
+              </p>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                What distinguishes our approach is our commitment to understanding your business goals, target audience, and competitive landscape before crafting customized strategies. We don't believe in one-size-fits-all solutions. Every campaign is meticulously planned, executed with precision, and continuously optimized based on real-time data and performance metrics.
+              </p>
+              <p class="text-start mb-0" style="color: #444; line-height: 1.7;">
+                Our certified digital marketing team stays ahead of algorithm updates, platform changes, and industry trends to ensure your campaigns remain effective. We've helped businesses across industries achieve 200-400% increases in organic traffic, 3-5X ROI on ad spend, and substantial growth in qualified leads and conversions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    `,
     faqs: [
       {
         question: "What digital marketing services does Ananya Hi Solutions offer?",
-        answer: "We provide comprehensive digital marketing including SEO, PPC advertising, social media marketing, and more.",
+        answer: "We provide comprehensive digital marketing including SEO (on-page, off-page, technical, local), PPC advertising (Google Ads, Bing Ads), social media marketing (Facebook, Instagram, LinkedIn, Twitter), content marketing, email marketing, influencer marketing, online reputation management, conversion rate optimization, and marketing automation. We create integrated strategies tailored to your goals.",
+      },
+      {
+        question: "How long does it take to see results from SEO services?",
+        answer: "SEO is a long-term strategy that typically shows initial improvements in 3-4 months, with significant results in 6-12 months. Timeframes vary based on competition, current website status, and target keywords. We provide monthly progress reports showing improvements in rankings, traffic, and conversions. Quick wins like technical SEO fixes can show immediate impact.",
+      },
+      {
+        question: "What is the average ROI clients achieve with your PPC campaigns?",
+        answer: "Our PPC campaigns typically deliver 300-500% ROI, though results vary by industry, competition, and budget. We focus on qualified lead generation rather than just clicks. Our certified Google Ads specialists optimize campaigns continuously for cost-per-acquisition, conversion rates, and return on ad spend through strategic keyword selection, ad copy testing, and landing page optimization.",
+      },
+      {
+        question: "How do you measure and report digital marketing performance?",
+        answer: "We use advanced analytics tools (Google Analytics, Search Console, SEMrush, Ahrefs) to track comprehensive KPIs including organic traffic, keyword rankings, conversion rates, bounce rates, engagement metrics, lead quality, and ROI. Clients receive detailed monthly reports with actionable insights, competitive analysis, and strategic recommendations for continuous improvement.",
+      },
+      {
+        question: "What makes Ananya Hi Solutions effective at social media marketing?",
+        answer: "Our social media success stems from strategic audience research, platform-specific content creation, consistent posting schedules, community engagement, influencer partnerships, paid social advertising, A/B testing, and data-driven optimization. We create authentic brand voices that resonate with target audiences, driving engagement, followers, and conversions across all major platforms.",
       },
     ],
   },
@@ -267,21 +348,54 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "SEO Services in Hyderabad | Improve Your Google Rankings",
-      subHeading: "Boost your website’s visibility and attract more organic traffic with our proven SEO strategies.",
+      subHeading: "Boost your website's visibility and attract more organic traffic with our proven SEO strategies. We help your business rank higher on Google and generate qualified leads consistently.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
     },
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for SEO Services in Hyderabad?",
-      paragraph1: "At Ananya Hi Solutions, we provide data-driven SEO services tailored to your business goals. Our SEO experts in Hyderabad specialize in on-page, off-page, local, and technical SEO.",
+      paragraph1: "At Ananya Hi Solutions, we provide data-driven SEO services tailored to your business goals. Our SEO experts in Hyderabad specialize in on-page, off-page, local, and technical SEO to deliver measurable results. We help your business increase visibility, improve search rankings, and achieve long-term growth.",
       image: "assets/front/images/services/seo-services-hyderabad.jpg",
       imageAlt: "seo company in hyderabad",
       heading2: "Comprehensive SEO Services We Offer",
-      paragraph2: "Our SEO services in Hyderabad cover everything your website needs to perform and rank well on Google.",
+      paragraph2: "Our SEO services in Hyderabad cover everything your website needs to perform and rank well on Google. From technical SEO and content strategy to link building and analytics — we deliver holistic solutions that strengthen your online presence.",
       benefits: [
         "On-page & Off-page SEO optimization",
         "Local SEO for Google Maps & regional targeting",
         "Keyword research & content strategy",
         "Monthly reports & transparent tracking",
+        "Long-term organic traffic growth",
       ],
+      packageHtml: `
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
+            <h5 class='mb-1 fw-bold'>Professional SEO Services</h5>
+            <p class='mb-0 small'>Designed for Business Growth & Visibility</p>
+          </div>
+          <div class='package-body p-4 bg-white'>
+            <ul class='list-unstyled mb-4 feature-list'>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Comprehensive Website SEO Audit</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Keyword Research & Competitor Analysis</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>On-page & Technical Optimization</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Local SEO & Google Business Optimization</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>High-quality Backlink Strategy</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Monthly Performance Reporting</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Continuous Monitoring & Improvement</li>
+            </ul>
+            
+            <div class='text-center mt-4 pt-2 border-top'>
+              <p class='small fw-bold mb-3 text-dark'>Want to explore our full SEO strategy?</p>
+              <a id='unlock-seo-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+                <i class='bi bi-unlock-fill'></i> Discover More
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
     },
   },
   "social-media-marketing-services-hyderabad": {
@@ -292,22 +406,55 @@ export const servicesData: Record<string, Service> = {
       description: "Boost your online presence with creative and result-driven social media marketing.",
     },
     hero: {
-      heading: "Social Media Marketing Agency in Hyderabad",
-      subHeading: "Boost your online presence with creative and result-driven social media marketing.",
+      heading: "Social Media Marketing Agency in Hyderabad | Grow Your Brand Online",
+      subHeading: "Boost your online presence with creative and result-driven social media marketing. We help your business connect with the right audience and build a powerful brand presence across all major platforms.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
     },
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions as Your Social Media Marketing Agency in Hyderabad?",
-      paragraph1: "At Ananya Hi Solutions, we create data-driven and engaging social media campaigns that deliver real results.",
+      paragraph1: "At Ananya Hi Solutions, we create data-driven and engaging social media campaigns that deliver real results. Whether you're looking to build brand awareness, generate leads, or increase sales — our social media experts help you achieve your business goals through creative visuals, targeted ads, and performance analytics. We handle everything from content creation to audience growth and paid campaigns.",
       image: "assets/front/images/services/social-media-marketing-services-hyderabad.jpg",
       imageAlt: "social media marketing agency hyderabad",
       heading2: "Our Social Media Marketing Expertise",
-      paragraph2: "We manage end-to-end social media marketing campaigns for businesses across industries.",
+      paragraph2: "We manage end-to-end social media marketing campaigns for businesses across industries — including retail, education, hospitality, healthcare, real estate, and more. Our focus is on building brand trust, growing followers, and generating measurable engagement that converts.",
       benefits: [
         "Custom social media strategy for your brand",
         "Professional content creation & post design",
         "Paid ads management on Facebook & Instagram",
         "Monthly growth & engagement reporting",
+        "Dedicated social media manager for your brand",
       ],
+      packageHtml: `
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
+            <h5 class='mb-1 fw-bold'>Professional Social Media Marketing</h5>
+            <p class='mb-0 small'>Engage, Inspire, and Convert Your Audience</p>
+          </div>
+          <div class='package-body p-4 bg-white'>
+            <ul class='list-unstyled mb-4 feature-list'>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Creative Posts for Facebook, Instagram & LinkedIn</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Monthly Content Strategy & Calendar</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Ad Campaign Setup & Management</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Audience Targeting & Growth Strategy</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Competitor & Trend Analysis</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Performance Report & Analytics</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Hashtag & Engagement Optimization</li>
+            </ul>
+            
+            <div class='text-center mt-4 pt-2 border-top'>
+              <p class='small fw-bold mb-3 text-dark'>Want to explore our full social media marketing plans?</p>
+              <a id='unlock-smm-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+                <i class='bi bi-unlock-fill'></i> View Full Packages
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
     },
   },
   "mobile-application": {
@@ -319,15 +466,18 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "Mobile App Development Company in Hyderabad",
-      subHeading: "Build high-performance iOS & Android apps that are user-friendly, SEO-optimized, and drive engagement. Ananya Hi Solutions helps startups & brands grow with custom mobile solutions.",
-      trustBadges: [
-        { icon: "bi-check-circle-fill", text: "50+ Apps Delivered", color: "#2ecc71" },
-        { icon: "bi-star-fill", text: "Rated 5/5 by clients for mobile app solutions", color: "#f1c40f" }
-      ]
+      subHeading: "Build high-performance <strong>iOS & Android apps</strong> that are user-friendly, SEO-optimized, and drive engagement. Ananya Hi Solutions helps startups & brands grow with custom mobile solutions.",
+      trustPara: "✅ 50+ Apps Delivered | ⭐ Rated 5/5 by clients for mobile app solutions",
+      ctaButton: {
+        text: "Choose Package",
+        link: "/ananya-hi-solutions-package",
+        icon: "bi-cart-check",
+        className: "btn-package",
+      },
     },
     subSection: {
       heading: "Custom Mobile App Solutions for Startups & Brands",
-      description: "Get SEO-friendly, high-converting mobile apps for Android & iOS platforms. We specialize in responsive, fast, and engaging apps that generate leads and sales.",
+      description: "Get <strong>SEO-friendly, high-converting mobile apps</strong> for Android & iOS platforms. We specialize in responsive, fast, and engaging apps that generate leads and sales.",
     },
     items: [
       {
@@ -335,24 +485,35 @@ export const servicesData: Record<string, Service> = {
         description: "Create responsive and engaging iOS apps that perform flawlessly on iPhones & iPads.",
         icon: "bi-apple",
         link: "ios-app-development-services-hyderabad",
-        color: "#007AFF", // iOS Blue
+        color: "#003d69", // Dark Blue
       },
       {
         title: "Android App Development",
         description: "Build high-quality Android apps optimized for performance and user experience.",
         icon: "bi-android2",
         link: "android-app-development-services-hyderabad",
-        color: "#3DDC84", // Android Green
+        color: "#003d69", // Dark Blue
       },
     ],
     fullDetails: `
-      <section class="container py-5">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="fw-bold mb-4 text-dark">Custom Mobile App Development Services in Hyderabad</h2>
-            <p class="mb-3 text-muted">
-              Mobile applications have become essential business tools, providing direct customer engagement, enhanced brand loyalty, and new revenue streams. Ananya Hi Solutions delivers innovative, user-centric mobile applications that transform how businesses connect with their customers.
-            </p>
+      <section class="py-5 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="fw-bold mb-4 text-start">Custom Mobile App Development Services in Hyderabad</h2>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                <a href="/mobile-application" class="text-primary text-decoration-none fw-semibold border-bottom border-primary">Mobile applications</a> have become essential business tools, providing direct customer engagement, enhanced brand loyalty, and new revenue streams. Ananya Hi Solutions delivers innovative, user-centric mobile applications that transform how businesses connect with their customers.
+              </p>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                Our mobile app development expertise spans native iOS development (Swift, Objective-C), native Android development (Kotlin, Java), hybrid app development (React Native, Flutter), and progressive web apps (PWA). We build apps across categories including e-commerce, on-demand services, social networking, enterprise solutions, gaming, education, and healthcare.
+              </p>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                Every mobile application we develop follows user-centered design principles, ensuring intuitive navigation, engaging interfaces, and seamless user experiences. Our development process includes comprehensive market research, detailed wireframing and prototyping, agile development methodology, rigorous quality assurance, app store optimization, and post-launch support and updates.
+              </p>
+              <p class="text-start mb-0" style="color: #444; line-height: 1.7;">
+                Security, performance, and scalability are fundamental to our approach. We implement robust security protocols, optimize for fast loading and minimal battery consumption, ensure compatibility across devices and OS versions, and build scalable architectures that grow with your user base.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -361,6 +522,22 @@ export const servicesData: Record<string, Service> = {
       {
         question: "What is the difference between native and hybrid mobile app development?",
         answer: "Native apps are built specifically for iOS or Android using platform-specific languages (Swift for iOS, Kotlin for Android), offering best performance, full platform features, and optimal user experience but requiring separate development for each platform. Hybrid apps use cross-platform frameworks (React Native, Flutter) allowing single codebase for both platforms, faster development, and lower costs, with slightly reduced performance for complex features.",
+      },
+      {
+        question: "How much does mobile app development cost at Ananya Hi Solutions?",
+        answer: "Mobile app costs vary significantly based on complexity, features, platform, and design requirements. Simple apps start from ₹1,50,000, medium complexity apps range ₹3,00,000-₹8,00,000, and complex enterprise apps can exceed ₹10,00,000. We provide detailed cost breakdowns after analyzing requirements, considering design, development, testing, deployment, and maintenance.",
+      },
+      {
+        question: "What is the typical timeline for developing a mobile application?",
+        answer: "Simple apps take 2–3 months, medium apps 4–6 months, and complex enterprise applications 6–12+ months. Timeline includes planning, design, development, testing, and deployment with clear milestones.",
+      },
+      {
+        question: "How do you ensure mobile app security and data protection?",
+        answer: "We implement comprehensive security measures including encrypted data transmission (SSL/TLS), secure authentication (OAuth, JWT), encrypted local storage, API security, secure payment gateway integration, regular security audits, compliance with data protection regulations (GDPR, etc.), secure backend infrastructure, and protection against common vulnerabilities (SQL injection, XSS, etc.).",
+      },
+      {
+        question: "What post-launch support do you provide for mobile applications?",
+        answer: "Our post-launch support includes bug fixes and technical support (3-6 months free), performance monitoring and optimization, OS compatibility updates, feature enhancements, app store management, user analytics and reporting, server maintenance, and ongoing consultation. Extended Annual Maintenance Contracts (AMC) are available for continuous support, updates, and improvements.",
       },
     ],
   },
@@ -383,21 +560,37 @@ export const servicesData: Record<string, Service> = {
     },
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for iOS App Development in Hyderabad?",
-      paragraph1: "Our iOS app development team in Hyderabad combines technical expertise with creative design to build apps that stand out in the App Store.",
+      paragraph1: "Our iOS app development team in Hyderabad combines technical expertise with creative design to build apps that stand out in the App Store. From concept to deployment, we follow a structured process including UI/UX design, app development, testing, and App Store submission. Whether you need a startup app, enterprise solution, or custom business app, we deliver high-quality iOS solutions that meet your goals.",
       image: "assets/front/images/services/ios-application-development-hyderabad.jpg",
       imageAlt: "ios app development company hyderabad",
       heading2: "Our iOS App Development Expertise",
-      paragraph2: "We specialize in building native iOS apps that deliver smooth performance, intuitive design, and strong user engagement.",
+      paragraph2: "We specialize in building native iOS apps that deliver smooth performance, intuitive design, and strong user engagement. Our team uses Swift and Objective-C, following best practices to ensure your app is secure, fast, and App Store-ready.",
       benefits: [
         "Custom iOS app design and development",
         "User-friendly UI/UX for enhanced engagement",
         "App Store deployment & submission support",
+        "Integration with APIs and third-party services",
+        "Ongoing maintenance and performance optimization",
       ],
-    },
-    ctaFinal: {
-      heading: "Ready to Launch Your iOS App?",
-      subHeading: "Get your iOS application developed by Hyderabad's trusted mobile app development company.",
-      buttonText: "Chat on WhatsApp",
+      packageHtml: `
+        <div class="card shadow-sm border-0 rounded-4 overflow-hidden h-100">
+          <div class="card-header text-white text-center py-4" style="background: linear-gradient(135deg, #1485cb 0%, #064267 100%);">
+            <h5 class="mb-1 fw-bold">Professional iOS App Development</h5>
+            <p class="mb-0 small">From Idea to App Store Success</p>
+          </div>
+          <div class="card-body p-4 bg-white">
+            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+              Looking to launch a robust iOS application for iPhone or iPad? <strong>Ananya Hi Solutions</strong> offers expert <strong>iOS app development services in Hyderabad</strong> that focus on performance, usability, and scalability. We turn your ideas into apps that engage users and drive business growth.
+            </p>
+            <div class="text-center mt-4">
+              <p class="small fw-bold mb-3 text-dark">Start building your iOS app today!</p>
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+                <i class="bi bi-phone-fill"></i> Talk to Our iOS Experts
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
     },
   },
   "android-app-development-services-hyderabad": {
@@ -409,7 +602,7 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "Android App Development Services in Hyderabad | Build Powerful Mobile Apps",
-      subHeading: "Transform your business ideas into high-performing Android apps with Ananya Hi Solutions.",
+      subHeading: "Transform your business ideas into high-performing Android apps with Ananya Hi Solutions. We develop custom, user-friendly, and scalable Android applications that engage users, enhance brand visibility, and deliver seamless mobile experiences.",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20Android%20app%20project.",
@@ -419,15 +612,37 @@ export const servicesData: Record<string, Service> = {
     },
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Android App Development in Hyderabad?",
-      paragraph1: "Our Android app development team in Hyderabad combines technical expertise with creative design.",
+      paragraph1: "Our Android app development team in Hyderabad combines technical expertise with creative design to build apps that stand out in the Google Play Store. From concept and UI/UX design to development, testing, and deployment, we ensure your Android app is fully optimized, secure, and performance-ready. Whether you need a startup app, enterprise solution, or custom business application, we deliver exceptional Android solutions that meet your business goals.",
       image: "assets/front/images/services/android-application-development-hyderabad.jpg",
       imageAlt: "android app development company hyderabad",
       heading2: "Our Android App Development Expertise",
-      paragraph2: "We specialize in developing native Android applications with smooth performance.",
+      paragraph2: "We specialize in developing native Android applications with smooth performance, intuitive UI/UX, and strong user engagement. Our team uses Java and Kotlin, following industry best practices to deliver apps that are secure, fast, and Google Play-ready.",
       benefits: [
         "Custom Android app design and development",
         "User-friendly UI/UX for enhanced engagement",
+        "Google Play deployment & submission support",
+        "Integration with APIs and third-party services",
+        "Ongoing maintenance and performance optimization",
       ],
+      packageHtml: `
+        <div class="card shadow-sm border-0 rounded-4 overflow-hidden h-100">
+          <div class="card-header text-white text-center py-4" style="background: linear-gradient(135deg, #1485cb 0%, #064267 100%);">
+            <h5 class="mb-1 fw-bold">Professional Android App Development</h5>
+            <p class="mb-0 small">From Concept to Google Play Success</p>
+          </div>
+          <div class="card-body p-4 bg-white">
+            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+              Want to launch a robust Android application for smartphones and tablets? <strong>Ananya Hi Solutions</strong> offers expert <strong>Android app development services in Hyderabad</strong> that focus on performance, scalability, and user engagement. We bring your ideas to life with apps that stand out and deliver results.
+            </p>
+            <div class="text-center mt-4">
+              <p class="small fw-bold mb-3 text-dark">Start building your Android app today!</p>
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+                <i class="bi bi-phone-fill"></i> Talk to Our Android Experts
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
     },
     ctaFinal: {
       heading: "Ready to Launch Your Android App?",
@@ -444,56 +659,105 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "E-commerce Website Development in Hyderabad",
-      subHeading: "Launch a high-converting e-commerce store with secure payment gateways, responsive design, and SEO-friendly structure. We create both single-vendor and multi-vendor stores that help businesses boost sales online.",
-      trustBadges: [
-        { icon: "bi-check-circle-fill", text: "100+ E-commerce Stores Delivered", color: "#2ecc71" },
-        { icon: "bi-star-fill", text: "Rated 5/5 for reliability and performance", color: "#f1c40f" }
-      ],
+      subHeading: "Launch a <strong>high-converting e-commerce store</strong> with secure payment gateways, responsive design, and SEO-friendly structure. We create both <strong>single-vendor and multi-vendor stores</strong> that help businesses boost sales online.",
+      trustPara: "✅ 100+ E-commerce Stores Delivered | ⭐ Rated 5/5 for reliability and performance",
       ctaButton: {
         text: "Choose Package",
         link: "/ananya-hi-solutions-package",
         icon: "bi-cart-check",
         className: "btn-package",
-      }
+      },
     },
     subSection: {
       heading: "Custom E-commerce Solutions for Single & Multi Vendor Stores",
-      description: "Get SEO-friendly, mobile-optimized e-commerce websites with shopping carts, vendor dashboards, and analytics. Trusted by startups & brands in Hyderabad for online growth.",
+      description: "Get <strong>SEO-friendly, mobile-optimized e-commerce websites</strong> with shopping carts, vendor dashboards, and analytics. Trusted by startups & brands in Hyderabad for online growth.",
     },
     items: [
       {
         title: "Single Vendor Store",
         description: "A fully customizable WooCommerce or Shopify store for a single vendor with SEO optimization to drive traffic and sales.",
-        icon: "bi-cart-fill",
+        icon: "bi-cart-check",
         link: "single-vendor-ecommerce-website",
-        color: "#1485cb",
+        color: "#003d69",
       },
       {
         title: "Multi Vendor Marketplace",
         description: "Enterprise-level multi-vendor marketplace optimized for SEO, performance, and seamless vendor management.",
-        icon: "bi-grid-fill",
+        icon: "bi-columns-gap",
         link: "multi-vendor-ecommerce-marketplace",
-        color: "#1485cb",
+        color: "#003d69",
       },
     ],
     fullDetails: `
-      <section class="container py-5">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="fw-bold mb-4 text-dark text-center">Powerful E-Commerce Development Services in Hyderabad</h2>
-            <p class="mb-3 text-muted">
-              E-commerce is transforming retail, and a powerful online store is essential for business success. Ananya Hi Solutions specializes in developing robust, scalable e-commerce solutions that drive sales, enhance customer experience, and streamline operations.
-            </p>
+      <section class="py-5 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="fw-bold mb-4 text-start">Powerful E-Commerce Development Services in Hyderabad</h2>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                E-commerce is transforming retail, and a powerful online store is essential for business success. Ananya Hi Solutions specializes in developing robust, scalable e-commerce solutions that drive sales, enhance customer experience, and streamline operations.
+              </p>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                We build comprehensive e-commerce platforms using leading technologies including Shopify for rapid deployment, WooCommerce for WordPress integration, Magento for enterprise-scale solutions, custom PHP frameworks for unique requirements, and headless commerce architectures for maximum flexibility. Our solutions support B2C, B2B, marketplace, and subscription-based business models.
+              </p>
+              <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
+                Every e-commerce platform we develop includes essential features: intuitive product catalog management, advanced search and filtering, secure payment gateway integration (Razorpay, PayU, CCAvenue, Stripe, PayPal), multi-currency and multi-language support, inventory management, order processing automation, customer account management, wishlist and cart abandonment recovery, and comprehensive analytics dashboards.
+              </p>
+              <p class="text-start mb-0" style="color: #444; line-height: 1.7;">
+                We understand e-commerce success requires more than technology. Our solutions incorporate conversion optimization strategies, mobile-first responsive design, fast page loading for better user experience and SEO, secure checkout processes to build customer trust, email marketing integration, social media integration, and SEO-optimized product pages to maximize organic visibility.
+              </p>
+            </div>
           </div>
         </div>
       </section>
     `,
     faqs: [
       {
+        question: "What is the difference between native and hybrid mobile app development?",
+        answer: "Native apps are built specifically for iOS or Android using platform-specific languages (Swift for iOS, Kotlin for Android), offering best performance, full platform features, and optimal user experience but requiring separate development for each platform. Hybrid apps use cross-platform frameworks (React Native, Flutter) allowing single codebase for both platforms, faster development, and lower costs, with slightly reduced performance for complex features.",
+      },
+      {
+        question: "How much does mobile app development cost at Ananya Hi Solutions?",
+        answer: "Mobile app costs vary significantly based on complexity, features, platform, and design requirements. Simple apps start from ₹1,50,000, medium complexity apps range ₹3,00,000-₹8,00,000, and complex enterprise apps can exceed ₹10,00,000. We provide detailed cost breakdowns after analyzing requirements.",
+      },
+      {
+        question: "What is the typical timeline for developing a mobile application?",
+        answer: "Simple apps take 2–3 months, medium apps 4–6 months, and complex enterprise applications 6–12+ months. Timeline includes planning, design, development, testing, and deployment with clear milestones.",
+      },
+      {
+        question: "How do you ensure mobile app security and data protection?",
+        answer: "We use SSL/TLS encryption, OAuth/JWT authentication, secure APIs, encrypted storage, GDPR compliance, security audits, and protection against SQL injection and XSS vulnerabilities.",
+      },
+      {
+        question: "What post-launch support do you provide for mobile applications?",
+        answer: "Bug fixes, performance monitoring, OS updates, feature enhancements, analytics, server maintenance, and AMC support packages are available.",
+      },
+      {
         question: "What e-commerce platforms does Ananya Hi Solutions work with?",
-        answer: "We specialize in Shopify, WooCommerce, Magento, and custom e-commerce development using PHP/Laravel.",
+        answer: "We work with Shopify, Shopify Plus, WooCommerce, Magento, PrestaShop, OpenCart, and custom PHP/Laravel frameworks. Platform selection depends on business size, budget, scalability, and feature requirements.",
+      },
+      {
+        question: "How do you ensure e-commerce website security and PCI compliance?",
+        answer: "We implement SSL encryption, PCI DSS compliance, secure gateways, vulnerability scanning, fraud detection, admin access controls, regular backups, and protection against SQL injection and XSS attacks.",
+      },
+      {
+        question: "What payment gateways can be integrated into e-commerce websites?",
+        answer: "We integrate Razorpay, PayU, CCAvenue, Instamojo, Paytm, Stripe, PayPal, Square, Authorize.net, UPI, wallets, COD, and bank transfers to maximize conversions.",
+      },
+      {
+        question: "How do you optimize e-commerce websites for conversions?",
+        answer: "We optimize checkout flow, product media, SEO descriptions, reviews, recommendations, urgency triggers, trust badges, mobile UX, and A/B testing to increase sales.",
+      },
+      {
+        question: "What ongoing support is provided for e-commerce platforms?",
+        answer: "Support includes updates, security patches, payment maintenance, inventory help, backups, performance tuning, feature additions, campaign support, and analytics reporting with custom maintenance plans.",
       },
     ],
+    ctaFinal: {
+      heading: "Ready to Launch Your E-commerce Store?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      buttonText: "Talk to Our Experts",
+    },
   },
   "single-vendor-ecommerce-website": {
     slug: "single-vendor-ecommerce-website",
@@ -505,7 +769,7 @@ export const servicesData: Record<string, Service> = {
     hero: {
       heading: "Single Vendor eCommerce Development in Hyderabad | Build Your Online Store",
       subHeading: "Launch your own online store with a robust single vendor eCommerce platform. At Ananya Hi Solutions, we develop feature-rich, secure, and scalable eCommerce websites that help businesses sell products online and grow their digital presence in Hyderabad.",
-      heroImage: "assets/front/images/sliders/slider2.jpg",
+      heroImage: "",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20single%20vendor%20ecommerce%20project.",
@@ -514,12 +778,12 @@ export const servicesData: Record<string, Service> = {
       },
     },
     detailSection: {
-      heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce Development?",
-      paragraph1: "Our team in Hyderabad specializes in creating custom single vendor eCommerce platforms with user-friendly admin panels, seamless payment integration, and responsive design.",
-      image: "assets/front/images/services/single-vendor-ecommerce-hyderabad.jpg",
+      heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce <br /> Development?",
+      paragraph1: "Our team in Hyderabad specializes in creating custom single vendor eCommerce platforms with user-friendly admin panels, seamless payment integration, and responsive design. From product catalog management to order processing and analytics, we provide end-to-end solutions that make selling online simple and efficient.",
+      image: "assets/front/images/services/ecommerce-web-developer.jpg",
       imageAlt: "single vendor ecommerce development hyderabad",
       heading2: "Our Single Vendor eCommerce Expertise",
-      paragraph2: "We provide end-to-end solutions for single vendor eCommerce stores including product listing, shopping cart, payment gateway integration, and analytics.",
+      paragraph2: "We provide end-to-end solutions for single vendor eCommerce stores including product listing, shopping cart, payment gateway integration, and analytics. Our platforms are mobile-responsive, SEO-friendly, and optimized for performance to ensure your customers have a smooth shopping experience.",
       benefits: [
         "Custom product catalog and inventory management",
         "Secure payment gateway integration",
@@ -528,18 +792,21 @@ export const servicesData: Record<string, Service> = {
         "Scalable architecture for future growth",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Custom Single Vendor eCommerce Solutions</h5>
-            <small>Sell Products Online Easily & Efficiently</small>
+        <h4 class="fw-bold mb-3"><span class="me-2">🎁</span> Want to See Our Full Package Details?</h4>
+        <p class="text-muted mb-4 small">Fill out the short form to instantly unlock our complete package information.</p>
+        <div class="card shadow-sm border-0" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background: linear-gradient(135deg, #1485cb 0%, #1164a3 100%); border: none;">
+            <h5 class="mb-1 fw-bold">Custom Single Vendor eCommerce Solutions</h5>
+            <p class="mb-0 small">Sell Products Online Easily & Efficiently</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Looking to launch a professional online store? <strong>Ananya Hi Solutions</strong> offers expert <strong>single vendor eCommerce development in Hyderabad</strong>.
+          <div class="card-body p-4 bg-white">
+            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+              Looking to launch a professional online store? <strong>Ananya Hi Solutions</strong> offers expert <strong>single vendor eCommerce development in Hyderabad</strong> that combines beautiful design, powerful features, and seamless functionality. Grow your online business with a website that attracts customers and boosts sales.
             </p>
             <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20single%20vendor%20ecommerce%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-cart-fill me-2"></i> Talk to Our eCommerce Experts
+              <p class="small fw-bold mb-3 text-dark">Start your online store today!</p>
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+                <i class="bi bi-cart-fill"></i> Talk to Our eCommerce Experts
               </a>
             </div>
           </div>
@@ -547,8 +814,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your E-commerce Store?",
-      subHeading: "Get your online store designed by Hyderabad's trusted e-commerce development company.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -573,7 +840,7 @@ export const servicesData: Record<string, Service> = {
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Multi Vendor Marketplace Development?",
       paragraph1: "Our team in Hyderabad specializes in creating custom multi vendor eCommerce platforms that allow multiple sellers to operate seamlessly. From product management, order tracking, and vendor dashboards to secure payment processing and analytics, we deliver end-to-end solutions that empower your marketplace and maximize sales potential.",
-      image: "assets/front/images/services/multi-vendor-marketplace-hyderabad.jpg",
+      image: "assets/front/images/services/ecommerce-web-developer.jpg",
       imageAlt: "multi vendor marketplace development hyderabad",
       heading2: "Our Multi Vendor Marketplace Expertise",
       paragraph2: "We provide end-to-end multi vendor solutions including vendor onboarding, product catalog management, order management, payment gateway integration, and analytics dashboards. Our marketplaces are mobile-responsive, SEO-friendly, and built for scalability to support business growth.",
@@ -582,22 +849,24 @@ export const servicesData: Record<string, Service> = {
         "Product catalog and inventory management",
         "Secure payment gateway integration",
         "Mobile-responsive and SEO-optimized design",
-        "Analytics & reporting for vendors and admin",
+        "Commission management and split payments",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-info">
-          <div class="card-header bg-info text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Professional Multi Vendor Marketplace Solutions</h5>
-            <small>Connect Multiple Sellers & Grow Your Online Platform</small>
+        <h4 class="fw-bold mb-3"><span class="me-2">🎁</span> Want to See Our Full Package Details?</h4>
+        <p class="text-muted mb-4 small">Fill out the short form to instantly unlock our complete package information.</p>
+        <div class="card shadow-sm border-0" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background: linear-gradient(135deg, #1485cb 0%, #1164a3 100%); border: none;">
+            <h5 class="mb-1 fw-bold">Professional Multi Vendor Marketplace Solutions</h5>
+            <p class="mb-0 small">Connect Multiple Sellers & Grow Your Online Platform</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="card-body p-4 bg-white">
+            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
               Want to launch a robust multi vendor marketplace? <strong>Ananya Hi Solutions</strong> provides expert <strong>multi vendor marketplace development services in Hyderabad</strong> that combine intuitive design, powerful features, and seamless functionality. Enable multiple vendors to sell online and grow your platform efficiently.
             </p>
             <div class="text-center mt-4">
-              <p class="small fw-bold mb-3">Start your multi vendor platform today!</p>
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20multi%20vendor%20marketplace%20project." class="btn btn-info text-white rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-grid-3x3-gap-fill me-2"></i> Talk to Our Marketplace Experts
+              <p class="small fw-bold mb-3 text-dark">Start your multi vendor platform today!</p>
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+                <i class="bi bi-shop"></i> Talk to Our Marketplace Experts
               </a>
             </div>
           </div>
@@ -605,8 +874,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Scale Your Marketplace?",
-      subHeading: "Get your multi-vendor platform developed by Hyderabad's leading marketplace experts.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1427,6 +1696,171 @@ export const servicesData: Record<string, Service> = {
       heading: "Ready to Launch Your E-learning Platform?",
       subHeading: "Get your custom LMS developed by Hyderabad's trusted software experts.",
       buttonText: "Chat on WhatsApp",
+    },
+  },
+  "ppc-services-hyderabad": {
+    slug: "ppc-services-hyderabad",
+    type: "detail",
+    meta: {
+      title: "Google Ads Agency in Hyderabad | PPC Management Services",
+      description: "Maximize your ROI with data-driven Google Ads campaigns. Our certified PPC experts help you generate quality leads and boost conversions.",
+    },
+    hero: {
+      heading: "Google Ads Agency in Hyderabad | PPC Management Services",
+      subHeading: "Maximize your ROI with data-driven Google Ads campaigns. Our certified PPC experts help you generate quality leads and boost conversions through strategic ad management.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
+    },
+    detailSection: {
+      heading1: "Why Choose Ananya Hi Solutions as Your Google Ads Agency in Hyderabad?",
+      paragraph1: "At Ananya Hi Solutions, we manage Google Ads campaigns that deliver measurable results. From keyword research and audience targeting to ad copy creation and conversion tracking — we handle every step strategically. Our focus is on optimizing your ad spend and generating more qualified leads for your business.",
+      image: "assets/front/images/services/google-ad-agency-hyderabad.jpg",
+      imageAlt: "google ads agency in hyderabad",
+      heading2: "Our Google Ads Management Expertise",
+      paragraph2: "We help businesses across Hyderabad generate consistent, high-quality leads with performance-driven Google Ads campaigns. Whether you want to promote your services, increase sales, or expand reach — our team creates campaigns that deliver results with measurable ROI.",
+      benefits: [
+        "Certified Google Ads experts",
+        "ROI-focused PPC strategy",
+        "Smart keyword targeting & bidding",
+        "Conversion tracking & performance reports",
+        "Ongoing optimization & dedicated support",
+      ],
+      packageHtml: `
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
+            <h5 class='mb-1 fw-bold'>Professional Google Ads Management</h5>
+            <p class='mb-0 small'>Drive Instant Leads & Conversions</p>
+          </div>
+          <div class='package-body p-4 bg-white'>
+            <ul class='list-unstyled mb-4 feature-list'>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Keyword Research & Campaign Setup</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Search, Display & Remarketing Ads</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Landing Page & Conversion Optimization</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Ad Copywriting & A/B Testing</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Daily Campaign Monitoring & Adjustments</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Monthly Performance Reporting</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Expert Account Manager Support</li>
+            </ul>
+            
+            <div class='text-center mt-4 pt-2 border-top'>
+              <p class='small fw-bold mb-3 text-dark'>Want to see how we can scale your ad performance?</p>
+              <a id='unlock-ppc-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+                <i class='bi bi-unlock-fill'></i> View Full Packages
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
+    },
+  },
+  "content-marketing-services-hyderabad": {
+    slug: "content-marketing-services-hyderabad",
+    type: "detail",
+    meta: {
+      title: "Content Marketing Services in Hyderabad | Boost Your Brand Visibility",
+      description: "Build authority and grow your brand with strategic, SEO-driven content marketing. At Ananya Hi Solutions, we create content that attracts, engages, and converts.",
+    },
+    hero: {
+      heading: "Content Marketing Services in Hyderabad | Boost Your Brand Visibility",
+      subHeading: "Turn your content into a growth engine! At Ananya Hi Solutions, we create strategic, SEO-driven content that attracts, engages, and converts. Build authority, increase website traffic, and grow your brand presence with our content marketing services in Hyderabad.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
+    },
+    detailSection: {
+      heading1: "Why Choose Ananya Hi Solutions for Content Marketing in Hyderabad?",
+      paragraph1: "We believe great content builds trust and drives measurable business growth. Our content marketing team in Hyderabad combines creativity with data-driven insights to deliver high-quality blogs, articles, videos, and social media content that resonates with your audience. From keyword research to storytelling and publishing — we handle it all to help you dominate search results and connect authentically with customers.",
+      image: "assets/front/images/services/content-marketing-services-hyderabad.jpg",
+      imageAlt: "content marketing services in hyderabad",
+      heading2: "Our Content Marketing Expertise",
+      paragraph2: "We help brands tell stories that inspire action. Whether you're launching a new website, promoting a product, or nurturing leads — our content strategies ensure that your message reaches the right audience, at the right time, through the right channels.",
+      benefits: [
+        "SEO-driven content strategies for organic growth",
+        "Audience-focused storytelling and brand positioning",
+        "Consistent tone and messaging across platforms",
+        "Enhanced brand authority through valuable content",
+        "Data-backed insights for measurable performance",
+      ],
+      packageHtml: `
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
+            <h5 class='mb-1 fw-bold'>Grow Your Brand with Strategic Content Marketing</h5>
+            <p class='mb-0 small'>Engage, Educate, and Convert with Powerful Content</p>
+          </div>
+          <div class='package-body p-4 bg-white'>
+            <p class='text-muted small mb-4'>
+              Looking to strengthen your online presence and attract more qualified leads? Ananya Hi Solutions offers comprehensive content marketing services in Hyderabad that blend creativity with SEO expertise. We help your business stand out through engaging blog posts, optimized web copy, and social media storytelling that builds trust and drives conversions.
+            </p>
+            
+            <div class='text-center mt-4 pt-2 border-top'>
+              <p class='small fw-bold mb-3 text-dark'>Let's create content that makes your brand unforgettable!</p>
+              <a id='talk-content-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+                <i class='bi bi-chat-dots-fill'></i> Talk to Our Content Experts
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
+    },
+  },
+  "email-marketing-services-hyderabad": {
+    slug: "email-marketing-services-hyderabad",
+    type: "detail",
+    meta: {
+      title: "Email Marketing Services in Hyderabad | Drive Engagement & Conversions",
+      description: "Reach your audience directly and drive measurable results with expertly crafted email campaigns. Boost engagement and nurture leads with Ananya Hi Solutions.",
+    },
+    hero: {
+      heading: "Email Marketing Services in Hyderabad | Drive Engagement & Conversions",
+      subHeading: "Reach your audience directly and drive measurable results with expertly crafted email campaigns. At Ananya Hi Solutions, we create personalized, high-converting email marketing strategies to boost engagement, nurture leads, and increase sales for businesses in Hyderabad.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
+    },
+    detailSection: {
+      heading1: "Why Choose Ananya Hi Solutions for Email Campaigns in Hyderabad?",
+      paragraph1: "Our email marketing specialists design campaigns that resonate with your audience. From audience segmentation, personalized content, and responsive design to A/B testing and performance analytics — we ensure every email delivers maximum impact. Whether you want to launch newsletters, product promotions, or lead nurturing sequences, we handle everything end-to-end to grow your business.",
+      image: "assets/front/images/services/email-marketing-services-hyderabad.jpg",
+      imageAlt: "email marketing services in hyderabad",
+      heading2: "Our Email Marketing Expertise",
+      paragraph2: "We create targeted campaigns that nurture leads, improve customer retention, and increase ROI. Our team uses advanced segmentation, automation, and performance tracking to ensure every email reaches the right audience, with the right message, at the right time.",
+      benefits: [
+        "Personalized email campaigns for higher engagement",
+        "Responsive design for all devices",
+        "Segmentation & automation for maximum efficiency",
+        "Data-driven strategy & performance analytics",
+        "Boost ROI and subscriber loyalty",
+      ],
+      packageHtml: `
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
+            <h5 class='mb-1 fw-bold'>Boost Your Business with Targeted Email Campaigns</h5>
+            <p class='mb-0 small'>Engage, Nurture, & Convert Your Subscribers</p>
+          </div>
+          <div class='package-body p-4 bg-white'>
+            <p class='text-muted small mb-4'>
+              Looking to increase engagement and drive sales through email marketing? <strong>Ananya Hi Solutions</strong> offers professional <strong>email campaign services in Hyderabad</strong> that combine creative content, responsive design, and data-driven strategies. We help your brand communicate effectively with your audience and turn subscribers into loyal customers.
+            </p>
+            
+            <div class='text-center mt-4 pt-2 border-top'>
+              <p class='small fw-bold mb-3 text-dark'>Start sending impactful emails today!</p>
+              <a id='talk-email-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+                <i class='bi bi-envelope-fill'></i> Talk to Our Email Experts
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
     },
   },
 };

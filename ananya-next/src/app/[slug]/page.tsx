@@ -32,7 +32,7 @@ function CategoryLayout({ service }: { service: Service }) {
         className="hero-about text-white text-center py-5 d-flex align-items-center justify-content-center"
         style={{
           minHeight: "500px",
-          ...(service.hero.heroImage ? { backgroundImage: `linear-gradient(rgba(6, 66, 103, 0.85), rgba(6, 66, 103, 0.85)), url('/${service.hero.heroImage}')` } : {})
+          background: `linear-gradient(rgba(6, 66, 103, 0.85), rgba(6, 66, 103, 0.85)), url('/assets/front/images/digital-marketing-office-hyderabad.jpg') center/cover no-repeat`
         }}
       >
         <Container>
@@ -99,7 +99,7 @@ function CategoryLayout({ service }: { service: Service }) {
         </Container>
       </section>
 
-      <section className={`py-5 ${service.slug === "software-development" ? "services-section" : ""}`}>
+      <section className={`py-5 ${service.slug === "software-development" ? "services-section" : ""}`} style={{ backgroundColor: "#eef1f2" }}>
         {service.subSection && (
           <Container className="text-center mb-5">
             <h2 className="fw-bold mb-3 primaryClr" dangerouslySetInnerHTML={{ __html: service.subSection.heading }} />
@@ -109,9 +109,9 @@ function CategoryLayout({ service }: { service: Service }) {
 
         {service.items && service.items.length > 0 && (
           <Container>
-            <Row className="g-4">
+            <Row className="g-4 justify-content-center">
               {service.items.map((item, index) => (
-                <Col md={4} key={index} className="mx-auto">
+                <Col md={4} key={index}>
                   <article className="solution-card p-4 h-100 text-center">
                     <Link href={`/${item.link}`} className="text-decoration-none text-dark d-block">
                       <i className={`bi ${item.icon} icon`} style={item.color ? { color: item.color } : {}}></i>
@@ -131,7 +131,7 @@ function CategoryLayout({ service }: { service: Service }) {
       )}
 
       {service.faqs && (
-        <section className="py-5 bg-light">
+        <section className="py-5" style={{ backgroundColor: "#eef1f2" }}>
           <Container>
             <div className="headings mb-5 text-center">
               <h2 className="fw-bold">Frequently Asked Questions</h2>
@@ -184,28 +184,24 @@ function DetailLayout({ service }: { service: Service }) {
     <>
       <section
         className="hero-about text-white text-center py-5 d-flex align-items-center"
-        style={
-          service.hero.heroImage
-            ? {
-              backgroundImage: `linear-gradient(rgba(6, 66, 103, 0.85), rgba(6, 66, 103, 0.85)), url('/${service.hero.heroImage}')`,
-            }
-            : {}
-        }
+        style={{
+          minHeight: "500px",
+          background: `linear-gradient(rgba(6, 66, 103, 0.85), rgba(6, 66, 103, 0.85)), url('/assets/front/images/digital-marketing-office-hyderabad.jpg') center/cover no-repeat`
+        }}
       >
         <Container>
-          <h1
-            className="fw-bold mb-3"
-            style={
-              service.slug === "software-development"
-                ? {
-                  whiteSpace: "nowrap",
-                  fontSize: "clamp(1.5rem, 3.2vw, 2.8rem)",
-                }
-                : {}
-            }
-          >
-            {service.hero.heading}
-          </h1>
+            <h1
+              className="fw-bold mb-3"
+              style={
+                service.slug === "software-development"
+                  ? {
+                    whiteSpace: "nowrap",
+                    fontSize: "clamp(1.5rem, 3.2vw, 2.8rem)",
+                  }
+                  : {}
+              }
+              dangerouslySetInnerHTML={{ __html: service.hero.heading }}
+            />
 
           <div
             className="lead mb-4 mx-auto"
@@ -263,24 +259,15 @@ function DetailLayout({ service }: { service: Service }) {
         <Container>
           <Row className="align-items-center g-4 text-center text-md-start">
             <Col xs={12}>
-              <h2 className="fw-bold mb-3 text-center">
-                {detailSection.heading1}
-              </h2>
+              <h2 className="fw-bold mb-3 text-center" style={{ fontSize: "18pt" }} dangerouslySetInnerHTML={{ __html: detailSection.heading1 }} />
 
-              <p className="text-muted">
+              <p className="text-muted text-center mx-auto mb-5" style={{ maxWidth: "900px" }}>
                 {detailSection.paragraph1}
               </p>
             </Col>
 
             <Col md={6}>
-              <h4 className="fw-semibold mb-2 text-dark">
-                🎁 Want to See Our Full Package Details?
-              </h4>
 
-              <p className="text-muted mb-3">
-                Fill out the short form to instantly unlock our complete package
-                information.
-              </p>
 
               {detailSection.packageHtml && (
                 <div
@@ -300,30 +287,29 @@ function DetailLayout({ service }: { service: Service }) {
             </Col>
           </Row>
 
-          <h2 className="fw-bold pt-5 mb-3 text-start">
-            {detailSection.heading2}
-          </h2>
+          <div className="mt-5 pt-4">
+            <h2 className="fw-bold mb-3 text-center">
+              {detailSection.heading2}
+            </h2>
 
-          <p className="text-start">
-            {detailSection.paragraph2}
-          </p>
+            <p className="mb-4 text-start">
+              {detailSection.paragraph2}
+            </p>
 
-          <h4 className="fw-semibold my-4 text-dark text-start">
-            Why Ananya Hi Solutions?
-          </h4>
+            <h4 className="fw-semibold my-4 text-dark text-start">
+              Why Ananya Hi Solutions?
+            </h4>
 
-          <div>
-            <ul className="list-unstyled mt-3 text-start">
-              {detailSection.benefits.map((benefit, index) => (
-                <li key={index} className="mb-2">
-                  <i className="bi bi-check-circle-fill text-success me-2"></i>
-
-                  <span
-                    dangerouslySetInnerHTML={{ __html: benefit }}
-                  />
-                </li>
-              ))}
-            </ul>
+            <div className="text-start">
+              <ul className="list-unstyled mt-3">
+                {detailSection.benefits.map((benefit, index) => (
+                  <li key={index} className="mb-2">
+                    <i className="bi bi-check-circle-fill text-success me-2"></i>
+                    <span dangerouslySetInnerHTML={{ __html: benefit }} />
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           {detailSection.footerImage && (
@@ -339,13 +325,7 @@ function DetailLayout({ service }: { service: Service }) {
         </Container>
       </section>
 
-      <section
-        className="cta-final text-white text-center py-5"
-        style={{
-          background:
-            "linear-gradient(rgba(6, 66, 103, 0.9), rgba(6, 66, 103, 0.9))",
-        }}
-      >
+      <section className="cta-final text-white text-center py-5">
         <Container>
           <h2 className="fw-bold mb-3">
             {service.ctaFinal?.heading ||
@@ -354,7 +334,7 @@ function DetailLayout({ service }: { service: Service }) {
 
           <p className="lead mb-4">
             {service.ctaFinal?.subHeading ||
-              "Get your website designed by Hyderabad's trusted web design company."}
+              "Get your static website designed by Hyderabad’s trusted web design company."}
           </p>
 
           <a
