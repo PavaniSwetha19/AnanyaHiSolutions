@@ -815,8 +815,7 @@ export default function PackageDetailsLeadGen() {
                           <Form.Control 
                             type="text" 
                             name="fullName"
-                            placeholder="Enter your name" 
-                            className={`bg-light border-start-0 ${errors.fullName ? "is-invalid" : ""}`}
+                             className={`bg-light border-start-0 ${errors.fullName ? "is-invalid" : ""}`}
                             value={formData.fullName}
                             onChange={handleChange}
                           />
@@ -832,8 +831,7 @@ export default function PackageDetailsLeadGen() {
                           <Form.Control 
                             type="email" 
                             name="email"
-                            placeholder="Enter your email" 
-                            className={`bg-light border-start-0 ${errors.email ? "is-invalid" : ""}`}
+                             className={`bg-light border-start-0 ${errors.email ? "is-invalid" : ""}`}
                             value={formData.email}
                             onChange={handleChange}
                           />
@@ -849,8 +847,7 @@ export default function PackageDetailsLeadGen() {
                           <Form.Control 
                             type="tel" 
                             name="phone"
-                            placeholder="Enter your phone" 
-                            className={`bg-light border-start-0 ${errors.phone ? "is-invalid" : ""}`}
+                             className={`bg-light border-start-0 ${errors.phone ? "is-invalid" : ""}`}
                             value={formData.phone}
                             onChange={handleChange}
                           />

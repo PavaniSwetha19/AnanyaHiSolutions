@@ -78,10 +78,8 @@ export default function Header() {
                 </Link>
               </Nav>
               <div className="d-flex mt-3 mt-lg-0">
-                <Link href="/ananya-hi-solutions-package">
-                  <Button variant="primary" className="ms-lg-3">
-                    <i className="bi bi-calendar-check me-2"></i> Choose Package
-                  </Button>
+                <Link href="/ananya-hi-solutions-package" className="btn btn-package ms-lg-3">
+                  <i className="bi bi-calendar-check me-2"></i> Choose Package
                 </Link>
               </div>
             </Offcanvas.Body>

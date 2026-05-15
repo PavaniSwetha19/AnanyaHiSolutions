@@ -43,19 +43,35 @@ body {
   transform: translateY(-2px);
 }
 
-/* WhatsApp button */
-.btn-whatsapp {
-  background: #25D366;
-  color: #fff !important;
-  font-weight: 600;
-  border-radius: 50px;
-  padding: 6px 14px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+/* Vibrant Green Buttons (WhatsApp & Consultation) */
+.btn-whatsapp, 
+.hero-about .btn-whatsapp, 
+.hero-about .btn-cta,
+.btn-cta {
+  background-color: #2ecc71 !important;
+  background: #2ecc71 !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4) !important;
+  font-weight: 700 !important;
+  border-radius: 50px !important;
+  padding: 12px 30px !important;
+  transition: all 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  animation: none !important; /* Matches user reference image */
 }
 
-.btn-whatsapp:hover {
-  background: #1ebe5d;
-  color: #fff !important;
+.btn-whatsapp:hover,
+.hero-about .btn-whatsapp:hover,
+.hero-about .btn-cta:hover,
+.btn-cta:hover {
+  background-color: #27ae60 !important;
+  background: #27ae60 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.5) !important;
 }
 
 /* Responsive Address Styles */
@@ -80,6 +96,34 @@ body {
   .address-text.full {
     display: inline-block;
   }
+}
+
+/* Yellow WhatsApp Button (Refined Pill Shape) */
+.btn-whatsapp-yellow {
+  background-color: #ffb400 !important;
+  color: #000000 !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  font-weight: 700 !important;
+  border-radius: 50px !important; /* Full pill shape */
+  padding: 12px 35px !important;
+  transition: all 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  font-size: 1.1rem !important;
+}
+
+.btn-whatsapp-yellow i {
+  color: #000000 !important;
+  font-size: 1.3rem !important;
+}
+
+.btn-whatsapp-yellow:hover {
+  background-color: #e6a200 !important;
+  color: #000000 !important;
+  transform: translateY(-2px) !important;
 }
 
 
@@ -422,21 +466,22 @@ body {
   }
 
   .btn-whatsapp-cta {
-    background: #2ecc71;
-    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+    background-color: #2ecc71 !important;
+    background: #2ecc71 !important;
     color: #fff !important;
-    border: none;
-    border-radius: 50px;
-    padding: 12px 35px;
-    font-size: 1rem;
-    font-weight: 700;
-    transition: 0.3s;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 12px 35px !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    transition: 0.3s !important;
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4) !important;
   }
 
   .btn-whatsapp-cta:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    background-color: #27ae60 !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.5) !important;
   }
 
   .cta-bottom-line {
@@ -447,27 +492,8 @@ body {
     height: 1mm;
     background: #2ecc71;
   }
-  .btn-whatsapp {
-    background-color: #25d366;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    padding: 12px 30px;
-    font-weight: 600;
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-    animation: zoomPulse 2s ease-in-out infinite;
-  }
+  /* btn-whatsapp removed from here and consolidated at the top */
 
-  .btn-whatsapp:hover {
-    background-color: #1ebc57;
-    color: #fff;
-    transform: translateY(-2px);
-  }
-
-  .btn-whatsapp i {
-    font-size: 1.2rem;
-    vertical-align: middle;
-  }
 
   /* Zoom In & Out for WhatsApp */
   @keyframes zoomPulse {
@@ -671,20 +697,8 @@ body {
   animation: fadeInUp 1.2s ease forwards;
 }
 
-/* Button CTA */
-.hero-about .btn-cta {
-  margin-top: 25px;
-  padding: 12px 28px;
-  border-radius: 50px;
-  font-weight: 600;
-  background: #25D366;
-  color: #fff;
-  transition: all 0.3s ease;
-}
-.hero-about .btn-cta:hover {
-  background: #1ebe5d;
-  transform: translateY(-3px);
-}
+/* Button CTA removed and consolidated at the top */
+
 
 /* Animations */
 @keyframes fadeInDown {

@@ -68,14 +68,23 @@ function CategoryLayout({ service }: { service: Service }) {
 
           <div className="mt-4 d-flex justify-content-center flex-wrap gap-2">
             {service.hero.ctaButton ? (
-              <a
-                href={service.hero.ctaButton.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`btn rounded-pill px-4 ${service.hero.ctaButton.className}`}
-              >
-                <i className={`bi ${service.hero.ctaButton.icon} me-2`}></i> {service.hero.ctaButton.text}
-              </a>
+              service.hero.ctaButton.link.startsWith("http") ? (
+                <a
+                  href={service.hero.ctaButton.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`btn rounded-pill px-4 ${service.hero.ctaButton.className}`}
+                >
+                  <i className={`bi ${service.hero.ctaButton.icon} me-2`}></i> {service.hero.ctaButton.text}
+                </a>
+              ) : (
+                <Link
+                  href={service.hero.ctaButton.link}
+                  className={`btn rounded-pill px-4 ${service.hero.ctaButton.className}`}
+                >
+                  <i className={`bi ${service.hero.ctaButton.icon} me-2`}></i> {service.hero.ctaButton.text}
+                </Link>
+              )
             ) : (
               <>
                 <a
@@ -193,14 +202,23 @@ function DetailLayout({ service }: { service: Service }) {
 
           <div className="mt-4 d-flex justify-content-center flex-wrap gap-2">
             {service.hero.ctaButton ? (
-              <a
-                href={service.hero.ctaButton.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`btn ${service.hero.ctaButton.className}`}
-              >
-                <i className={`bi ${service.hero.ctaButton.icon} me-2`}></i> {service.hero.ctaButton.text}
-              </a>
+              service.hero.ctaButton.link.startsWith("http") ? (
+                <a
+                  href={service.hero.ctaButton.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`btn rounded-pill px-4 ${service.hero.ctaButton.className}`}
+                >
+                  <i className={`bi ${service.hero.ctaButton.icon} me-2`}></i> {service.hero.ctaButton.text}
+                </a>
+              ) : (
+                <Link
+                  href={service.hero.ctaButton.link}
+                  className={`btn rounded-pill px-4 ${service.hero.ctaButton.className}`}
+                >
+                  <i className={`bi ${service.hero.ctaButton.icon} me-2`}></i> {service.hero.ctaButton.text}
+                </Link>
+              )
             ) : (
               <>
                 <a
@@ -221,57 +239,59 @@ function DetailLayout({ service }: { service: Service }) {
         </Container>
       </section>
 
-      <section className="container py-5">
-        <Row className="align-items-center g-4 text-center text-md-start">
-          <Col xs={12}>
-            <h2 className="fw-bold mb-3 text-center">{detailSection.heading1}</h2>
-            <p className="text-muted">{detailSection.paragraph1}</p>
-          </Col>
+      <section className="py-5" style={{ backgroundColor: "#eef1f2" }}>
+        <Container>
+          <Row className="align-items-center g-4 text-center text-md-start">
+            <Col xs={12}>
+              <h2 className="fw-bold mb-3 text-center">{detailSection.heading1}</h2>
+              <p className="text-muted">{detailSection.paragraph1}</p>
+            </Col>
 
-          <Col md={6}>
-            <h4 className="fw-semibold mb-2 text-dark">🎁 Want to See Our Full Package Details?</h4>
-            <p className="text-muted mb-3">
-              Fill out the short form to instantly unlock our complete package information.
-            </p>
-            {detailSection.packageHtml && (
-              <div dangerouslySetInnerHTML={{ __html: detailSection.packageHtml }} />
-            )}
-          </Col>
+            <Col md={6}>
+              <h4 className="fw-semibold mb-2 text-dark">🎁 Want to See Our Full Package Details?</h4>
+              <p className="text-muted mb-3">
+                Fill out the short form to instantly unlock our complete package information.
+              </p>
+              {detailSection.packageHtml && (
+                <div dangerouslySetInnerHTML={{ __html: detailSection.packageHtml }} />
+              )}
+            </Col>
 
-          <Col md={6}>
-            <img
-              src={`/${detailSection.image}`}
-              alt={detailSection.imageAlt}
-              className="img-fluid rounded img-thumbnail shadow"
-            />
-          </Col>
-        </Row>
+            <Col md={6}>
+              <img
+                src={`/${detailSection.image}`}
+                alt={detailSection.imageAlt}
+                className="img-fluid rounded img-thumbnail shadow"
+              />
+            </Col>
+          </Row>
 
-        <h2 className="fw-bold pt-5 mb-3 text-center">{detailSection.heading2}</h2>
-        <p className="text-center">{detailSection.paragraph2}</p>
+          <h2 className="fw-bold pt-5 mb-3 text-start">{detailSection.heading2}</h2>
+          <p className="text-start">{detailSection.paragraph2}</p>
 
-        <h4 className="fw-semibold my-4 text-dark text-center">Why Ananya Hi Solutions?</h4>
-        <div className="d-flex justify-content-center">
-          <ul className="list-unstyled mt-3">
-            {detailSection.benefits.map((benefit, index) => (
-              <li key={index} className="mb-2">
-                <i className="bi bi-check-circle-fill text-success me-2"></i>
-                <span dangerouslySetInnerHTML={{ __html: benefit }} />
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {detailSection.footerImage && (
-          <div className="text-center mt-5">
-            <img
-              src={`/${detailSection.footerImage}`}
-              alt="Service Highlight"
-              className="img-fluid rounded shadow-lg border"
-              style={{ maxWidth: "900px" }}
-            />
+          <h4 className="fw-semibold my-4 text-dark text-start">Why Ananya Hi Solutions?</h4>
+          <div>
+            <ul className="list-unstyled mt-3 text-start">
+              {detailSection.benefits.map((benefit, index) => (
+                <li key={index} className="mb-2">
+                  <i className="bi bi-check-circle-fill text-success me-2"></i>
+                  <span dangerouslySetInnerHTML={{ __html: benefit }} />
+                </li>
+              ))}
+            </ul>
           </div>
-        )}
+
+          {detailSection.footerImage && (
+            <div className="text-center mt-5">
+              <img
+                src={`/${detailSection.footerImage}`}
+                alt="Service Highlight"
+                className="img-fluid rounded shadow-lg border"
+                style={{ maxWidth: "900px" }}
+              />
+            </div>
+          )}
+        </Container>
       </section>
 
       <section className="cta-final text-white text-center py-5" style={{ background: "linear-gradient(rgba(6, 66, 103, 0.9), rgba(6, 66, 103, 0.9))" }}>
@@ -282,7 +302,7 @@ function DetailLayout({ service }: { service: Service }) {
             href="https://wa.me/917673935353"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-whatsapp"
+            className="btn-whatsapp-yellow"
           >
             <i className="bi bi-whatsapp me-2"></i> {service.ctaFinal?.buttonText || "Chat on WhatsApp"}
           </a>

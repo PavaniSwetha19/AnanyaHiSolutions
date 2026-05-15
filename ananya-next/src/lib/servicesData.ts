@@ -57,6 +57,12 @@ export const servicesData: Record<string, Service> = {
       heading: "Website Design Company in Hyderabad",
       subHeading: "Ananya Hi Solutions is your trusted partner for affordable, SEO-friendly & mobile-optimized website design in Hyderabad. We create websites that not only look stunning but also bring you more traffic, leads & sales.",
       trustPara: "100+ Websites Delivered in Hyderabad | Rated 5/5 by Local Businesses",
+      ctaButton: {
+        text: "Choose Package",
+        link: "/ananya-hi-solutions-package",
+        icon: "bi-cart-check",
+        className: "btn-package",
+      },
     },
     subSection: {
       heading: "Website Development Agency in Hyderabad for Startups & Brands",
@@ -145,10 +151,16 @@ export const servicesData: Record<string, Service> = {
     hero: {
       heading: "Static Website Design Services in Hyderabad",
       subHeading: "Get a professional, fast-loading, mobile-friendly website for your business starting at just ₹3,999!",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
     },
     detailSection: {
       heading1: "Why Ananya Hi Solutions is The Best Static Website Design Company in Hyderabad?",
-      paragraph1: "At Ananya Hi Solutions, we combine creativity, performance, and technology to deliver the best static website design services in Hyderabad. Our team focuses on crafting visually appealing, fast-loading, and SEO-friendly websites that help your business stand out online.",
+      paragraph1: "At Ananya Hi Solutions, we combine creativity, performance, and technology to deliver the best static website design services in Hyderabad. Our team focuses on crafting visually appealing, fast-loading, and SEO-friendly websites that help your business stand out online. With a strong track record of satisfied clients, modern design practices, and affordable pricing, we ensure your website not only looks great but also drives real business results.",
       image: "assets/front/images/services/informative-website-design-hyderabad.jpg",
       imageAlt: "website design company hyderabad",
       heading2: "Industries We Serve with Static Website Design",
@@ -160,18 +172,28 @@ export const servicesData: Record<string, Service> = {
         "Affordable packages for startups & local businesses",
       ],
       packageHtml: `
-        <div class='package-card h-100 shadow-sm position-relative'>
-          <div class='package-header text-white text-center py-4 rounded-top' style='background-color:#1485cb'>
-            <h5 class='mb-1'>Starter Static Website</h5>
-            <p class='mb-0'>Perfect for Small Businesses</p>
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#3498db'>
+            <h5 class='mb-1 fw-bold'>Starter Static Website</h5>
+            <p class='mb-0 small'>Perfect for Small Businesses</p>
           </div>
-          <div class='package-body p-4'>
+          <div class='package-body p-4 bg-white'>
             <ul class='list-unstyled mb-4 feature-list'>
-              <li><i class='bi bi-check-circle-fill text-success me-2'></i>Up to 6 Web Pages Website.</li>
-              <li><i class='bi bi-check-circle-fill text-success me-2'></i>FREE Web Hosting & SSL for 1 year.</li>
-              <li><i class='bi bi-check-circle-fill text-success me-2'></i>1 Week FREE Support After Deployment.</li>
-              <li><i class='bi bi-check-circle-fill text-success me-2'></i>Responsive Design.</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Up to 6 Web Pages Website.</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>FREE Web Hosting & SSL for 1 year.</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>1 Week FREE Support After Deployment.</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Responsive Design.</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Basic SEO Setup.</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Browser Compatibility Testing.</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Google Page Speed Optimized.</li>
             </ul>
+            
+            <div class='text-center mt-4 pt-2 border-top'>
+              <p class='small fw-bold mb-3 text-dark'>Want to know what's inside our hidden plans?</p>
+              <a id='unlock-static-pkg' href='/package-details/static-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
+                <i class='bi bi-unlock-fill'></i> Unlock Full Packages
+              </a>
+            </div>
           </div>
         </div>
       `,
@@ -186,7 +208,13 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "Dynamic Website Design Services in Hyderabad",
-      subHeading: "Build a powerful, feature-rich, and responsive dynamic website starting at just ₹14,999!",
+      subHeading: "Build a powerful, feature-rich, and responsive dynamic website starting at just ₹14,999! Perfect for businesses that want control, flexibility, and scalability.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
     },
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Dynamic Website Design in Hyderabad?",
@@ -194,15 +222,41 @@ export const servicesData: Record<string, Service> = {
       image: "assets/front/images/services/dynamic-website-development-services-hyderabad.jpg",
       imageAlt: "dynamic website design company hyderabad",
       heading2: "Industries We Serve with Dynamic Website Design",
-      paragraph2: "We provide dynamic website development services in Hyderabad for startups, SMEs, corporates, and enterprises across industries.",
-      benefits: [
-        "Easy-to-manage CMS-based websites",
-        "Database-driven functionality",
-        "Secure admin panel for content updates",
-        "SEO-friendly and mobile-optimized design",
-        "Fast loading and scalable architecture",
-      ],
-    },
+      paragraph2: "We provide dynamic website development services in Hyderabad for startups, SMEs, corporates, and enterprises across industries — including education, healthcare, eCommerce, real estate, logistics, and hospitality. Our dynamic websites are built for performance, functionality, and future scalability — giving you full control over content and user experience.",
+        benefits: [
+          "Easy-to-manage CMS-based websites",
+          "Database-driven functionality",
+          "Secure admin panel for content updates",
+          "SEO-friendly and mobile-optimized design",
+          "Fast loading and scalable architecture",
+        ],
+        packageHtml: `
+          <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+            <div class='package-header text-white text-center py-4' style='background-color:#1485cb'>
+              <h5 class='mb-1 fw-bold'>Starter Dynamic Website</h5>
+              <p class='mb-0 small'>Ideal for Growing Businesses</p>
+            </div>
+            <div class='package-body p-4 bg-white'>
+              <ul class='list-unstyled mb-4 feature-list'>
+                <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Up to 10 Dynamic Pages with CMS.</li>
+                <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Admin Panel to Manage Content.</li>
+                <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>FREE Web Hosting & SSL for 1 year.</li>
+                <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>SEO-Friendly URL Structure.</li>
+                <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Database Integration (MySQL).</li>
+                <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Responsive & Secure Coding.</li>
+                <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>1 Month Free Technical Support.</li>
+              </ul>
+              
+              <div class='text-center mt-4 pt-2 border-top'>
+                <p class='small fw-bold mb-3 text-dark'>Want to explore advanced plans?</p>
+                <a id='unlock-dynamic-pkg' href='/package-details/dynamic-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0066a2; border: 8px solid #d0e7ff; color: #fff !important; font-weight: 700;'>
+                  <i class='bi bi-unlock-fill'></i> Unlock Full Packages
+                </a>
+              </div>
+            </div>
+          </div>
+        `,
+      },
   },
   "seo-service-provider-hyderabad": {
     slug: "seo-service-provider-hyderabad",
