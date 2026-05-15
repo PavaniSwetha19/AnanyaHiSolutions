@@ -7,24 +7,24 @@ import SocialFollow from "@/components/SocialFollow";
 export default function Contact() {
   const faqs = [
     {
-      question: "What services does Ananya Hi Solutions provide in Hyderabad?",
-      answer: "Ananya Hi Solutions offers comprehensive digital services including website design and development, digital marketing (SEO, PPC, social media), mobile application development, e-commerce solutions, video production, and custom software development. We provide end-to-end digital transformation solutions for businesses of all sizes."
+      question: "What services do you provide?",
+      answer: <>We specialize in <strong>Website Design, Digital Marketing, SEO, Branding</strong> and more — helping businesses grow their online presence.</>
     },
     {
-      question: "How does Ananya Hi Solutions ensure quality in digital marketing campaigns?",
-      answer: "We employ data-driven strategies with continuous monitoring and optimization. Our certified digital marketing experts use advanced analytics, A/B testing, and industry-leading tools to track KPIs, measure ROI, and refine campaigns for maximum performance. We provide transparent monthly reports showing measurable results."
+      question: "Do you offer website redesign services?",
+      answer: "Yes! We can redesign and upgrade your old website into a modern, responsive, and high-performing website that fits your brand."
     },
     {
-      question: "What makes Ananya Hi Solutions different from other digital agencies in Hyderabad?",
-      answer: "Our key differentiators include 10+ years of proven experience, a team of certified experts, integrated service offerings under one roof, customized solutions rather than templates, transparent pricing, dedicated account management, and a proven track record of delivering measurable ROI for clients across diverse industries."
+      question: "Will my website be mobile-friendly?",
+      answer: <>Absolutely ✅ All our websites are built to be <strong>100% responsive</strong> — optimized for mobile, tablet, and desktop users.</>
     },
     {
-      question: "How long does it typically take to complete a website design project?",
-      answer: "Project timelines vary based on complexity and requirements. A standard business website takes 4-6 weeks, while complex e-commerce platforms or custom web applications may take 8-12 weeks. We provide detailed project timelines during consultation and maintain regular communication throughout the development process."
+      question: "How can I get a quotation?",
+      answer: <>Simply <strong>contact us</strong> with your requirements, and we'll send you a customized quotation within 24 hours.</>
     },
     {
-      question: "What industries does Ananya Hi Solutions specialize in serving?",
-      answer: "We have extensive experience serving diverse industries including e-commerce, healthcare, education, real estate, manufacturing, finance, technology startups, hospitality, and professional services. Our adaptable approach allows us to understand unique industry challenges and deliver tailored solutions that drive results in any sector."
+      question: "Do you provide support after website launch?",
+      answer: <>Yes, we provide <strong>ongoing maintenance & support</strong> packages to keep your website secure, updated, and performing at its best.</>
     }
   ];
 
@@ -49,22 +49,22 @@ export default function Contact() {
                   <Form>
                     <Form.Group className="mb-3" controlId="formName">
                       <Form.Label>Full Name *</Form.Label>
-                      <Form.Control type="text" placeholder="Enter your name" required />
+                      <Form.Control type="text" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formEmail">
                       <Form.Label>Email *</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" required />
+                      <Form.Control type="email" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formPhone">
                       <Form.Label>Phone *</Form.Label>
-                      <Form.Control type="tel" placeholder="Enter phone number" required />
+                      <Form.Control type="tel" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formMessage">
                       <Form.Label>Message *</Form.Label>
-                      <Form.Control as="textarea" rows={4} placeholder="Your message" required />
+                      <Form.Control as="textarea" rows={4} required />
                     </Form.Group>
 
                     <Button variant="primary" type="submit" className="w-100">
