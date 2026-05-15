@@ -99,7 +99,7 @@ function CategoryLayout({ service }: { service: Service }) {
         </Container>
       </section>
 
-      <section className={`py-5 ${service.slug === "software-development" ? "services-section" : ""}`}>
+      <section className={`py-5 ${["software-development", "video-production"].includes(service.slug) ? "services-section" : ""}`}>
         {service.subSection && (
           <Container className="text-center mb-5">
             <h2 className="fw-bold mb-3 primaryClr" dangerouslySetInnerHTML={{ __html: service.subSection.heading }} />
@@ -112,11 +112,11 @@ function CategoryLayout({ service }: { service: Service }) {
             <Row className="g-4">
               {service.items.map((item, index) => (
                 <Col md={4} key={index} className="mx-auto">
-                  <article className="solution-card p-4 h-100 text-center">
+                  <article className="solution-card p-3 h-100 text-center" style={{ borderRadius: '15px', border: 'none' }}>
                     <Link href={`/${item.link}`} className="text-decoration-none text-dark d-block">
                       <i className={`bi ${item.icon} icon`} style={item.color ? { color: item.color } : {}}></i>
-                      <h5 className="fw-bold">{item.title}</h5>
-                      <p className="text-muted small mb-0">{item.description}</p>
+                      <h5 className="fw-bold mb-2" style={{ fontSize: '1.1rem' }}>{item.title}</h5>
+                      <p className="text-muted small mb-0" style={{ fontSize: '0.85rem', lineHeight: '1.4' }}>{item.description}</p>
                     </Link>
                   </article>
                 </Col>
@@ -272,7 +272,7 @@ function DetailLayout({ service }: { service: Service }) {
               </p>
             </Col>
 
-            <Col md={6}>
+            <Col md={5}>
               <h4 className="fw-semibold mb-2 text-dark">
                 🎁 Want to See Our Full Package Details?
               </h4>
@@ -291,11 +291,12 @@ function DetailLayout({ service }: { service: Service }) {
               )}
             </Col>
 
-            <Col md={6}>
+            <Col md={7}>
               <img
                 src={`/${detailSection.image}`}
                 alt={detailSection.imageAlt}
-                className="img-fluid rounded img-thumbnail shadow"
+                className="img-fluid rounded img-thumbnail shadow w-100"
+                style={{ maxHeight: "600px", objectFit: "cover" }}
               />
             </Col>
           </Row>
@@ -342,8 +343,7 @@ function DetailLayout({ service }: { service: Service }) {
       <section
         className="cta-final text-white text-center py-5"
         style={{
-          background:
-            "linear-gradient(rgba(6, 66, 103, 0.9), rgba(6, 66, 103, 0.9))",
+          background: "linear-gradient(to right, #064267, #1485cb)",
         }}
       >
         <Container>
@@ -361,7 +361,7 @@ function DetailLayout({ service }: { service: Service }) {
             href="https://wa.me/917673935353"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-whatsapp-yellow"
+            className="btn rounded-pill px-4 fw-bold btn-whatsapp-yellow"
           >
             <i className="bi bi-whatsapp me-2"></i>
             {service.ctaFinal?.buttonText || "Chat on WhatsApp"}

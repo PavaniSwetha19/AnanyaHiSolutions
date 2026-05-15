@@ -223,14 +223,14 @@ export const servicesData: Record<string, Service> = {
       imageAlt: "dynamic website design company hyderabad",
       heading2: "Industries We Serve with Dynamic Website Design",
       paragraph2: "We provide dynamic website development services in Hyderabad for startups, SMEs, corporates, and enterprises across industries — including education, healthcare, eCommerce, real estate, logistics, and hospitality. Our dynamic websites are built for performance, functionality, and future scalability — giving you full control over content and user experience.",
-        benefits: [
-          "Easy-to-manage CMS-based websites",
-          "Database-driven functionality",
-          "Secure admin panel for content updates",
-          "SEO-friendly and mobile-optimized design",
-          "Fast loading and scalable architecture",
-        ],
-        packageHtml: `
+      benefits: [
+        "Easy-to-manage CMS-based websites",
+        "Database-driven functionality",
+        "Secure admin panel for content updates",
+        "SEO-friendly and mobile-optimized design",
+        "Fast loading and scalable architecture",
+      ],
+      packageHtml: `
           <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
             <div class='package-header text-white text-center py-4' style='background-color:#1485cb'>
               <h5 class='mb-1 fw-bold'>Starter Dynamic Website</h5>
@@ -256,7 +256,7 @@ export const servicesData: Record<string, Service> = {
             </div>
           </div>
         `,
-      },
+    },
   },
   "seo-service-provider-hyderabad": {
     slug: "seo-service-provider-hyderabad",
@@ -505,7 +505,6 @@ export const servicesData: Record<string, Service> = {
     hero: {
       heading: "Single Vendor eCommerce Development in Hyderabad | Build Your Online Store",
       subHeading: "Launch your own online store with a robust single vendor eCommerce platform. At Ananya Hi Solutions, we develop feature-rich, secure, and scalable eCommerce websites that help businesses sell products online and grow their digital presence in Hyderabad.",
-      heroImage: "assets/front/images/sliders/slider2.jpg",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20single%20vendor%20ecommerce%20project.",
@@ -516,7 +515,7 @@ export const servicesData: Record<string, Service> = {
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce Development?",
       paragraph1: "Our team in Hyderabad specializes in creating custom single vendor eCommerce platforms with user-friendly admin panels, seamless payment integration, and responsive design.",
-      image: "assets/front/images/services/single-vendor-ecommerce-hyderabad.jpg",
+      image: "assets/front/images/services/multi-vendor-marketplace-hyderabad.png",
       imageAlt: "single vendor ecommerce development hyderabad",
       heading2: "Our Single Vendor eCommerce Expertise",
       paragraph2: "We provide end-to-end solutions for single vendor eCommerce stores including product listing, shopping cart, payment gateway integration, and analytics.",
@@ -562,7 +561,6 @@ export const servicesData: Record<string, Service> = {
     hero: {
       heading: "Multi Vendor Marketplace Development in Hyderabad | Expand Your Online Business",
       subHeading: "Build a scalable multi vendor marketplace with Ananya Hi Solutions. Enable multiple sellers to list products, manage orders, and reach customers through a powerful, secure, and SEO-friendly platform in Hyderabad.",
-      heroImage: "assets/front/images/sliders/slider3.jpg",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20multi%20vendor%20marketplace%20project.",
@@ -573,7 +571,7 @@ export const servicesData: Record<string, Service> = {
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Multi Vendor Marketplace Development?",
       paragraph1: "Our team in Hyderabad specializes in creating custom multi vendor eCommerce platforms that allow multiple sellers to operate seamlessly. From product management, order tracking, and vendor dashboards to secure payment processing and analytics, we deliver end-to-end solutions that empower your marketplace and maximize sales potential.",
-      image: "assets/front/images/services/multi-vendor-marketplace-hyderabad.jpg",
+      image: "assets/front/images/services/multi-vendor-marketplace-hyderabad.png",
       imageAlt: "multi vendor marketplace development hyderabad",
       heading2: "Our Multi Vendor Marketplace Expertise",
       paragraph2: "We provide end-to-end multi vendor solutions including vendor onboarding, product catalog management, order management, payment gateway integration, and analytics dashboards. Our marketplaces are mobile-responsive, SEO-friendly, and built for scalability to support business growth.",
@@ -585,18 +583,18 @@ export const servicesData: Record<string, Service> = {
         "Analytics & reporting for vendors and admin",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-info">
-          <div class="card-header bg-info text-white text-center py-3">
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">Professional Multi Vendor Marketplace Solutions</h5>
-            <small>Connect Multiple Sellers & Grow Your Online Platform</small>
+            <p class="mb-0 small">Connect Multiple Sellers & Grow Your Online Platform</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
               Want to launch a robust multi vendor marketplace? <strong>Ananya Hi Solutions</strong> provides expert <strong>multi vendor marketplace development services in Hyderabad</strong> that combine intuitive design, powerful features, and seamless functionality. Enable multiple vendors to sell online and grow your platform efficiently.
             </p>
             <div class="text-center mt-4">
               <p class="small fw-bold mb-3">Start your multi vendor platform today!</p>
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20multi%20vendor%20marketplace%20project." class="btn btn-info text-white rounded-pill px-4 py-2 shadow-sm">
+              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20multi%20vendor%20marketplace%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
                 <i class="bi bi-grid-3x3-gap-fill me-2"></i> Talk to Our Marketplace Experts
               </a>
             </div>
@@ -704,19 +702,19 @@ export const servicesData: Record<string, Service> = {
       },
       {
         question: "How much does professional video production cost?",
-        answer: "The cost depends on various factors such as video length, type of production (live action vs. animation), number of shooting days, equipment required, and complexity of post-production. We offer competitive packages tailored to different budgets.",
+        answer: "Video production costs vary based on complexity, duration, location shooting requirements, and post-production needs. Simple social media videos start from ₹15,000, professional corporate videos range ₹50,000-₹2,00,000, and complex animated or multi-location productions can exceed ₹3,00,000. We provide detailed quotes after understanding requirements, including scripting, filming, editing, and revisions.",
       },
       {
         question: "What is the typical timeline for video production projects?",
-        answer: "A standard video project can take anywhere from 1 to 4 weeks, depending on the complexity. This includes pre-production (planning/scripting), production (filming), and post-production (editing/revisions).",
+        answer: "Production timelines depend on video complexity and requirements. Simple videos take 1-2 weeks (including 2-3 days filming, 5-7 days editing), standard corporate videos require 3-4 weeks, and complex productions with animation or multiple locations need 6-8 weeks. The process includes pre-production planning, filming, editing and revisions, and final delivery with regular updates throughout.",
       },
       {
         question: "How do you ensure video content aligns with brand identity?",
-        answer: "We start every project with a detailed consultation to understand your brand guidelines, target audience, and core message. Throughout the scriptwriting and editing phases, we ensure visuals and tone remain consistent with your brand.",
+        answer: "We conduct thorough brand discovery sessions covering brand guidelines, colors, fonts, tone, and messaging. Our creative team develops concepts and storyboards for approval before filming, ensures consistent visual style, incorporates brand elements (logos, colors, music), and provides multiple revision rounds to perfectly align with brand identity and marketing objectives.",
       },
       {
         question: "What video formats and platforms do you optimize content for?",
-        answer: "We provide videos in all standard high-definition formats (MP4, MOV) and can optimize them specifically for platforms like YouTube (16:9), Instagram/TikTok (9:16), or LinkedIn, ensuring maximum engagement on each channel.",
+        answer: "We deliver videos optimized for all major platforms including YouTube (HD, 4K), Instagram (Feed, Stories, Reels, IGTV), Facebook, LinkedIn, Twitter, TikTok, website embedding, presentations, and broadcast. Each platform requires specific aspect ratios (16:9, 9:16, 1:1), durations, and technical standards which we optimize for maximum engagement.",
       },
     ],
   },
@@ -740,7 +738,7 @@ export const servicesData: Record<string, Service> = {
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Corporate Video Production?",
       paragraph1: "Our team in Hyderabad specializes in creating impactful corporate videos that communicate your brand message clearly and creatively. From concept development, scripting, and storyboarding to filming, editing, and post-production, we ensure your videos resonate with your target audience and leave a lasting impression.",
-      image: "assets/front/images/services/corporate-video-shoot-hyderabad.jpg",
+      image: "assets/front/images/services/video-production-services-hyderabad.jpg",
       imageAlt: "corporate video production hyderabad",
       heading2: "Our Corporate Video Expertise",
       paragraph2: "We produce a wide range of corporate videos including promotional videos, product demos, explainer videos, training videos, and event coverage. Our videos are designed to engage audiences, improve brand awareness, and increase conversions, all optimized for web and social media platforms.",
@@ -751,29 +749,27 @@ export const servicesData: Record<string, Service> = {
         "Optimized for web, social media, and presentations",
         "Enhances brand credibility and audience engagement",
       ],
-      footerImage: "assets/front/images/services/corporate-video-shoot-hyderabad.jpg",
+      footerImage: "",
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Elevate Your Brand with Professional Corporate Videos</h5>
-            <small>Create videos that engage your audience, boost visibility, and grow your business.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Elevate Your Brand with Professional Corporate Videos</h5>
+            <p class="mb-0 small">Create videos that engage your audience, boost visibility, and grow your business.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
               Discover how Ananya Hi Solutions in Hyderabad can help you produce corporate videos that showcase your brand, communicate your story, and connect with your audience effectively. Fill out the form to discuss your project and get personalized expert guidance.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20corporate%20video%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-camera-video-fill me-2"></i> Start Your Corporate Video Project Today
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20corporate%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-camera-video-fill me-2"></i> Start Your Corporate Video Project Today
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Tell Your Brand Story?",
-      subHeading: "Get your corporate video produced by Hyderabad's trusted production house.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -809,27 +805,25 @@ export const servicesData: Record<string, Service> = {
         "Drive leads and increase conversions effectively",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Drive Engagement with Promotional Marketing Videos</h5>
-            <small>Create compelling videos that capture attention and boost conversions.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Drive Engagement with Promotional Marketing Videos</h5>
+            <p class="mb-0 small">Create compelling videos that capture attention and boost conversions.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Want to promote your products or services effectively? Ananya Hi Solutions offers expert promotional marketing video production in Hyderabad that combines creativity, storytelling, and professional execution. Fill out the form to discuss your project and get a tailored solution for your brand.
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
+              Want to promote your products or services effectively? <strong>Ananya Hi Solutions</strong> offers expert <strong>promotional marketing video production in Hyderabad</strong> that combines creativity, storytelling, and professional execution. Fill out the form to discuss your project and get a tailored solution for your brand.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20promotional%20marketing%20video%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-play-circle-fill me-2"></i> Start Your Promotional Video Project
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20promotional%20marketing%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-play-circle-fill me-2"></i> Start Your Promotional Video Project
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Boost Your Brand Awareness?",
-      subHeading: "Get your promotional video produced by Hyderabad's trusted production house.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -865,27 +859,25 @@ export const servicesData: Record<string, Service> = {
         "High-quality production and post-production editing",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Professional Event Coverage & Highlights</h5>
-            <small>Capture every detail and create engaging highlight videos for your events.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Professional Event Coverage & Highlights</h5>
+            <p class="mb-0 small">Capture every detail and create engaging highlight videos for your events.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Want to make your events memorable? Ananya Hi Solutions offers expert event coverage and highlight video production in Hyderabad. From corporate events to product launches, we ensure every key moment is captured creatively and professionally. Fill out the form to discuss your project and get tailored solutions.
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
+              Want to make your events memorable? <strong>Ananya Hi Solutions</strong> offers expert <strong>event coverage and highlight video production in Hyderabad</strong>. From corporate events to product launches, we ensure every key moment is captured creatively and professionally. Fill out the form to discuss your project and get tailored solutions.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20event%20coverage%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-calendar-check-fill me-2"></i> Book Your Event Coverage Today
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20event%20coverage%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-calendar-check-fill me-2"></i> Book Your Event Coverage Today
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Capture Your Event?",
-      subHeading: "Get your event covered by Hyderabad's professional production team.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -921,27 +913,25 @@ export const servicesData: Record<string, Service> = {
         "Increase conversions and customer understanding effectively",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Create Engaging Product Explainer Videos</h5>
-            <small>Simplify your product story and boost customer understanding.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Create Engaging Product Explainer Videos</h5>
+            <p class="mb-0 small">Simplify your product story and boost customer understanding.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Want your customers to understand your product instantly? Ananya Hi Solutions provides expert product explainer video production services in Hyderabad. We create compelling videos that showcase your product features, explain usage, and highlight benefits. Fill out the form to discuss your project and get a tailored solution.
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
+              Want your customers to understand your product instantly? <strong>Ananya Hi Solutions</strong> provides expert <strong>product explainer video production services in Hyderabad</strong>. We create compelling videos that showcase your product features, explain usage, and highlight benefits. Fill out the form to discuss your project and get a tailored solution.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20product%20explainer%20video%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-play-btn-fill me-2"></i> Start Your Explainer Video Project
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20product%20explainer%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-play-btn-fill me-2"></i> Start Your Explainer Video Project
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Simplify Your Product Story?",
-      subHeading: "Get your product explainer video produced by Hyderabad's professional production team.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -977,27 +967,25 @@ export const servicesData: Record<string, Service> = {
         "Increase engagement, followers, and conversions effectively",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Engage Your Audience with Social Media Videos</h5>
-            <small>Create videos that grab attention, go viral, and boost engagement.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Engage Your Audience with Social Media Videos</h5>
+            <p class="mb-0 small">Create videos that grab attention, go viral, and boost engagement.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Want to grow your social media presence? Ananya Hi Solutions offers expert social media video production services in Hyderabad. We craft compelling videos for Instagram, Facebook, YouTube, and LinkedIn that connect with your audience and elevate your brand. Fill out the form to discuss your project and get a custom strategy.
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
+              Want to grow your social media presence? <strong>Ananya Hi Solutions</strong> offers expert <strong>social media video production services in Hyderabad</strong>. We craft compelling videos for Instagram, Facebook, YouTube, and LinkedIn that connect with your audience and elevate your brand. Fill out the form to discuss your project and get a custom strategy.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20social%20media%20video%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-share-fill me-2"></i> Start Your Social Media Video Project
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20social%20media%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-share-fill me-2"></i> Start Your Social Media Video Project
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Boost Your Engagement?",
-      subHeading: "Get your social media content produced by Hyderabad's professional production team.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1033,27 +1021,25 @@ export const servicesData: Record<string, Service> = {
         "Enhances brand identity and fan engagement",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Create Stunning Music Videos</h5>
-            <small>Bring your music to life with high quality visuals and creative storytelling.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Create Stunning Music Videos</h5>
+            <p class="mb-0 small">Bring your music to life with high quality visuals and creative storytelling.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Want your music to reach more fans and create a visual impact? Ananya Hi Solutions provides expert music video production services in Hyderabad. We handle everything from concept and choreography to filming and post-production. Fill out the form to discuss your project and get a tailor-made solution.
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
+              Want your music to reach more fans and create a visual impact? <strong>Ananya Hi Solutions</strong> provides expert <strong>music video production services in Hyderabad</strong>. We handle everything from concept and choreography to filming and post-production. Fill out the form to discuss your project and get a tailor-made solution.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20music%20video%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-music-player-fill me-2"></i> Start Your Music Video Project
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20music%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-music-player-fill me-2"></i> Start Your Music Video Project
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Create Your Music Video?",
-      subHeading: "Get your music video produced by Hyderabad's professional production team.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1089,27 +1075,25 @@ export const servicesData: Record<string, Service> = {
         "Engage audiences with compelling storytelling and visuals",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Professional Short Film Production</h5>
-            <small>Transform your ideas into captivating short films.</small>
+        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
+          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+            <h5 class="mb-0 fw-bold">🎬 Professional Short Film Production</h5>
+            <p class="mb-0 small">Transform your ideas into captivating short films.</p>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
-              Want to create a cinematic short film that captivates your audience? Ananya Hi Solutions provides expert short film production services in Hyderabad. We handle everything from concept development to final editing. Fill out the form to discuss your project and receive a customized production plan.
+          <div class="card-body p-4 text-center">
+            <p class="card-text text-muted mb-4">
+              Want to create a cinematic short film that captivates your audience? <strong>Ananya Hi Solutions</strong> provides expert <strong>short film production services in Hyderabad</strong>. We handle everything from concept development to final editing. Fill out the form to discuss your project and receive a customized production plan.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20short%20film%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-film me-2"></i> Start Your Short Film Project
-              </a>
-            </div>
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20short%20film%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+              <i class="bi bi-film me-2"></i> Start Your Short Film Project
+            </a>
           </div>
         </div>
       `,
     },
     ctaFinal: {
-      heading: "Ready to Tell Your Story?",
-      subHeading: "Get your short film or web series produced by Hyderabad's cinematic experts.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1237,17 +1221,17 @@ export const servicesData: Record<string, Service> = {
         "Secure, scalable, and user-friendly design",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Custom CRM Software Solutions</h5>
+        <div class="card shadow-sm crm-package-card">
+          <div class="card-header text-white text-center py-3">
+            <h5 class="mb-0 fw-bold">💻 Custom CRM Software Solutions</h5>
             <small>Automate, manage, and grow your business efficiently.</small>
           </div>
           <div class="card-body p-4">
             <p class="card-text text-muted text-center">
-              Want to streamline your business processes and manage customer relationships effectively? Ananya Hi Solutions provides expert CRM software development services in Hyderabad. Our team delivers tailor-made solutions for sales automation, lead management, analytics, and reporting. Fill out the form to discuss your CRM project and get a custom solution.
+              Want to streamline your business processes and manage customer relationships effectively? <strong>Ananya Hi Solutions</strong> provides expert <strong>CRM software development services in Hyderabad</strong>. Our team delivers tailor-made solutions for sales automation, lead management, analytics, and reporting. Fill out the form to discuss your CRM project and get a custom solution.
             </p>
             <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20CRM%20software%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
+              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20CRM%20software%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #1485cb; border: 1px solid #1485cb;">
                 <i class="bi bi-gear-fill me-2"></i> Get Your Custom CRM Solution
               </a>
             </div>
@@ -1256,8 +1240,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business CRM?",
-      subHeading: "Get your custom CRM software developed by Hyderabad's trusted software experts.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1293,19 +1277,21 @@ export const servicesData: Record<string, Service> = {
         "Improved accuracy, efficiency, and financial management",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Custom Billing Software Solutions</h5>
+        <div class="card shadow-sm" style="border: 1px solid #1789d6;">
+          <div class="card-header text-white text-center py-3" style="background-color: #1789d6; border-bottom: none;">
+            <h5 class="mb-0 fw-bold">💻 Custom Billing Software Solutions</h5>
             <small>Automate your invoicing and manage payments efficiently.</small>
           </div>
           <div class="card-body p-4">
             <p class="card-text text-muted text-center">
-              Want to streamline your billing and payment process? Ananya Hi Solutions offers expert billing software development services in Hyderabad. Our team delivers tailor-made solutions for invoicing, payment tracking, tax calculation, and reporting. Fill out the form to discuss your project and get a custom solution.
+              Want to streamline your billing and payment process? <strong>Ananya Hi Solutions</strong> offers expert <strong>billing software development services in Hyderabad</strong>. Our team delivers tailor-made solutions for invoicing, payment tracking, tax calculation, and reporting. Fill out the form to discuss your project and get a custom solution.
             </p>
             <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20billing%20software%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
-                <i class="bi bi-calculator-fill me-2"></i> Get Your Custom Billing Software
-              </a>
+              <div class="d-inline-block rounded-pill" style="padding: 6px; background-color: #f0f6fa;">
+                <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20billing%20software%20project." class="btn text-white rounded-pill px-4 py-2 m-0" style="background-color: #064267; border: none;">
+                  <i class="bi bi-file-earmark-text-fill me-2"></i> Get Your Custom Billing Software
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1349,17 +1335,17 @@ export const servicesData: Record<string, Service> = {
         "Secure, scalable, and user-friendly design for colleges",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">Custom College Management Software</h5>
+        <div class="card shadow-sm crm-package-card">
+          <div class="card-header text-white text-center py-3">
+            <h5 class="mb-0 fw-bold">💻 Custom College Management Software</h5>
             <small>Automate academic and administrative processes efficiently.</small>
           </div>
           <div class="card-body p-4">
             <p class="card-text text-muted text-center">
-              Want to simplify college operations and improve efficiency? Ananya Hi Solutions provides expert College Management Software services in Hyderabad. We handle everything from admissions, attendance, examinations, fee management, to reporting. Fill out the form to discuss your project and get a tailor-made solution.
+              Want to simplify college operations and improve efficiency? <strong>Ananya Hi Solutions</strong> provides expert <strong>College Management Software services in Hyderabad</strong>. We handle everything from admissions, attendance, examinations, fee management, to reporting. Fill out the form to discuss your project and get a custom solution.
             </p>
             <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20college%20management%20software%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
+              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20college%20management%20software%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #0b6fa8; border: 1px solid #0b6fa8;">
                 <i class="bi bi-mortarboard-fill me-2"></i> Get Your College Management Solution
               </a>
             </div>
