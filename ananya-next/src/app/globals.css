@@ -279,7 +279,7 @@ body {
   text-decoration: none;
   color: inherit;
   border-radius: 12px;
-  background: #fff;
+  background: #eef1f2;
   transition: all 0.3s ease;
   cursor: pointer;
   border: 1px solid #e6e6e6;
@@ -310,11 +310,11 @@ body {
 }
 
 .solution-card:hover .icon {
-  color: #25d366;
+  color: #25d366 !important;
 }
 
 .solution-card:hover h5 {
-  color: #25d366;
+  color: #25d366 !important;
 }
 
 /* End Solution Card */
