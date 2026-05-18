@@ -22,6 +22,7 @@ export default function Careers() {
           title="Careers at Ananya Hi Solutions"
           description="Join a fast-growing digital agency where innovation, learning and real-world impact come together. Build your career with a team that values skills, creativity and ambition."
           showCTA={false}
+          className="hero-careers"
         />
 
         <section className="job-section py-5" id="job-openings">
@@ -40,8 +41,8 @@ export default function Careers() {
                         <li><strong>Location:</strong> {job.location}</li>
                       </ul>
 
-                      <div className="mt-4">
-                        <a href={`/job-details/${job.id}`} className="btn btn-primary w-100">
+                      <div className="mt-4 text-center">
+                        <a href={`/job-details/${job.id}`} className="btn btn-blue-pill">
                           View Full Job Details
                         </a>
                       </div>

@@ -45,7 +45,11 @@ function CategoryLayout({ service }: { service: Service }) {
 
           {service.hero.trustPara && (
             <div className="mt-4 mb-4">
-              <p className="mb-0 text-white fw-medium text-center" dangerouslySetInnerHTML={{ __html: service.hero.trustPara }} />
+              <p
+                className="mb-0 text-white fw-medium text-center"
+                style={{ whiteSpace: "nowrap", fontSize: "clamp(0.85rem, 1.8vw, 1.1rem)" }}
+                dangerouslySetInnerHTML={{ __html: service.hero.trustPara }}
+              />
             </div>
           )}
 
@@ -118,6 +122,7 @@ function CategoryLayout({ service }: { service: Service }) {
           <Container>
             <Row className="g-4 justify-content-center">
               {service.items.map((item, index) => (
+                
                 <Col lg={8} md={10} key={index} className="mx-auto">
                   <article
                     className="solution-card p-4 h-100 text-center"
@@ -189,6 +194,29 @@ function CategoryLayout({ service }: { service: Service }) {
 function DetailLayout({ service }: { service: Service }) {
   if (!service.detailSection) return null;
   const { detailSection } = service;
+
+  const isLeftAligned = [
+    "seo-service-provider-hyderabad", 
+    "social-media-marketing-services-hyderabad", 
+    "ppc-services-hyderabad", 
+    "content-marketing-services-hyderabad",
+    "email-marketing-services-hyderabad",
+    "ios-app-development-services-hyderabad",
+    "android-app-development-services-hyderabad",
+    "ecommerce-website-developers-hyderabad"
+  ].includes(service.slug);
+
+  const isThreeLines = [
+    "static-website-design-services-hyderabad", 
+    "dynamic-website-design-services-hyderabad", 
+    "social-media-marketing-services-hyderabad", 
+    "ppc-services-hyderabad", 
+    "content-marketing-services-hyderabad",
+    "email-marketing-services-hyderabad",
+    "ios-app-development-services-hyderabad",
+    "android-app-development-services-hyderabad",
+    "ecommerce-website-developers-hyderabad"
+  ].includes(service.slug);
 
   return (
     <>
@@ -271,15 +299,24 @@ function DetailLayout({ service }: { service: Service }) {
             <Col xs={12}>
               <h2 className="fw-bold mb-3 text-center" style={{ fontSize: "18pt" }} dangerouslySetInnerHTML={{ __html: detailSection.heading1 }} />
 
-              <p className="text-muted mx-auto mb-5" style={{ maxWidth: "900px", textAlign: ["corporate-video-shoot-hyderabad", "promotional-marketing-videos-hyderabad", "product-explainer-video-services-hyderabad", "social-media-video-production-hyderabad", "music-video-production-services-hyderabad", "short-film-production-hyderabad", "crm-software-development-services-hyderabad", "billing-software-development-services-hyderabad", "college-management-software-hyderabad", "lms-software-development-services-hyderabad", "single-vendor-ecommerce-website", "multi-vendor-ecommerce-marketplace"].includes(service.slug) ? "left" : "justify" }}>
-                {detailSection.paragraph1}
-              </p>
+              <p
+  className={`text-muted mx-auto mb-5 ${
+    isLeftAligned ? "text-start" : "text-center"
+  }`}
+  style={{
+    maxWidth: isThreeLines ? "1200px" : "900px",
+    fontSize: isThreeLines ? "0.95rem" : "inherit",
+  }}
+>
+  {detailSection.paragraph1}
+</p>
             </Col>
 
             <Col md={5}>
               <h4 className="fw-semibold mb-2 text-dark">
                 🎁 Want to See Our Full Package Details?
               </h4>
+              
               <p className="text-muted mb-4 small">Fill out the short form to instantly unlock our complete package information.</p>
 
 
@@ -361,7 +398,7 @@ function DetailLayout({ service }: { service: Service }) {
             href="https://wa.me/917673935353"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn rounded-pill px-4 fw-bold btn-whatsapp-yellow"
+            className="btn rounded-pill px-4 btn-whatsapp-yellow"
           >
             <i className="bi bi-whatsapp me-2"></i>
             {service.ctaFinal?.buttonText || "Chat on WhatsApp"}
