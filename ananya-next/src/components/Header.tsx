@@ -22,7 +22,7 @@ export default function Header() {
                 src="/assets/front/images/ahs-logo.png"
                 alt="AHS Logo"
                 className="d-inline-block align-text-top"
-                height={50}
+                height={70}
               />
             </Navbar.Brand>
           </Link>

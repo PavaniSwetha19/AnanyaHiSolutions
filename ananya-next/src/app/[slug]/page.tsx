@@ -110,7 +110,7 @@ function CategoryLayout({ service }: { service: Service }) {
         {service.subSection && (
           <Container className="text-center mb-5">
             <h2 className="fw-bold mb-3 primaryClr" dangerouslySetInnerHTML={{ __html: service.subSection.heading }} />
-            <div className="mx-auto" style={{ maxWidth: "700px", color: "#333", fontSize: "1.1rem" }} dangerouslySetInnerHTML={{ __html: service.subSection.description }} />
+            <div className="mx-auto" style={{ maxWidth: "700px", color: "#333", fontSize: "1.1rem", textAlign: "justify" }} dangerouslySetInnerHTML={{ __html: service.subSection.description }} />
           </Container>
         )}
 
@@ -118,11 +118,11 @@ function CategoryLayout({ service }: { service: Service }) {
           <Container>
             <Row className="g-4 justify-content-center">
               {service.items.map((item, index) => (
-                <Col md={4} key={index} className="mx-auto">
-                    <article
-                      className="solution-card p-3 h-100 text-center"
-                      style={{ borderRadius: "15px", border: "none" }}
-                    >
+                <Col lg={8} md={10} key={index} className="mx-auto">
+                  <article
+                    className="solution-card p-4 h-100 text-center"
+                    style={{ borderRadius: "15px", border: "none", minHeight: "200px" }}
+                  >
                     <Link href={`/${item.link}`} className="text-decoration-none text-dark d-block">
                       <i className={`bi ${item.icon} icon`} style={item.color ? { color: item.color } : {}}></i>
                       <h5 className="fw-bold mb-2" style={{ fontSize: '1.1rem' }}>{item.title}</h5>
@@ -172,10 +172,10 @@ function CategoryLayout({ service }: { service: Service }) {
               { title: "Proven Results", desc: "Trusted by clients with successful projects & long-term partnerships.", icon: "bi-award" }
             ].map((item, idx) => (
               <Col md={3} key={idx}>
-                <div className="text-center p-4 rounded h-100 shadow-sm" style={{ backgroundColor: "rgba(255,255,255,0.15)", border: "1px solid rgba(255,255,255,0.2)", backdropFilter: "blur(5px)" }}>
-                  <i className={`bi ${item.icon} fs-1 mb-3 d-block text-white`}></i>
-                  <h5 className="fw-bold">{item.title}</h5>
-                  <p className="small opacity-75 mb-0">{item.desc}</p>
+                <div className="why-card">
+                  <i className={`bi ${item.icon}`}></i>
+                  <h5>{item.title}</h5>
+                  <p>{item.desc}</p>
                 </div>
               </Col>
             ))}
@@ -195,7 +195,7 @@ function DetailLayout({ service }: { service: Service }) {
       <section
         className="hero-about text-white text-center py-5 d-flex align-items-center"
         style={{
-          minHeight: "500px",
+          minHeight: "400px",
           background: `linear-gradient(rgba(6, 66, 103, 0.85), rgba(6, 66, 103, 0.85)), url('/assets/front/images/digital-marketing-office-hyderabad.jpg') center/cover no-repeat`
         }}
       >
@@ -271,7 +271,7 @@ function DetailLayout({ service }: { service: Service }) {
             <Col xs={12}>
               <h2 className="fw-bold mb-3 text-center" style={{ fontSize: "18pt" }} dangerouslySetInnerHTML={{ __html: detailSection.heading1 }} />
 
-              <p className="text-muted text-center mx-auto mb-5" style={{ maxWidth: "900px" }}>
+              <p className="text-muted mx-auto mb-5" style={{ maxWidth: "900px", textAlign: ["corporate-video-shoot-hyderabad", "promotional-marketing-videos-hyderabad", "product-explainer-video-services-hyderabad", "social-media-video-production-hyderabad", "music-video-production-services-hyderabad", "short-film-production-hyderabad", "crm-software-development-services-hyderabad", "billing-software-development-services-hyderabad", "college-management-software-hyderabad", "lms-software-development-services-hyderabad"].includes(service.slug) ? "left" : "justify" }}>
                 {detailSection.paragraph1}
               </p>
             </Col>
@@ -280,6 +280,7 @@ function DetailLayout({ service }: { service: Service }) {
               <h4 className="fw-semibold mb-2 text-dark">
                 🎁 Want to See Our Full Package Details?
               </h4>
+              <p className="text-muted mb-4 small">Fill out the short form to instantly unlock our complete package information.</p>
 
 
               {detailSection.packageHtml && (
