@@ -271,7 +271,7 @@ function DetailLayout({ service }: { service: Service }) {
             <Col xs={12}>
               <h2 className="fw-bold mb-3 text-center" style={{ fontSize: "18pt" }} dangerouslySetInnerHTML={{ __html: detailSection.heading1 }} />
 
-              <p className="text-muted mx-auto mb-5" style={{ maxWidth: "900px", textAlign: ["corporate-video-shoot-hyderabad", "promotional-marketing-videos-hyderabad", "product-explainer-video-services-hyderabad", "social-media-video-production-hyderabad", "music-video-production-services-hyderabad", "short-film-production-hyderabad", "crm-software-development-services-hyderabad", "billing-software-development-services-hyderabad", "college-management-software-hyderabad", "lms-software-development-services-hyderabad"].includes(service.slug) ? "left" : "justify" }}>
+              <p className="text-muted mx-auto mb-5" style={{ maxWidth: "900px", textAlign: ["corporate-video-shoot-hyderabad", "promotional-marketing-videos-hyderabad", "product-explainer-video-services-hyderabad", "social-media-video-production-hyderabad", "music-video-production-services-hyderabad", "short-film-production-hyderabad", "crm-software-development-services-hyderabad", "billing-software-development-services-hyderabad", "college-management-software-hyderabad", "lms-software-development-services-hyderabad", "single-vendor-ecommerce-website", "multi-vendor-ecommerce-marketplace"].includes(service.slug) ? "left" : "justify" }}>
                 {detailSection.paragraph1}
               </p>
             </Col>

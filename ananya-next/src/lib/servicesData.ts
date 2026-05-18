@@ -778,7 +778,7 @@ export const servicesData: Record<string, Service> = {
       },
     },
     detailSection: {
-      heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce <br /> Development?",
+      heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce Development?",
       paragraph1: "Our team in Hyderabad specializes in creating custom single vendor eCommerce platforms with user-friendly admin panels, seamless payment integration, and responsive design. From product catalog management to order processing and analytics, we provide end-to-end solutions that make selling online simple and efficient.",
       image: "assets/front/images/services/ecommerce-web-developer.jpg",
       imageAlt: "single vendor ecommerce development hyderabad",
@@ -798,7 +798,7 @@ export const servicesData: Record<string, Service> = {
             <p class="mb-0 small">Sell Products Online Easily & Efficiently</p>
           </div>
           <div class="package-body p-4 bg-white">
-            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+            <p class="card-text text-start mb-4" style="color: #444; line-height: 1.7;">
               Looking to launch a professional online store? <strong>Ananya Hi Solutions</strong> offers expert <strong>single vendor eCommerce development in Hyderabad</strong> that combines beautiful design, powerful features, and seamless functionality. Grow your online business with a website that attracts customers and boosts sales.
             </p>
             <div class="text-center mt-4 pt-2 border-top">
@@ -846,7 +846,7 @@ export const servicesData: Record<string, Service> = {
         "Product catalog and inventory management",
         "Secure payment gateway integration",
         "Mobile-responsive and SEO-optimized design",
-        "Commission management and split payments",
+        "Analytics & reporting for vendors and admin",
       ],
       packageHtml: `
         <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
@@ -855,7 +855,7 @@ export const servicesData: Record<string, Service> = {
             <p class="mb-0 small">Connect Multiple Sellers & Grow Your Online Platform</p>
           </div>
           <div class="package-body p-4 bg-white">
-            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+            <p class="card-text text-start mb-4" style="color: #444; line-height: 1.7;">
               Want to launch a robust multi vendor marketplace? <strong>Ananya Hi Solutions</strong> provides expert <strong>multi vendor marketplace development services in Hyderabad</strong> that combine intuitive design, powerful features, and seamless functionality. Enable multiple vendors to sell online and grow your platform efficiently.
             </p>
             <div class="text-center mt-4 pt-2 border-top">
