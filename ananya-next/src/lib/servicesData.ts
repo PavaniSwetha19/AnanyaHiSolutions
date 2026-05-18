@@ -330,7 +330,7 @@ export const servicesData: Record<string, Service> = {
               
               <div class='text-center mt-4 pt-2 border-top'>
                 <p class='small fw-bold mb-3 text-dark'>Want to explore advanced plans?</p>
-                <a id='unlock-dynamic-pkg' href='/package-details/dynamic-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0066a2; border: 8px solid #d0e7ff; color: #fff !important; font-weight: 700;'>
+                <a id='unlock-dynamic-pkg' href='/package-details/dynamic-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
                   <i class='bi bi-unlock-fill'></i> Unlock Full Packages
                 </a>
               </div>
@@ -389,7 +389,7 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to explore our full SEO strategy?</p>
-              <a id='unlock-seo-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+              <a id='unlock-seo-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
                 <i class='bi bi-unlock-fill'></i> Discover More
               </a>
             </div>
@@ -448,7 +448,7 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to explore our full social media marketing plans?</p>
-              <a id='unlock-smm-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+              <a id='unlock-smm-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
                 <i class='bi bi-unlock-fill'></i> View Full Packages
               </a>
             </div>
@@ -573,18 +573,18 @@ export const servicesData: Record<string, Service> = {
         "Ongoing maintenance and performance optimization",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 rounded-4 overflow-hidden h-100">
-          <div class="card-header text-white text-center py-4" style="background: linear-gradient(135deg, #1485cb 0%, #064267 100%);">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-4" style="background: linear-gradient(135deg, #1485cb 0%, #064267 100%);">
             <h5 class="mb-1 fw-bold">Professional iOS App Development</h5>
             <p class="mb-0 small">From Idea to App Store Success</p>
           </div>
-          <div class="card-body p-4 bg-white">
+          <div class="package-body p-4 bg-white">
             <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
               Looking to launch a robust iOS application for iPhone or iPad? <strong>Ananya Hi Solutions</strong> offers expert <strong>iOS app development services in Hyderabad</strong> that focus on performance, usability, and scalability. We turn your ideas into apps that engage users and drive business growth.
             </p>
-            <div class="text-center mt-4">
+            <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start building your iOS app today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
                 <i class="bi bi-phone-fill"></i> Talk to Our iOS Experts
               </a>
             </div>
@@ -625,18 +625,18 @@ export const servicesData: Record<string, Service> = {
         "Ongoing maintenance and performance optimization",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 rounded-4 overflow-hidden h-100">
-          <div class="card-header text-white text-center py-4" style="background: linear-gradient(135deg, #1485cb 0%, #064267 100%);">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-4" style="background: linear-gradient(135deg, #1485cb 0%, #064267 100%);">
             <h5 class="mb-1 fw-bold">Professional Android App Development</h5>
             <p class="mb-0 small">From Concept to Google Play Success</p>
           </div>
-          <div class="card-body p-4 bg-white">
+          <div class="package-body p-4 bg-white">
             <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
               Want to launch a robust Android application for smartphones and tablets? <strong>Ananya Hi Solutions</strong> offers expert <strong>Android app development services in Hyderabad</strong> that focus on performance, scalability, and user engagement. We bring your ideas to life with apps that stand out and deliver results.
             </p>
-            <div class="text-center mt-4">
+            <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start building your Android app today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
                 <i class="bi bi-phone-fill"></i> Talk to Our Android Experts
               </a>
             </div>
@@ -778,7 +778,7 @@ export const servicesData: Record<string, Service> = {
       },
     },
     detailSection: {
-      heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce <br /> Development?",
+      heading1: "Why Choose Ananya Hi Solutions for Single Vendor eCommerce Development?",
       paragraph1: "Our team in Hyderabad specializes in creating custom single vendor eCommerce platforms with user-friendly admin panels, seamless payment integration, and responsive design. From product catalog management to order processing and analytics, we provide end-to-end solutions that make selling online simple and efficient.",
       image: "assets/front/images/services/ecommerce-web-developer.jpg",
       imageAlt: "single vendor ecommerce development hyderabad",
@@ -792,20 +792,18 @@ export const servicesData: Record<string, Service> = {
         "Scalable architecture for future growth",
       ],
       packageHtml: `
-        <h4 class="fw-bold mb-3"><span class="me-2">🎁</span> Want to See Our Full Package Details?</h4>
-        <p class="text-muted mb-4 small">Fill out the short form to instantly unlock our complete package information.</p>
-        <div class="card shadow-sm border-0" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background: linear-gradient(135deg, #1485cb 0%, #1164a3 100%); border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background: linear-gradient(135deg, #1485cb 0%, #1164a3 100%); border: none;">
             <h5 class="mb-1 fw-bold">Custom Single Vendor eCommerce Solutions</h5>
             <p class="mb-0 small">Sell Products Online Easily & Efficiently</p>
           </div>
-          <div class="card-body p-4 bg-white">
-            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+          <div class="package-body p-4 bg-white">
+            <p class="card-text text-start mb-4" style="color: #444; line-height: 1.7;">
               Looking to launch a professional online store? <strong>Ananya Hi Solutions</strong> offers expert <strong>single vendor eCommerce development in Hyderabad</strong> that combines beautiful design, powerful features, and seamless functionality. Grow your online business with a website that attracts customers and boosts sales.
             </p>
-            <div class="text-center mt-4">
+            <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start your online store today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
                 <i class="bi bi-cart-fill"></i> Talk to Our eCommerce Experts
               </a>
             </div>
@@ -848,23 +846,21 @@ export const servicesData: Record<string, Service> = {
         "Product catalog and inventory management",
         "Secure payment gateway integration",
         "Mobile-responsive and SEO-optimized design",
-        "Commission management and split payments",
+        "Analytics & reporting for vendors and admin",
       ],
       packageHtml: `
-        <h4 class="fw-bold mb-3"><span class="me-2">🎁</span> Want to See Our Full Package Details?</h4>
-        <p class="text-muted mb-4 small">Fill out the short form to instantly unlock our complete package information.</p>
-        <div class="card shadow-sm border-0" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background: linear-gradient(135deg, #1485cb 0%, #1164a3 100%); border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background: linear-gradient(135deg, #1485cb 0%, #1164a3 100%); border: none;">
             <h5 class="mb-1 fw-bold">Professional Multi Vendor Marketplace Solutions</h5>
             <p class="mb-0 small">Connect Multiple Sellers & Grow Your Online Platform</p>
           </div>
-          <div class="card-body p-4 bg-white">
-            <p class="card-text text-center mb-4" style="color: #444; line-height: 1.7;">
+          <div class="package-body p-4 bg-white">
+            <p class="card-text text-start mb-4" style="color: #444; line-height: 1.7;">
               Want to launch a robust multi vendor marketplace? <strong>Ananya Hi Solutions</strong> provides expert <strong>multi vendor marketplace development services in Hyderabad</strong> that combine intuitive design, powerful features, and seamless functionality. Enable multiple vendors to sell online and grow your platform efficiently.
             </p>
-            <div class="text-center mt-4">
+            <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start your multi vendor platform today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #0070bb; border: none; color: #fff !important;">
+              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
                 <i class="bi bi-shop"></i> Talk to Our Marketplace Experts
               </a>
             </div>
@@ -898,7 +894,7 @@ export const servicesData: Record<string, Service> = {
     },
     subSection: {
       heading: "Professional Video Production Solutions",
-      description: "From corporate films to social media content, we craft videos that tell stories, engage customers, and drive conversions. Our video team ensures top-quality visuals, editing, and marketing impact.",
+      description: "From <strong>corporate films</strong> to <strong>social media content</strong>, we craft videos that tell stories, engage customers, and drive conversions. Our video team ensures top-quality visuals, editing, and marketing impact.",
     },
     items: [
       {
@@ -1021,16 +1017,16 @@ export const servicesData: Record<string, Service> = {
       ],
       footerImage: "",
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Elevate Your Brand with Professional Corporate Videos</h5>
             <p class="mb-0 small">Create videos that engage your audience, boost visibility, and grow your business.</p>
           </div>
-          <div class="card-body p-4 text-center">
+          <div class="package-body p-4 text-center">
             <p class="card-text text-muted mb-4">
               Discover how Ananya Hi Solutions in Hyderabad can help you produce corporate videos that showcase your brand, communicate your story, and connect with your audience effectively. Fill out the form to discuss your project and get personalized expert guidance.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20corporate%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-camera-video-fill me-2"></i> Start Your Corporate Video Project Today
             </a>
           </div>
@@ -1075,16 +1071,16 @@ export const servicesData: Record<string, Service> = {
         "Drive leads and increase conversions effectively",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Drive Engagement with Promotional Marketing Videos</h5>
             <p class="mb-0 small">Create compelling videos that capture attention and boost conversions.</p>
           </div>
-          <div class="card-body p-4 text-center">
-            <p class="card-text text-muted mb-4">
+          <div class="package-body p-4 text-center">
+            <p class="card-text text-muted mb-4 text-start">
               Want to promote your products or services effectively? <strong>Ananya Hi Solutions</strong> offers expert <strong>promotional marketing video production in Hyderabad</strong> that combines creativity, storytelling, and professional execution. Fill out the form to discuss your project and get a tailored solution for your brand.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20promotional%20marketing%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-play-circle-fill me-2"></i> Start Your Promotional Video Project
             </a>
           </div>
@@ -1129,16 +1125,16 @@ export const servicesData: Record<string, Service> = {
         "High-quality production and post-production editing",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Professional Event Coverage & Highlights</h5>
             <p class="mb-0 small">Capture every detail and create engaging highlight videos for your events.</p>
           </div>
-          <div class="card-body p-4 text-center">
+          <div class="package-body p-4 text-center">
             <p class="card-text text-muted mb-4">
               Want to make your events memorable? <strong>Ananya Hi Solutions</strong> offers expert <strong>event coverage and highlight video production in Hyderabad</strong>. From corporate events to product launches, we ensure every key moment is captured creatively and professionally. Fill out the form to discuss your project and get tailored solutions.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20event%20coverage%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20event%20coverage%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-calendar-check-fill me-2"></i> Book Your Event Coverage Today
             </a>
           </div>
@@ -1183,16 +1179,16 @@ export const servicesData: Record<string, Service> = {
         "Increase conversions and customer understanding effectively",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Create Engaging Product Explainer Videos</h5>
             <p class="mb-0 small">Simplify your product story and boost customer understanding.</p>
           </div>
-          <div class="card-body p-4 text-center">
-            <p class="card-text text-muted mb-4">
+          <div class="package-body p-4 text-center">
+            <p class="card-text text-muted mb-4 text-start">
               Want your customers to understand your product instantly? <strong>Ananya Hi Solutions</strong> provides expert <strong>product explainer video production services in Hyderabad</strong>. We create compelling videos that showcase your product features, explain usage, and highlight benefits. Fill out the form to discuss your project and get a tailored solution.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20product%20explainer%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-play-btn-fill me-2"></i> Start Your Explainer Video Project
             </a>
           </div>
@@ -1237,16 +1233,16 @@ export const servicesData: Record<string, Service> = {
         "Increase engagement, followers, and conversions effectively",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Engage Your Audience with Social Media Videos</h5>
             <p class="mb-0 small">Create videos that grab attention, go viral, and boost engagement.</p>
           </div>
-          <div class="card-body p-4 text-center">
-            <p class="card-text text-muted mb-4">
+          <div class="package-body p-4 text-center">
+            <p class="card-text text-muted mb-4 text-start">
               Want to grow your social media presence? <strong>Ananya Hi Solutions</strong> offers expert <strong>social media video production services in Hyderabad</strong>. We craft compelling videos for Instagram, Facebook, YouTube, and LinkedIn that connect with your audience and elevate your brand. Fill out the form to discuss your project and get a custom strategy.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20social%20media%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-share-fill me-2"></i> Start Your Social Media Video Project
             </a>
           </div>
@@ -1291,16 +1287,16 @@ export const servicesData: Record<string, Service> = {
         "Enhances brand identity and fan engagement",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Create Stunning Music Videos</h5>
             <p class="mb-0 small">Bring your music to life with high quality visuals and creative storytelling.</p>
           </div>
-          <div class="card-body p-4 text-center">
-            <p class="card-text text-muted mb-4">
+          <div class="package-body p-4 text-center">
+            <p class="card-text text-muted mb-4 text-start">
               Want your music to reach more fans and create a visual impact? <strong>Ananya Hi Solutions</strong> provides expert <strong>music video production services in Hyderabad</strong>. We handle everything from concept and choreography to filming and post-production. Fill out the form to discuss your project and get a tailor-made solution.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20music%20video%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-music-player-fill me-2"></i> Start Your Music Video Project
             </a>
           </div>
@@ -1345,16 +1341,16 @@ export const servicesData: Record<string, Service> = {
         "Engage audiences with compelling storytelling and visuals",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-0 video-package-card" style="border-radius: 15px; overflow: hidden;">
-          <div class="card-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #4ea8de; border: none;">
             <h5 class="mb-0 fw-bold">🎬 Professional Short Film Production</h5>
             <p class="mb-0 small">Transform your ideas into captivating short films.</p>
           </div>
-          <div class="card-body p-4 text-center">
-            <p class="card-text text-muted mb-4">
+          <div class="package-body p-4 text-center">
+            <p class="card-text text-muted mb-4 text-start">
               Want to create a cinematic short film that captivates your audience? <strong>Ananya Hi Solutions</strong> provides expert <strong>short film production services in Hyderabad</strong>. We handle everything from concept development to final editing. Fill out the form to discuss your project and receive a customized production plan.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20short%20film%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm btn-video-project" style="background-color: #1485cb; border: none;">
+            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
               <i class="bi bi-film me-2"></i> Start Your Short Film Project
             </a>
           </div>
@@ -1491,17 +1487,17 @@ export const servicesData: Record<string, Service> = {
         "Secure, scalable, and user-friendly design",
       ],
       packageHtml: `
-        <div class="card shadow-sm crm-package-card">
-          <div class="card-header text-white text-center py-3">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3">
             <h5 class="mb-0 fw-bold">💻 Custom CRM Software Solutions</h5>
             <small>Automate, manage, and grow your business efficiently.</small>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="package-body p-4">
+            <p class="card-text text-muted text-start">
               Want to streamline your business processes and manage customer relationships effectively? <strong>Ananya Hi Solutions</strong> provides expert <strong>CRM software development services in Hyderabad</strong>. Our team delivers tailor-made solutions for sales automation, lead management, analytics, and reporting. Fill out the form to discuss your CRM project and get a custom solution.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20CRM%20software%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #1485cb; border: 1px solid #1485cb;">
+            <div class="text-center mt-4 pt-2 border-top">
+              <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #1485cb; border: 1px solid #1485cb;">
                 <i class="bi bi-gear-fill me-2"></i> Get Your Custom CRM Solution
               </a>
             </div>
@@ -1547,18 +1543,18 @@ export const servicesData: Record<string, Service> = {
         "Improved accuracy, efficiency, and financial management",
       ],
       packageHtml: `
-        <div class="card shadow-sm" style="border: 1px solid #1789d6;">
-          <div class="card-header text-white text-center py-3" style="background-color: #1789d6; border-bottom: none;">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #1789d6; border-bottom: none;">
             <h5 class="mb-0 fw-bold">💻 Custom Billing Software Solutions</h5>
             <small>Automate your invoicing and manage payments efficiently.</small>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="package-body p-4">
+            <p class="card-text text-muted text-start">
               Want to streamline your billing and payment process? <strong>Ananya Hi Solutions</strong> offers expert <strong>billing software development services in Hyderabad</strong>. Our team delivers tailor-made solutions for invoicing, payment tracking, tax calculation, and reporting. Fill out the form to discuss your project and get a custom solution.
             </p>
-            <div class="text-center mt-4">
+            <div class="text-center mt-4 pt-2 border-top">
               <div class="d-inline-block rounded-pill" style="padding: 6px; background-color: #f0f6fa;">
-                <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20billing%20software%20project." class="btn text-white rounded-pill px-4 py-2 m-0" style="background-color: #064267; border: none;">
+                <a href="/contact" class="btn text-white rounded-pill px-4 py-2 m-0" style="background-color: #064267; border: none;">
                   <i class="bi bi-file-earmark-text-fill me-2"></i> Get Your Custom Billing Software
                 </a>
               </div>
@@ -1568,8 +1564,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Automate Your Billing?",
-      subHeading: "Get your custom billing software developed by Hyderabad's trusted software experts.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1605,17 +1601,17 @@ export const servicesData: Record<string, Service> = {
         "Secure, scalable, and user-friendly design for colleges",
       ],
       packageHtml: `
-        <div class="card shadow-sm crm-package-card">
-          <div class="card-header text-white text-center py-3">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3">
             <h5 class="mb-0 fw-bold">💻 Custom College Management Software</h5>
             <small>Automate academic and administrative processes efficiently.</small>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="package-body p-4">
+            <p class="card-text text-muted text-start">
               Want to simplify college operations and improve efficiency? <strong>Ananya Hi Solutions</strong> provides expert <strong>College Management Software services in Hyderabad</strong>. We handle everything from admissions, attendance, examinations, fee management, to reporting. Fill out the form to discuss your project and get a custom solution.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20college%20management%20software%20project." class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #0b6fa8; border: 1px solid #0b6fa8;">
+            <div class="text-center mt-4 pt-2 border-top">
+              <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #0b6fa8; border: 1px solid #0b6fa8;">
                 <i class="bi bi-mortarboard-fill me-2"></i> Get Your College Management Solution
               </a>
             </div>
@@ -1624,8 +1620,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Digitise Your College?",
-      subHeading: "Get your custom education ERP developed by Hyderabad's trusted software experts.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1661,17 +1657,17 @@ export const servicesData: Record<string, Service> = {
         "Optimized for e-learning, online training, and corporate programs",
       ],
       packageHtml: `
-        <div class="card shadow-sm border-primary">
-          <div class="card-header bg-primary text-white text-center py-3">
+        <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <div class="package-header text-white text-center py-3" style="background-color: #1789d6; border-bottom: none;">
             <h5 class="mb-0 fw-bold">Custom Learning Management System</h5>
             <small>Manage courses, learners, and assessments efficiently.</small>
           </div>
-          <div class="card-body p-4">
-            <p class="card-text text-muted text-center">
+          <div class="package-body p-4">
+            <p class="card-text text-muted text-start">
               Want to deliver engaging online courses and training programs? Ananya Hi Solutions offers expert LMS software development services in Hyderabad. We handle everything from course creation, learner management, assessments, to reporting. Fill out the form to discuss your project and get a tailor-made LMS solution.
             </p>
-            <div class="text-center mt-4">
-              <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20LMS%20software%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm">
+            <div class="text-center mt-4 pt-2 border-top">
+              <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #064267; border: none;">
                 <i class="bi bi-mortarboard-fill me-2"></i> Get Your Custom LMS Solution
               </a>
             </div>
@@ -1680,8 +1676,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your E-learning Platform?",
-      subHeading: "Get your custom LMS developed by Hyderabad's trusted software experts.",
+      heading: "Ready to Launch Your Business Website?",
+      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1735,7 +1731,7 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to see how we can scale your ad performance?</p>
-              <a id='unlock-ppc-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+              <a id='unlock-ppc-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
                 <i class='bi bi-unlock-fill'></i> View Full Packages
               </a>
             </div>
@@ -1788,7 +1784,7 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Let's create content that makes your brand unforgettable!</p>
-              <a id='talk-content-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+              <a id='talk-content-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
                 <i class='bi bi-chat-dots-fill'></i> Talk to Our Content Experts
               </a>
             </div>
@@ -1841,7 +1837,7 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Start sending impactful emails today!</p>
-              <a id='talk-email-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+              <a id='talk-email-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
                 <i class='bi bi-envelope-fill'></i> Talk to Our Email Experts
               </a>
             </div>
