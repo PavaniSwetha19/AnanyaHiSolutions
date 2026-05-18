@@ -123,15 +123,15 @@ function CategoryLayout({ service }: { service: Service }) {
             <Row className="g-4 justify-content-center">
               {service.items.map((item, index) => (
                 
-                <Col lg={8} md={10} key={index} className="mx-auto">
+                <Col lg={4} md={6} key={index} className="mb-4">
                   <article
-                    className="solution-card p-4 h-100 text-center"
-                    style={{ borderRadius: "15px", border: "none", minHeight: "200px" }}
+                    className="solution-card p-4 h-100 text-center d-flex flex-column justify-content-center align-items-center"
+                    style={{ borderRadius: "15px", border: "none", minHeight: "260px" }}
                   >
-                    <Link href={`/${item.link}`} className="text-decoration-none text-dark d-block">
-                      <i className={`bi ${item.icon} icon`} style={item.color ? { color: item.color } : {}}></i>
-                      <h5 className="fw-bold mb-2" style={{ fontSize: '1.1rem' }}>{item.title}</h5>
-                      <p className="text-muted small mb-0" style={{ fontSize: '0.85rem', lineHeight: '1.4' }}>{item.description}</p>
+                    <Link href={`/${item.link}`} className="text-decoration-none text-dark d-block w-100">
+                      <i className={`bi ${item.icon} icon mb-3 d-block`} style={item.color ? { color: item.color, fontSize: '2.5rem' } : { fontSize: '2.5rem' }}></i>
+                      <h5 className="fw-bold mb-3" style={{ fontSize: '1.2rem' }}>{item.title}</h5>
+                      <p className="text-muted small mb-0" style={{ fontSize: '0.9rem', lineHeight: '1.5' }}>{item.description}</p>
                     </Link>
                   </article>
                 </Col>
