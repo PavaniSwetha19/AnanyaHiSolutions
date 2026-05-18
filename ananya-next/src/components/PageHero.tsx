@@ -4,11 +4,12 @@ interface PageHeroProps {
   title: string;
   description: string;
   showCTA?: boolean;
+  className?: string;
 }
 
-export default function PageHero({ title, description, showCTA = true }: PageHeroProps) {
+export default function PageHero({ title, description, showCTA = true, className = "" }: PageHeroProps) {
   return (
-    <section className="hero-about">
+    <section className={`hero-about ${className}`}>
       <Container className="position-relative z-2">
         <h1>{title}</h1>
         <p>{description}</p>

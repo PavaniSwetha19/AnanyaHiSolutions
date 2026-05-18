@@ -2,6 +2,7 @@
 
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { useParams } from "next/navigation";
+import { useState, useRef } from "react";
 import PageHero from "@/components/PageHero";
 
 export default function JobDetails() {
@@ -44,14 +45,19 @@ export default function JobDetails() {
     type: "Content Writer"
   };
 
-  const [showForm, setShowForm] = (typeof window !== "undefined") ? require("react").useState(false) : [false, () => {}];
+  const [showForm, setShowForm] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   if (showForm) {
     return (
       <main className="job-details-page">
         <section className="hero-about text-center">
           <Container className="position-relative z-2">
-            <h1 className="fw-bold display-5">Apply for this Job</h1>
+            <h1 className="fw-bold display-5">Careers at Ananya Hi Solutions</h1>
+            <p>
+              We are not just offering a job—we’re offering a place where your skills matter, your ideas are heard, and your growth becomes our priority. Join us and build a career where every day moves you closer to becoming the best version of yourself.
+            </p>
           </Container>
         </section>
 
@@ -61,76 +67,133 @@ export default function JobDetails() {
               <Col lg={8}>
                 <Card className="border-0 shadow-sm rounded-4 p-4 p-md-5">
                   <Card.Body>
-                    <h2 className="text-center fw-bold mb-5">Apply for this Job</h2>
-                    <form onSubmit={(e) => { e.preventDefault(); alert('Application submitted successfully!'); setShowForm(false); }}>
-                      <div className="mb-4">
-                        <label className="fw-bold mb-2">Job Applied For</label>
-                        <select className="form-select rounded-3 p-2 px-3 border-secondary-subtle" defaultValue="">
-                          <option value="" disabled>Select Job</option>
-                          <optgroup label="Development">
-                            <option>Full Stack Developer</option>
-                            <option>MERN Stack Developer</option>
-                            <option>Web Developer</option>
-                            <option>React JS Developer</option>
-                            <option>Android Developer</option>
-                          </optgroup>
-                          <optgroup label="Marketing">
-                            <option>Digital Marketing Executive</option>
-                            <option>SEO Specialist</option>
-                            <option>Paid Ads Expert</option>
-                            <option>SEO Executive</option>
-                            <option>Social Media Executive</option>
-                            <option>Content Writer</option>
-                            <option>Telecaller</option>
-                            <option>Field Marketing Executive</option>
-                          </optgroup>
-                          <optgroup label="Designing">
-                            <option>Graphic Designer</option>
-                            <option>Video Editor</option>
-                            <option>Graphic & Video Editor</option>
-                            <option>UI/UX Designer</option>
-                          </optgroup>
-                          <optgroup label="Training">
-                            <option>SAP FICO Trainer</option>
-                            <option>Digital Marketing Trainer</option>
-                            <option>Full Stack Trainer</option>
-                          </optgroup>
-                        </select>
-                      </div>
-
-                      <div className="mb-4">
-                        <label className="fw-bold mb-2">Full Name</label>
-                        <input type="text" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
-                      </div>
-
-                      <div className="mb-4">
-                        <label className="fw-bold mb-2">Email</label>
-                        <input type="email" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
-                      </div>
-
-                      <div className="mb-4">
-                        <label className="fw-bold mb-2">Phone Number</label>
-                        <input type="tel" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
-                      </div>
-
-                      <div className="mb-4">
-                        <label className="fw-bold mb-2">Full Address</label>
-                        <input type="text" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
-                      </div>
-
-                      <div className="mb-5">
-                        <label className="fw-bold mb-2">Upload Resume (PDF/DOC)</label>
-                        <div className="input-group">
-                          <input type="file" className="form-control rounded-3 border-secondary-subtle" required />
+                    {isSubmitted ? (
+                      <div className="text-center py-5">
+                        <div className="mb-4">
+                          <svg className="text-success mx-auto" width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z" fill="currentColor"/>
+                          </svg>
+                        </div>
+                        <h2 className="fw-bold mb-3 text-dark">Application Submitted Successfully!</h2>
+                        <p className="text-muted leading-relaxed max-width-600 mx-auto fs-5">
+                          Thank you for your interest in joining Ananya Hi Solutions! Your resume has been uploaded, and our hiring team has received your application. We will review your profile and contact you soon.
+                        </p>
+                        <div className="mt-5 d-flex flex-wrap justify-content-center gap-3">
+                          <button 
+                            onClick={() => { 
+                              setIsSubmitted(false); 
+                              setShowForm(false); 
+                            }} 
+                            className="btn btn-primary px-4 py-2.5 fw-bold rounded-pill shadow-sm pulsing-button"
+                          >
+                            Back to Job Details
+                          </button>
+                          <a 
+                            href="/careers" 
+                            className="btn btn-outline-primary px-4 py-2.5 fw-bold rounded-pill shadow-sm"
+                            style={{ borderColor: '#1485cb', color: '#1485cb' }}
+                            onMouseOver={(e) => { e.currentTarget.style.backgroundColor = '#1485cb'; e.currentTarget.style.color = '#fff'; }}
+                            onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#1485cb'; }}
+                          >
+                            Browse More Jobs
+                          </a>
                         </div>
                       </div>
+                    ) : (
+                      <>
+                        <h2 className="text-center fw-bold mb-5">Apply for this Job</h2>
+                        <form onSubmit={(e) => {
+                          e.preventDefault();
+                          const fileInput = fileInputRef.current;
+                          if (fileInput && fileInput.files && fileInput.files.length > 0) {
+                            const file = fileInput.files[0];
+                            const fileName = file.name.toLowerCase();
+                            const allowedExtensions = [".pdf", ".doc", ".docx"];
+                            const isValid = allowedExtensions.some(ext => fileName.endsWith(ext));
+                            
+                            if (!isValid) {
+                              alert("Error: Only PDF, DOC, and DOCX files are allowed as resumes!");
+                              return;
+                            }
+                          }
+                          setIsSubmitted(true);
+                        }}>
+                          <div className="mb-4">
+                            <label className="fw-bold mb-2">Job Applied For</label>
+                            <select className="form-select rounded-3 p-2 px-3 border-secondary-subtle" defaultValue="">
+                              <option value="" disabled>Select Job</option>
+                              <optgroup label="Development">
+                                <option>Full Stack Developer</option>
+                                <option>MERN Stack Developer</option>
+                                <option>Web Developer</option>
+                                <option>React JS Developer</option>
+                                <option>Android Developer</option>
+                              </optgroup>
+                              <optgroup label="Marketing">
+                                <option>Digital Marketing Executive</option>
+                                <option>SEO Specialist</option>
+                                <option>Paid Ads Expert</option>
+                                <option>SEO Executive</option>
+                                <option>Social Media Executive</option>
+                                <option>Content Writer</option>
+                                <option>Telecaller</option>
+                                <option>Field Marketing Executive</option>
+                              </optgroup>
+                              <optgroup label="Designing">
+                                <option>Graphic Designer</option>
+                                <option>Video Editor</option>
+                                <option>Graphic & Video Editor</option>
+                                <option>UI/UX Designer</option>
+                              </optgroup>
+                              <optgroup label="Training">
+                                <option>SAP FICO Trainer</option>
+                                <option>Digital Marketing Trainer</option>
+                                <option>Full Stack Trainer</option>
+                              </optgroup>
+                            </select>
+                          </div>
 
-                      <div className="text-start">
-                        <button type="submit" className="btn btn-primary px-4 py-2 fw-bold rounded-pill shadow-sm pulsing-button">
-                          Submit Application
-                        </button>
-                      </div>
-                    </form>
+                          <div className="mb-4">
+                            <label className="fw-bold mb-2">Full Name</label>
+                            <input type="text" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
+                          </div>
+
+                          <div className="mb-4">
+                            <label className="fw-bold mb-2">Email</label>
+                            <input type="email" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
+                          </div>
+
+                          <div className="mb-4">
+                            <label className="fw-bold mb-2">Phone Number</label>
+                            <input type="tel" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
+                          </div>
+
+                          <div className="mb-4">
+                            <label className="fw-bold mb-2">Full Address</label>
+                            <input type="text" className="form-control rounded-3 p-2 px-3 border-secondary-subtle" required />
+                          </div>
+
+                          <div className="mb-5">
+                            <label className="fw-bold mb-2">Upload Resume (PDF/DOC)</label>
+                            <div className="input-group">
+                              <input 
+                                type="file" 
+                                ref={fileInputRef}
+                                accept=".pdf,.doc,.docx"
+                                className="form-control rounded-3 border-secondary-subtle" 
+                                required 
+                              />
+                            </div>
+                          </div>
+
+                          <div className="text-start">
+                            <button type="submit" className="btn btn-primary px-4 py-2 fw-bold rounded-pill shadow-sm pulsing-button">
+                              Submit Application
+                            </button>
+                          </div>
+                        </form>
+                      </>
+                    )}
                   </Card.Body>
                 </Card>
               </Col>
@@ -140,10 +203,9 @@ export default function JobDetails() {
 
         <style jsx>{`
           .hero-about {
-            background: linear-gradient(rgba(14, 82, 122, 0.9), rgba(14, 82, 122, 0.9)), url('/assets/front/images/career-hero.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 80px 0;
+            background: linear-gradient(rgba(6, 66, 103, 0.92), rgba(6, 66, 103, 0.92)),
+              url('/assets/front/images/digital-marketing-office-hyderabad.jpg') center/cover no-repeat;
+            padding: 90px 0;
             color: #fff;
           }
         `}</style>
@@ -156,7 +218,20 @@ export default function JobDetails() {
       <section className="hero-about text-center">
         <Container className="position-relative z-2">
           <h1 className="fw-bold display-5">{job.title} – Careers at Ananya Hi Solutions</h1>
-          <p className="lead fw-medium opacity-75">{job.meta}</p>
+          <p className="lead fw-medium text-white">
+            {job.meta.split("|").map((part, index, arr) => {
+              const splitIdx = part.indexOf(":");
+              if (splitIdx === -1) return <span key={index}>{part}</span>;
+              const label = part.substring(0, splitIdx).trim();
+              const value = part.substring(splitIdx + 1);
+              return (
+                <span key={index}>
+                  <strong>{label}:</strong>{value}
+                  {index < arr.length - 1 && " | "}
+                </span>
+              );
+            })}
+          </p>
         </Container>
       </section>
 
@@ -203,17 +278,20 @@ export default function JobDetails() {
                     <h4 className="fw-bold mb-1">Job Type :</h4>
                     <p className="text-muted">{job.type}</p>
                   </div>
-
-                  <div className="mt-5">
-                    <button 
-                      onClick={() => setShowForm(true)} 
-                      className="btn btn-primary px-5 py-2 fw-bold rounded-pill shadow-sm pulsing-button"
-                    >
-                      Apply Now
-                    </button>
-                  </div>
                 </Card.Body>
               </Card>
+
+              <div className="mt-4">
+                <button 
+                  onClick={() => {
+                    setIsSubmitted(false);
+                    setShowForm(true);
+                  }} 
+                  className="btn btn-apply-now"
+                >
+                  Apply Now
+                </button>
+              </div>
             </Col>
           </Row>
         </Container>
@@ -221,10 +299,9 @@ export default function JobDetails() {
 
       <style jsx>{`
         .hero-about {
-          background: linear-gradient(rgba(14, 82, 122, 0.9), rgba(14, 82, 122, 0.9)), url('/assets/front/images/career-hero.jpg');
-          background-size: cover;
-          background-position: center;
-          padding: 80px 0;
+          background: linear-gradient(rgba(6, 66, 103, 0.92), rgba(6, 66, 103, 0.92)),
+            url('/assets/front/images/digital-marketing-office-hyderabad.jpg') center/cover no-repeat;
+          padding: 90px 0;
           color: #fff;
         }
         .leading-relaxed {

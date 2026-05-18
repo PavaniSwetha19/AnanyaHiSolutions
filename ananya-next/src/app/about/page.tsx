@@ -50,7 +50,7 @@ export default function About() {
                 <h2>Who We Are</h2>
                 <p>
                   Founded in 2013,{" "}
-                  <a className="text-decoration-none fw-bold" href="https://www.ananyahisolutions.com" style={{ color: "#0056b3" }}>
+                  <a className="text-decoration-underline fw-semibold" href="https://www.ananyahisolutions.com" style={{ color: "#1485cb" }}>
                     Ananya Hi Solutions
                   </a>{" "}
                   has evolved into one of Hyderabad&apos;s most trusted digital transformation partners. Our journey began with a simple vision: to help businesses harness the power of digital technology to achieve extraordinary growth. Today, we&apos;re proud to be a team of 50+ passionate professionals including certified digital marketers, experienced web designers, skilled developers, creative content specialists, and strategic consultants. Each team member brings specialized expertise and unwavering commitment to client success. Our core values drive everything we do: Innovation in every solution, Transparency in all communications, Excellence in execution, and Partnership in relationships. We don&apos;t just work for our clients; we work with them as strategic partners invested in their success.

@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <>
 
-      <Navbar expand="lg" variant="dark" sticky="top" className="custom-navbar" style={{ zIndex: 5000 }}>
+      <Navbar expand="lg" variant="dark" sticky="top" className="custom-navbar" style={{ zIndex: 1030 }}>
         <Container>
           <Link href="/">
             <Navbar.Brand>
@@ -37,8 +37,8 @@ export default function Header() {
             placement="end"
             className="primaryBgClr"
           >
-            <Offcanvas.Header closeButton className="btn-close-white">
-              <Offcanvas.Title id="offcanvasNavbarLabel" className="text-white">
+            <Offcanvas.Header closeButton closeVariant="white">
+              <Offcanvas.Title id="offcanvasNavbarLabel" className="text-white fw-bold">
                 Menu
               </Offcanvas.Title>
             </Offcanvas.Header>

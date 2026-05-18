@@ -56,7 +56,7 @@ export const servicesData: Record<string, Service> = {
     hero: {
       heading: "Website Design Company in Hyderabad",
       subHeading: "Ananya Hi Solutions is your trusted partner for affordable, SEO-friendly & mobile-optimized website design in Hyderabad. We create websites that not only look stunning but also bring you more traffic, leads & sales.",
-      trustPara: "100+ Websites Delivered in Hyderabad | Rated 5/5 by Local Businesses",
+      trustPara: "✅ 100+ Websites Delivered in Hyderabad | ⭐ Rated 5/5 by Local Businesses",
       ctaButton: {
         text: "Choose Package",
         link: "/ananya-hi-solutions-package",
@@ -65,8 +65,8 @@ export const servicesData: Record<string, Service> = {
       },
     },
     subSection: {
-      heading: "Website Development Agency in Hyderabad for Startups & Brands",
-      description: "Get SEO-friendly static, dynamic, and e-commerce websites that drive traffic, leads & sales.",
+      heading: "Website Development Agency in <br /> Hyderabad for Startups & Brands",
+      description: "Get <strong>SEO-friendly static, dynamic, and e-commerce websites</strong> that drive <strong>traffic, leads & sales.</strong> Trusted by startups & brands in Hyderabad.",
     },
     items: [
       {
@@ -85,13 +85,13 @@ export const servicesData: Record<string, Service> = {
         title: "E-commerce Website",
         description: "Full-featured online stores with payment gateways & analytics.",
         icon: "bi-cart3",
-        link: "https://www.ananyahisolutions.com/ecommerce-website-developers-hyderabad",
+        link: "ecommerce-website-developers-hyderabad",
       },
     ],
     fullDetails: `
       <section class='py-5' style='background-color: #ffffff;'>
-        <div class='container text-center'>
-          <h2>Professional Website Design and Development Services in Hyderabad</h2>
+        <div class='container text-start'>
+          <h2 class='fw-bold mb-4 text-start'>Professional Website Design and Development Services in Hyderabad</h2>
           <p style='text-align: justify;'>In today's digital-first world, your website is often the first impression potential customers have of your business. At Ananya Hi Solutions, we create stunning, high-performance websites that not only look exceptional but drive real business results.</p>
           <p style='text-align: justify;'>Our website design and development services combine aesthetic excellence with technical sophistication. Every website we build is fully responsive (mobile, tablet, desktop), optimized for search engines, designed for fast loading speeds, and focused on user experience and conversion optimization.</p>
           <p style='text-align: justify;'>We specialize in diverse web solutions including corporate websites, e-commerce platforms, portfolio sites, landing pages, web applications, CMS-based sites (WordPress, Drupal, Joomla), and custom PHP/Python/Node.js development. Whether you need a simple brochure site or a complex web application, we have the expertise to deliver.</p>
@@ -181,7 +181,7 @@ export const servicesData: Record<string, Service> = {
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <h2 class="fw-bold mb-4 text-start">Results-Driven Digital Marketing Services in Hyderabad</h2>
+              <h2 class="fw-semibold mb-4 text-start">Results-Driven Digital Marketing Services in Hyderabad</h2>
               <p class="text-start mb-4" style="color: #444; line-height: 1.7;">
                 In the competitive digital landscape, strategic marketing is essential for business growth. <a href="/" class="text-primary text-decoration-none fw-semibold border-bottom border-primary">Ananya Hi Solutions</a> is Hyderabad's premier digital marketing agency, delivering data-driven campaigns that generate qualified leads, increase brand visibility, and maximize return on investment.
               </p>
@@ -271,7 +271,7 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to know what's inside our hidden plans?</p>
-              <a id='unlock-static-pkg' href='/package-details/static-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
+              <a id='unlock-static-pkg' href='/package-details/static-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0066a2; border: 8px solid #d0e7ff; color: #fff !important; font-weight: 700;'>
                 <i class='bi bi-unlock-fill'></i> Unlock Full Packages
               </a>
             </div>
@@ -299,7 +299,7 @@ export const servicesData: Record<string, Service> = {
     },
     detailSection: {
       heading1: "Why Choose Ananya Hi Solutions for Dynamic Website Design in Hyderabad?",
-      paragraph1: "At Ananya Hi Solutions, we specialize in creating custom dynamic websites that are secure, scalable, and easy to manage.",
+      paragraph1: "At Ananya Hi Solutions, we specialize in creating custom dynamic websites that are secure, scalable, and easy to manage. Whether you need a CMS-based website, eCommerce platform, or a database-driven web portal, our team ensures every project is built for performance and long-term success. With user-friendly admin panels, SEO-friendly architecture, and mobile responsiveness, we help your business stay ahead in the digital space.",
       image: "assets/front/images/services/dynamic-website-development-services-hyderabad.jpg",
       imageAlt: "dynamic website design company hyderabad",
       heading2: "Industries We Serve with Dynamic Website Design",
@@ -1778,12 +1778,12 @@ export const servicesData: Record<string, Service> = {
       packageHtml: `
         <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
           <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
-            <h5 class='mb-1 fw-bold'>Grow Your Brand with Strategic Content Marketing</h5>
+            <h5 class='mb-1 fw-bold' style='font-size: 16px;'>Grow Your Brand with Strategic Content Marketing</h5>
             <p class='mb-0 small'>Engage, Educate, and Convert with Powerful Content</p>
           </div>
           <div class='package-body p-4 bg-white'>
             <p class='text-muted small mb-4'>
-              Looking to strengthen your online presence and attract more qualified leads? Ananya Hi Solutions offers comprehensive content marketing services in Hyderabad that blend creativity with SEO expertise. We help your business stand out through engaging blog posts, optimized web copy, and social media storytelling that builds trust and drives conversions.
+              Looking to strengthen your online presence and attract more qualified leads? <strong>Ananya Hi Solutions</strong> offers comprehensive <strong>content marketing services in Hyderabad</strong> that blend creativity with SEO expertise. We help your business stand out through engaging blog posts, optimized web copy, and social media storytelling that builds trust and drives conversions.
             </p>
             
             <div class='text-center mt-4 pt-2 border-top'>
@@ -1843,6 +1843,65 @@ export const servicesData: Record<string, Service> = {
               <p class='small fw-bold mb-3 text-dark'>Start sending impactful emails today!</p>
               <a id='talk-email-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
                 <i class='bi bi-envelope-fill'></i> Talk to Our Email Experts
+              </a>
+            </div>
+          </div>
+        </div>
+      `,
+    },
+  },
+  "ecommerce-website-developers-hyderabad": {
+    slug: "ecommerce-website-developers-hyderabad",
+    type: "detail",
+    meta: {
+      title: "E-Commerce Website Development Services in Hyderabad",
+      description: "Start selling online with a powerful, user-friendly, and secure eCommerce website starting at just ₹29,999! We create customized eCommerce solutions.",
+    },
+    hero: {
+      heading: "E-Commerce Website Development Services in Hyderabad",
+      subHeading: "Start selling online with a powerful, user-friendly, and secure eCommerce website starting at just ₹29,999! We create customized eCommerce solutions to help you grow your business digitally.",
+      ctaButton: {
+        text: "Get FREE Consultation",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20ecommerce%20project.",
+        icon: "bi-whatsapp",
+        className: "btn-whatsapp",
+      },
+    },
+    detailSection: {
+      heading1: "Why Choose Ananya Hi Solutions for E-Commerce Website Development in Hyderabad?",
+      paragraph1: "At Ananya Hi Solutions, we specialize in building result-driven eCommerce websites that deliver sales, performance, and great user experience. From startups to large retail brands, we help businesses build robust online stores powered by CMS or custom frameworks. Our team focuses on secure payment integration, mobile responsiveness, product management, and SEO optimization to ensure your store performs flawlessly.",
+      image: "assets/front/images/services/ecommerce-web-developer.jpg",
+      imageAlt: "ecommerce website development company hyderabad",
+      heading2: "Industries We Serve with E-Commerce Development",
+      paragraph2: "We develop high-performing eCommerce websites for industries like fashion, electronics, groceries, furniture, health & beauty, jewelry, and more. Every online store we build is scalable, SEO-ready, and conversion-optimized to help businesses generate more revenue online.",
+      benefits: [
+        "Custom online store with product management",
+        "Secure payment gateway integration",
+        "Easy-to-use admin dashboard",
+        "SEO, speed & mobile optimized",
+        "Scalable architecture with analytics integration",
+      ],
+      packageHtml: `
+        <div class='package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden'>
+          <div class='package-header text-white text-center py-4' style='background-color:#4a9fd4'>
+            <h5 class='mb-1 fw-bold'>Starter E-Commerce Website</h5>
+            <p class='mb-0 small'>Perfect for Small & Medium Businesses</p>
+          </div>
+          <div class='package-body p-4 bg-white'>
+            <ul class='list-unstyled mb-4 feature-list'>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Up to 50 Products with Admin Panel.</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Payment Gateway Integration (Razorpay / PayU).</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>FREE Domain, Hosting & SSL for 1 Year.</li>
+              <li class='mb-2'><i class='bi bi-check-circle-fill text-success me-2'></i>Product Search & Filter Options.</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Order Management System.</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>Responsive, SEO & Speed Optimized.</li>
+              <li class='mb-2 text-muted' style='filter: blur(2px); opacity: 0.8;'><i class='bi bi-check-circle-fill text-success me-2'></i>1 Month Free Technical Support.</li>
+            </ul>
+            
+            <div class='text-center mt-4 pt-2'>
+              <p class='small fw-bold mb-3 text-dark'>Want to explore advanced plans?</p>
+              <a id='unlock-ecommerce-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
+                <i class='bi bi-unlock-fill'></i> Unlock Full Packages
               </a>
             </div>
           </div>

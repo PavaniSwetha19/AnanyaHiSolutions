@@ -113,7 +113,7 @@ body {
   color: #000000 !important;
   border: none !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   border-radius: 50px !important;
   /* Full pill shape */
   padding: 12px 35px !important;
@@ -141,8 +141,8 @@ body {
 /* Navigation Bar */
 .custom-navbar {
   background-color: #064267;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
 }
 
 .custom-navbar .navbar-brand img {
@@ -169,16 +169,23 @@ body {
 }
 
 /* Offcanvas background */
-.primaryBgClr {
-  background-color: #1485cb;
-}
+@media (max-width: 991.98px) {
+  .primaryBgClr.offcanvas,
+  .primaryBgClr {
+    background-color: #064267 !important;
+  }
 
-.primaryBgClr .nav-link {
-  color: #fff !important;
-}
+  .primaryBgClr .nav-link,
+  .primaryBgClr .dropdown-toggle {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 10px 0 !important;
+  }
 
-.primaryBgClr .dropdown-menu {
-  background: #fff;
+  .primaryBgClr .dropdown-menu {
+    background: #fff;
+  }
 }
 
 /*End  Navigation Bar */
@@ -534,38 +541,104 @@ body {
 }
 
 .btn-package {
-  background: #ffb347;
-  background: linear-gradient(135deg, #ffb347 0%, #ffcc33 100%);
+  background-color: #f59e0b !important;
   color: #fff !important;
-  border: none;
-  border-radius: 50px;
-  padding: 15px 25px;
-  font-size: 1rem;
-  font-weight: 700;
-  transition: 0.3s;
-  box-shadow: 0 4px 15px rgba(255, 179, 71, 0.4);
-  animation: shadowBlink 2s infinite;
+  border: none !important;
+  border-radius: 24px !important;
+  width: 187px !important;
+  height: 45px !important;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.2) !important;
+  animation: none !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
 }
 
-@keyframes shadowBlink {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 179, 71, 0.7);
-  }
-
-  50% {
-    box-shadow: 0 0 25px 10px rgba(255, 179, 71, 0.4);
-  }
-
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 179, 71, 0.7);
-  }
+.btn-package i {
+  font-size: 16px !important;
+  margin: 0 !important;
 }
 
 .btn-package:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  animation: none;
-  /* stop blinking on hover for stability */
+  background-color: #d97706 !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.45) !important;
+}
+
+.btn-package:active {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.3) !important;
+}
+
+.btn-blue-pill {
+  background-color: #1485cb !important; /* Premium brand light blue matching user request */
+  color: #fff !important;
+  border: none !important;
+  border-radius: 24px !important;
+  width: 187px !important;
+  height: 45px !important;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 4px 10px rgba(20, 133, 203, 0.25) !important;
+  animation: none !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+}
+
+.btn-blue-pill:hover {
+  background-color: #0b6fa8 !important; /* Darker blue on hover */
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(20, 133, 203, 0.45) !important;
+}
+
+.btn-blue-pill:active {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 6px rgba(20, 133, 203, 0.3) !important;
+}
+
+.btn-apply-now {
+  background-color: #1485cb !important; /* Exact vibrant theme blue matching user crop */
+  color: #fff !important;
+  border: none !important;
+  border-radius: 24px !important;
+  width: 150px !important; /* Reduced width */
+  height: 45px !important;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 4px 10px rgba(20, 133, 203, 0.25) !important;
+  animation: none !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+}
+
+.btn-apply-now:hover {
+  background-color: #0b6fa8 !important; /* Darker blue on hover */
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(20, 133, 203, 0.45) !important;
+}
+
+.btn-apply-now:active {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 6px rgba(20, 133, 203, 0.3) !important;
 }
 
 .btn-whatsapp-cta {
@@ -579,6 +652,17 @@ body {
   font-weight: 700 !important;
   transition: 0.3s !important;
   box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4) !important;
+  animation: zoomPulse 2s infinite !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+}
+
+.btn-whatsapp-cta i {
+  margin: 0 !important;
 }
 
 .btn-whatsapp-cta:hover {
@@ -783,11 +867,20 @@ body {
   background: linear-gradient(rgba(6, 66, 103, 0.92), rgba(6, 66, 103, 0.92)),
     url('/assets/front/images/digital-marketing-office-hyderabad.jpg') center/cover no-repeat;
   color: #fff;
-  padding: 120px 20px;
+  min-height: 500px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  padding: 40px 20px !important;
   text-align: center;
   border-bottom: 1mm solid #25D366;
   /* Visible brand accent */
   overflow: hidden;
+}
+
+.hero-careers {
+  /* Inherits standard equal banner layout */
 }
 
 /* Decorative overlay shapes (nurturing look) */
@@ -816,7 +909,7 @@ body {
 .hero-about p {
   font-size: 1.2rem;
   max-width: 720px;
-  margin: auto;
+  margin: 0 auto 30px auto !important;
   line-height: 1.6;
   opacity: 0.95;
   animation: fadeInUp 1.2s ease forwards;
@@ -884,6 +977,8 @@ body {
   margin-bottom: 15px;
   color: #555;
   font-size: 1rem;
+  font-weight: 400 !important;
+  line-height: 1.7 !important;
 }
 
 
@@ -928,12 +1023,17 @@ body {
 }
 
 
+.contact-section {
+  background-color: #f9fbfd !important;
+}
+
 /* Contact Info */
 .contact-info-card {
-  background: #f9fbfd;
+  background: #ffffff !important;
   padding: 25px;
   border-radius: 15px;
   transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.04) !important;
 }
 
 .contact-info-card:hover {
