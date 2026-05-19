@@ -279,6 +279,11 @@ export const servicesData: Record<string, Service> = {
         </div>
       `,
     },
+    ctaFinal: {
+      heading: "Professional Website Design Solutions for Modern Businesses",
+      subHeading: "We create fast, responsive, and SEO-friendly static, dynamic, and eCommerce websites that help businesses grow online.",
+      buttonText: "Chat on WhatsApp",
+    },
   },
   "dynamic-website-design-services-hyderabad": {
     slug: "dynamic-website-design-services-hyderabad",
@@ -288,8 +293,8 @@ export const servicesData: Record<string, Service> = {
       description: "Build a powerful, feature-rich, and responsive dynamic website starting at just ₹14,999!",
     },
     hero: {
-      heading: "Dynamic Website Design Services in Hyderabad",
-      subHeading: "Build a powerful, feature-rich, and responsive dynamic website starting at just ₹14,999! Perfect for businesses that want control, flexibility, and scalability.",
+      heading: "Ready to Launch Your Dynamic Website?",
+      subHeading: "Get your dynamic website developed by Hyderabad's top web agency.",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
@@ -338,6 +343,11 @@ export const servicesData: Record<string, Service> = {
           </div>
         `,
     },
+    ctaFinal: {
+      heading: "Professional Website Design Solutions for Modern Businesses",
+      subHeading: "We create fast, responsive, and SEO-friendly static, dynamic, and eCommerce websites that help businesses grow online.",
+      buttonText: "Chat on WhatsApp",
+    },
   },
   "seo-service-provider-hyderabad": {
     slug: "seo-service-provider-hyderabad",
@@ -347,11 +357,11 @@ export const servicesData: Record<string, Service> = {
       description: "Boost your website’s visibility and attract more organic traffic with our proven SEO strategies.",
     },
     hero: {
-      heading: "SEO Services in Hyderabad | Improve Your Google Rankings",
-      subHeading: "Boost your website's visibility and attract more organic traffic with our proven SEO strategies. We help your business rank higher on Google and generate qualified leads consistently.",
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
       ctaButton: {
-        text: "Get FREE Consultation",
-        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        text: "Chat on WhatsApp",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance.",
         icon: "bi-whatsapp",
         className: "btn-whatsapp",
       },
@@ -397,6 +407,11 @@ export const servicesData: Record<string, Service> = {
         </div>
       `,
     },
+    ctaFinal: {
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
+      buttonText: "Chat on WhatsApp",
+    },
   },
   "social-media-marketing-services-hyderabad": {
     slug: "social-media-marketing-services-hyderabad",
@@ -406,11 +421,11 @@ export const servicesData: Record<string, Service> = {
       description: "Boost your online presence with creative and result-driven social media marketing.",
     },
     hero: {
-      heading: "Social Media Marketing Agency in Hyderabad | Grow Your Brand Online",
-      subHeading: "Boost your online presence with creative and result-driven social media marketing. We help your business connect with the right audience and build a powerful brand presence across all major platforms.",
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
       ctaButton: {
-        text: "Get FREE Consultation",
-        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        text: "Chat on WhatsApp",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance.",
         icon: "bi-whatsapp",
         className: "btn-whatsapp",
       },
@@ -455,6 +470,11 @@ export const servicesData: Record<string, Service> = {
           </div>
         </div>
       `,
+    },
+    ctaFinal: {
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
+      buttonText: "Chat on WhatsApp",
     },
   },
   "mobile-application": {
@@ -592,6 +612,11 @@ export const servicesData: Record<string, Service> = {
         </div>
       `,
     },
+    ctaFinal: {
+      heading: "Transform Your Ideas into Powerful Mobile Applications",
+      subHeading: "Build fast, user-friendly, and scalable mobile apps for Android and iOS platforms with our expert app development services.",
+      buttonText: "Chat on WhatsApp",
+    },
   },
   "android-app-development-services-hyderabad": {
     slug: "android-app-development-services-hyderabad",
@@ -645,8 +670,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Android App?",
-      subHeading: "Get your Android application developed by Hyderabad's trusted mobile app development company.",
+      heading: "Transform Your Ideas into Powerful Mobile Applications",
+      subHeading: "Build fast, user-friendly, and scalable mobile apps for Android and iOS platforms with our expert app development services.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -812,8 +837,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Launch Scalable & High-Converting eCommerce Solutions",
+      subHeading: "Build secure, user-friendly, and feature-rich eCommerce platforms for single vendor stores and multi-vendor marketplaces.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -869,8 +894,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Launch Scalable & High-Converting eCommerce Solutions",
+      subHeading: "Build secure, user-friendly, and feature-rich eCommerce platforms for single vendor stores and multi-vendor marketplaces.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1034,8 +1059,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1088,8 +1113,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1142,8 +1167,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1196,8 +1221,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1250,8 +1275,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1304,8 +1329,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1358,8 +1383,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Creative Video Production Services That Bring Your Brand to Life",
+      subHeading: "From promotional videos to corporate films and social media content, we create high-quality videos that engage audiences and elevate your brand presence.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1463,8 +1488,8 @@ export const servicesData: Record<string, Service> = {
       description: "Custom CRM software development in Hyderabad. Automate your sales, manage leads, and enhance customer relationships with scalable and secure CRM solutions.",
     },
     hero: {
-      heading: "CRM Software Development Services in Hyderabad | Streamline Your Business",
-      subHeading: "Manage your customer relationships efficiently with custom CRM software from Ananya Hi Solutions. Our solutions help businesses in Hyderabad automate sales, improve communication, and enhance customer satisfaction.",
+      heading: "Ready to Streamline Your Business?",
+      subHeading: "Get a custom CRM solution tailored to your workflow.",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20CRM%20software%20project.",
@@ -1506,8 +1531,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Smart Software Solutions to Streamline Your Business Operations",
+      subHeading: "We develop scalable and user-friendly software applications that simplify management, improve productivity, and support business growth.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1519,8 +1544,8 @@ export const servicesData: Record<string, Service> = {
       description: "Custom billing software development in Hyderabad. Automate your invoicing, track payments, and manage taxes with GST-integrated billing solutions.",
     },
     hero: {
-      heading: "Billing Software Development Services in Hyderabad | Automate Your Invoicing",
-      subHeading: "Simplify your billing process and improve accuracy with custom billing software from Ananya Hi Solutions. Our solutions help businesses in Hyderabad automate invoicing, manage payments, and maintain records efficiently.",
+      heading: "Ready to Automate Your Billing?",
+      subHeading: "Simplify your invoicing and GST compliance with our custom software.",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20billing%20software%20project.",
@@ -1564,8 +1589,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Smart Software Solutions to Streamline Your Business Operations",
+      subHeading: "We develop scalable and user-friendly software applications that simplify management, improve productivity, and support business growth.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1577,8 +1602,8 @@ export const servicesData: Record<string, Service> = {
       description: "Comprehensive college management software in Hyderabad. Automate admissions, attendance, exams, and fee management with secure and scalable education ERP.",
     },
     hero: {
-      heading: "College Management Software in Hyderabad | Streamline Academic Operations",
-      subHeading: "Manage your college efficiently with custom College Management Software from Ananya Hi Solutions. Automate admissions, attendance, examinations, and reporting to ensure smooth academic operations in Hyderabad.",
+      heading: "Ready to Upgrade Your Campus Management?",
+      subHeading: "Automate academic and administrative tasks efficiently.",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20a%20college%20management%20software%20project.",
@@ -1620,8 +1645,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Smart Software Solutions to Streamline Your Business Operations",
+      subHeading: "We develop scalable and user-friendly software applications that simplify management, improve productivity, and support business growth.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1633,8 +1658,8 @@ export const servicesData: Record<string, Service> = {
       description: "Custom Learning Management System (LMS) development in Hyderabad. Build engaging e-learning platforms with course management and progress tracking.",
     },
     hero: {
-      heading: "Learning Management System (LMS) Software in Hyderabad | Streamline Online Education",
-      subHeading: "Deliver engaging online courses and training programs with custom LMS software from Ananya Hi Solutions. Our solutions help educational institutions and corporate trainers in Hyderabad manage courses, learners, and assessments efficiently.",
+      heading: "Ready to Launch Your E-Learning Platform?",
+      subHeading: "Deliver engaging online courses with a custom LMS.",
       ctaButton: {
         text: "Get FREE Consultation",
         link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20LMS%20software%20project.",
@@ -1676,8 +1701,8 @@ export const servicesData: Record<string, Service> = {
       `,
     },
     ctaFinal: {
-      heading: "Ready to Launch Your Business Website?",
-      subHeading: "Get your static website designed by Hyderabad's trusted web design company.",
+      heading: "Smart Software Solutions to Streamline Your Business Operations",
+      subHeading: "We develop scalable and user-friendly software applications that simplify management, improve productivity, and support business growth.",
       buttonText: "Chat on WhatsApp",
     },
   },
@@ -1689,11 +1714,11 @@ export const servicesData: Record<string, Service> = {
       description: "Maximize your ROI with data-driven Google Ads campaigns. Our certified PPC experts help you generate quality leads and boost conversions.",
     },
     hero: {
-      heading: "Google Ads Agency in Hyderabad | PPC Management Services",
-      subHeading: "Maximize your ROI with data-driven Google Ads campaigns. Our certified PPC experts help you generate quality leads and boost conversions through strategic ad management.",
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
       ctaButton: {
-        text: "Get FREE Consultation",
-        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        text: "Chat on WhatsApp",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance.",
         icon: "bi-whatsapp",
         className: "btn-whatsapp",
       },
@@ -1739,6 +1764,11 @@ export const servicesData: Record<string, Service> = {
         </div>
       `,
     },
+    ctaFinal: {
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
+      buttonText: "Chat on WhatsApp",
+    },
   },
   "content-marketing-services-hyderabad": {
     slug: "content-marketing-services-hyderabad",
@@ -1748,11 +1778,11 @@ export const servicesData: Record<string, Service> = {
       description: "Build authority and grow your brand with strategic, SEO-driven content marketing. At Ananya Hi Solutions, we create content that attracts, engages, and converts.",
     },
     hero: {
-      heading: "Content Marketing Services in Hyderabad | Boost Your Brand Visibility",
-      subHeading: "Turn your content into a growth engine! At Ananya Hi Solutions, we create strategic, SEO-driven content that attracts, engages, and converts. Build authority, increase website traffic, and grow your brand presence with our content marketing services in Hyderabad.",
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
       ctaButton: {
-        text: "Get FREE Consultation",
-        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        text: "Chat on WhatsApp",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance.",
         icon: "bi-whatsapp",
         className: "btn-whatsapp",
       },
@@ -1792,6 +1822,11 @@ export const servicesData: Record<string, Service> = {
         </div>
       `,
     },
+    ctaFinal: {
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
+      buttonText: "Chat on WhatsApp",
+    },
   },
   "email-marketing-services-hyderabad": {
     slug: "email-marketing-services-hyderabad",
@@ -1801,11 +1836,11 @@ export const servicesData: Record<string, Service> = {
       description: "Reach your audience directly and drive measurable results with expertly crafted email campaigns. Boost engagement and nurture leads with Ananya Hi Solutions.",
     },
     hero: {
-      heading: "Email Marketing Services in Hyderabad | Drive Engagement & Conversions",
-      subHeading: "Reach your audience directly and drive measurable results with expertly crafted email campaigns. At Ananya Hi Solutions, we create personalized, high-converting email marketing strategies to boost engagement, nurture leads, and increase sales for businesses in Hyderabad.",
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
       ctaButton: {
-        text: "Get FREE Consultation",
-        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20a%20free%20consultation.",
+        text: "Chat on WhatsApp",
+        link: "https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance.",
         icon: "bi-whatsapp",
         className: "btn-whatsapp",
       },
@@ -1844,6 +1879,11 @@ export const servicesData: Record<string, Service> = {
           </div>
         </div>
       `,
+    },
+    ctaFinal: {
+      heading: "Grow Your Business with Result-Driven Digital Marketing",
+      subHeading: "Boost your online presence, generate quality leads, and reach the right audience with our expert digital marketing services.",
+      buttonText: "Chat on WhatsApp",
     },
   },
   "ecommerce-website-developers-hyderabad": {
@@ -1903,6 +1943,11 @@ export const servicesData: Record<string, Service> = {
           </div>
         </div>
       `,
+    },
+    ctaFinal: {
+      heading: "Professional Website Design Solutions for Modern Businesses",
+      subHeading: "We create fast, responsive, and SEO-friendly static, dynamic, and eCommerce websites that help businesses grow online.",
+      buttonText: "Chat on WhatsApp",
     },
   },
 };
