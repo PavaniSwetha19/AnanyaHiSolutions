@@ -25,9 +25,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body className={poppins.className}>
+      <body className={`${poppins.className} d-flex flex-column min-vh-100`}>
         <Header />
-        {children}
+        <main className="flex-grow-1">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
