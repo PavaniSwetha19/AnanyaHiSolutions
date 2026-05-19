@@ -16,6 +16,13 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Ananya Hi Solutions | Digital Transformation & Web Services',
   description: 'Expert web design, digital marketing, and software development services in Hyderabad.',
+  icons: {
+    icon: [
+      { url: '/assets/front/images/logo/ananya-favicon.ico', type: 'image/x-icon' },
+      { url: '/assets/front/images/logo/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/assets/front/images/logo/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({
