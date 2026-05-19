@@ -131,7 +131,7 @@ export const servicesData: Record<string, Service> = {
     },
     hero: {
       heading: "Digital Marketing Services in Hyderabad",
-      subHeading: "Boost your business with SEO, social media marketing, PPC, email marketing & content strategies from Ananya Hi Solutions.",
+      subHeading: "Boost your business with SEO, social media marketing, PPC, email marketing & content strategies from Ananya Hi Solutions. We help startups & brands increase traffic, leads & sales.",
       trustPara: "✅ Trusted by 100+ local businesses in Hyderabad | ⭐ Rated 5/5 for digital marketing results",
       ctaButton: {
         text: "Choose Package",
@@ -1488,7 +1488,7 @@ export const servicesData: Record<string, Service> = {
       ],
       packageHtml: `
         <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-          <div class="package-header text-white text-center py-3">
+          <div class="package-header text-white text-center py-3" style="background-color: #1485cb; border: none;">
             <h5 class="mb-0 fw-bold">💻 Custom CRM Software Solutions</h5>
             <small>Automate, manage, and grow your business efficiently.</small>
           </div>
@@ -1602,8 +1602,8 @@ export const servicesData: Record<string, Service> = {
       ],
       packageHtml: `
         <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-          <div class="package-header text-white text-center py-3">
-            <h5 class="mb-0 fw-bold">💻 Custom College Management Software</h5>
+          <div class="package-header text-white text-center py-3" style="background-color: #1789d6; border: none;">
+            <h5 class="mb-0 fw-bold">🎓 Custom College Management Software</h5>
             <small>Automate academic and administrative processes efficiently.</small>
           </div>
           <div class="package-body p-4">
@@ -1659,7 +1659,7 @@ export const servicesData: Record<string, Service> = {
       packageHtml: `
         <div class="package-card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
           <div class="package-header text-white text-center py-3" style="background-color: #1789d6; border-bottom: none;">
-            <h5 class="mb-0 fw-bold">Custom Learning Management System</h5>
+            <h5 class="mb-0 fw-bold">📚 Custom Learning Management System</h5>
             <small>Manage courses, learners, and assessments efficiently.</small>
           </div>
           <div class="package-body p-4">
@@ -1668,7 +1668,7 @@ export const servicesData: Record<string, Service> = {
             </p>
             <div class="text-center mt-4 pt-2 border-top">
               <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #064267; border: none;">
-                <i class="bi bi-mortarboard-fill me-2"></i> Get Your Custom LMS Solution
+                <i class="bi bi-journal-bookmark-fill me-2"></i> Get Your Custom LMS Solution
               </a>
             </div>
           </div>

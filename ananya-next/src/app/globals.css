@@ -146,12 +146,13 @@ body {
 }
 
 .custom-navbar .navbar-brand img {
-  height: 70px !important;
+  height: 85px !important;
 }
 
 .custom-navbar .nav-link {
   color: #fff !important;
   font-weight: 600;
+  font-size: 18px;
   transition: color 0.3s ease;
   padding-left: 15px !important;
   padding-right: 15px !important;
