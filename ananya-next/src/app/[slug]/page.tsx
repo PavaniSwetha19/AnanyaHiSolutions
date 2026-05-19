@@ -300,16 +300,11 @@ function DetailLayout({ service }: { service: Service }) {
               <h2 className="fw-bold mb-3 text-center" style={{ fontSize: "18pt" }} dangerouslySetInnerHTML={{ __html: detailSection.heading1 }} />
 
               <p
-  className={`text-muted mx-auto mb-5 ${
-    isLeftAligned ? "text-start" : "text-center"
-  }`}
-  style={{
-    maxWidth: isThreeLines ? "1200px" : "900px",
-    fontSize: isThreeLines ? "0.95rem" : "inherit",
-  }}
->
-  {detailSection.paragraph1}
-</p>
+                className="text-muted mx-auto mb-5 text-start"
+                style={{ maxWidth: "1200px", fontSize: "0.95rem" }}
+              >
+                {detailSection.paragraph1}
+              </p>
             </Col>
 
             <Col md={5}>
