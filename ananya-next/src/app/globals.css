@@ -141,8 +141,8 @@ body {
 /* Navigation Bar */
 .custom-navbar {
   background-color: #064267;
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 .custom-navbar .navbar-brand img {
