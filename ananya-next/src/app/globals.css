@@ -551,10 +551,19 @@ body {
   justify-content: center !important;
   gap: 8px !important;
   transition: all 0.2s ease-in-out !important;
-  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.2) !important;
-  animation: none !important;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+  animation: orangeShadowBlink 4s infinite ease-in-out !important;
   text-decoration: none !important;
   white-space: nowrap !important;
+}
+
+@keyframes orangeShadowBlink {
+  0%, 40%, 70%, 100% {
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+  }
+  55%, 85% {
+    box-shadow: 0 0 16px 4px rgba(245, 158, 11, 0.55);
+  }
 }
 
 .btn-package i {
@@ -566,6 +575,7 @@ body {
   background-color: #d97706 !important;
   transform: translateY(-3px) !important;
   box-shadow: 0 8px 20px rgba(245, 158, 11, 0.45) !important;
+  animation: none !important;
 }
 
 .btn-package:active {
@@ -1788,25 +1798,20 @@ body {
   border-radius: 50px !important;
   font-weight: 700 !important;
   transition: 0.3s !important;
-  box-shadow: 0 6px 18px rgba(0, 102, 162, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 102, 162, 0.3);
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   text-decoration: none !important;
-  animation: blueShadowBlink 1.5s infinite;
+  animation: blueShadowBlink 4s infinite ease-in-out !important;
 }
 
 @keyframes blueShadowBlink {
-  0% {
-    box-shadow: 0 0 0 0 rgba(0, 102, 162, 0.8);
+  0%, 40%, 70%, 100% {
+    box-shadow: 0 4px 12px rgba(0, 102, 162, 0.3);
   }
-
-  50% {
-    box-shadow: 0 0 35px 12px rgba(0, 102, 162, 0.5);
-  }
-
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 102, 162, 0.8);
+  55%, 85% {
+    box-shadow: 0 0 16px 4px rgba(0, 102, 162, 0.55);
   }
 }
 
@@ -1814,7 +1819,7 @@ body {
   background: #004d7a !important;
   color: #fff !important;
   transform: translateY(-3px) !important;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 8px 20px rgba(0, 102, 162, 0.45) !important;
   animation: none !important;
 }
 

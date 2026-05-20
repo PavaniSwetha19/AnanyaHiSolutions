@@ -271,8 +271,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to know what's inside our hidden plans?</p>
-              <a id='unlock-static-pkg' href='/package-details/static-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0066a2; border: 8px solid #d0e7ff; color: #fff !important; font-weight: 700;'>
-                <i class='bi bi-unlock-fill'></i> Unlock Full Packages
+              <a id='unlock-static-pkg' href='/package-details/static-website-package-hyderabad' class='btn btn-gradient'>
+                <i class='bi bi-unlock-fill me-2'></i> Unlock Full Packages
               </a>
             </div>
           </div>
@@ -335,8 +335,8 @@ export const servicesData: Record<string, Service> = {
               
               <div class='text-center mt-4 pt-2 border-top'>
                 <p class='small fw-bold mb-3 text-dark'>Want to explore advanced plans?</p>
-                <a id='unlock-dynamic-pkg' href='/package-details/dynamic-website-package-hyderabad' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
-                  <i class='bi bi-unlock-fill'></i> Unlock Full Packages
+                <a id='unlock-dynamic-pkg' href='/package-details/dynamic-website-package-hyderabad' class='btn btn-gradient'>
+                  <i class='bi bi-unlock-fill me-2'></i> Unlock Full Packages
                 </a>
               </div>
             </div>
@@ -399,8 +399,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to explore our full SEO strategy?</p>
-              <a id='unlock-seo-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
-                <i class='bi bi-unlock-fill'></i> Discover More
+              <a id='unlock-seo-pkg' href='/ananya-hi-solutions-package' class='btn btn-gradient'>
+                <i class='bi bi-unlock-fill me-2'></i> Discover More
               </a>
             </div>
           </div>
@@ -463,8 +463,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to explore our full social media marketing plans?</p>
-              <a id='unlock-smm-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
-                <i class='bi bi-unlock-fill'></i> View Full Packages
+              <a id='unlock-smm-pkg' href='/ananya-hi-solutions-package' class='btn btn-gradient'>
+                <i class='bi bi-unlock-fill me-2'></i> View Full Packages
               </a>
             </div>
           </div>
@@ -604,8 +604,8 @@ export const servicesData: Record<string, Service> = {
             </p>
             <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start building your iOS app today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
-                <i class="bi bi-phone-fill"></i> Talk to Our iOS Experts
+              <a href="/contact" class="btn btn-gradient">
+                <i class="bi bi-phone-fill me-2"></i> Talk to Our iOS Experts
               </a>
             </div>
           </div>
@@ -661,8 +661,8 @@ export const servicesData: Record<string, Service> = {
             </p>
             <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start building your Android app today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
-                <i class="bi bi-phone-fill"></i> Talk to Our Android Experts
+              <a href="/contact" class="btn btn-gradient">
+                <i class="bi bi-phone-fill me-2"></i> Talk to Our Android Experts
               </a>
             </div>
           </div>
@@ -828,8 +828,8 @@ export const servicesData: Record<string, Service> = {
             </p>
             <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start your online store today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
-                <i class="bi bi-cart-fill"></i> Talk to Our eCommerce Experts
+              <a href="/contact" class="btn btn-gradient">
+                <i class="bi bi-cart-fill me-2"></i> Talk to Our eCommerce Experts
               </a>
             </div>
           </div>
@@ -885,8 +885,8 @@ export const servicesData: Record<string, Service> = {
             </p>
             <div class="text-center mt-4 pt-2 border-top">
               <p class="small fw-bold mb-3 text-dark">Start your multi vendor platform today!</p>
-              <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
-                <i class="bi bi-shop"></i> Talk to Our Marketplace Experts
+              <a href="/contact" class="btn btn-gradient">
+                <i class="bi bi-shop me-2"></i> Talk to Our Marketplace Experts
               </a>
             </div>
           </div>
@@ -1051,7 +1051,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4">
               Discover how Ananya Hi Solutions in Hyderabad can help you produce corporate videos that showcase your brand, communicate your story, and connect with your audience effectively. Fill out the form to discuss your project and get personalized expert guidance.
             </p>
-            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="/contact" class="btn btn-gradient">
               <i class="bi bi-camera-video-fill me-2"></i> Start Your Corporate Video Project Today
             </a>
           </div>
@@ -1105,7 +1105,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4 text-start">
               Want to promote your products or services effectively? <strong>Ananya Hi Solutions</strong> offers expert <strong>promotional marketing video production in Hyderabad</strong> that combines creativity, storytelling, and professional execution. Fill out the form to discuss your project and get a tailored solution for your brand.
             </p>
-            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="/contact" class="btn btn-gradient">
               <i class="bi bi-play-circle-fill me-2"></i> Start Your Promotional Video Project
             </a>
           </div>
@@ -1159,7 +1159,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4">
               Want to make your events memorable? <strong>Ananya Hi Solutions</strong> offers expert <strong>event coverage and highlight video production in Hyderabad</strong>. From corporate events to product launches, we ensure every key moment is captured creatively and professionally. Fill out the form to discuss your project and get tailored solutions.
             </p>
-            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20event%20coverage%20project." class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20want%20to%20discuss%20an%20event%20coverage%20project." class="btn btn-gradient">
               <i class="bi bi-calendar-check-fill me-2"></i> Book Your Event Coverage Today
             </a>
           </div>
@@ -1213,7 +1213,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4 text-start">
               Want your customers to understand your product instantly? <strong>Ananya Hi Solutions</strong> provides expert <strong>product explainer video production services in Hyderabad</strong>. We create compelling videos that showcase your product features, explain usage, and highlight benefits. Fill out the form to discuss your project and get a tailored solution.
             </p>
-            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="/contact" class="btn btn-gradient">
               <i class="bi bi-play-btn-fill me-2"></i> Start Your Explainer Video Project
             </a>
           </div>
@@ -1267,7 +1267,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4 text-start">
               Want to grow your social media presence? <strong>Ananya Hi Solutions</strong> offers expert <strong>social media video production services in Hyderabad</strong>. We craft compelling videos for Instagram, Facebook, YouTube, and LinkedIn that connect with your audience and elevate your brand. Fill out the form to discuss your project and get a custom strategy.
             </p>
-            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="/contact" class="btn btn-gradient">
               <i class="bi bi-share-fill me-2"></i> Start Your Social Media Video Project
             </a>
           </div>
@@ -1321,7 +1321,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4 text-start">
               Want your music to reach more fans and create a visual impact? <strong>Ananya Hi Solutions</strong> provides expert <strong>music video production services in Hyderabad</strong>. We handle everything from concept and choreography to filming and post-production. Fill out the form to discuss your project and get a tailor-made solution.
             </p>
-            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="/contact" class="btn btn-gradient">
               <i class="bi bi-music-player-fill me-2"></i> Start Your Music Video Project
             </a>
           </div>
@@ -1375,7 +1375,7 @@ export const servicesData: Record<string, Service> = {
             <p class="card-text text-muted mb-4 text-start">
               Want to create a cinematic short film that captivates your audience? <strong>Ananya Hi Solutions</strong> provides expert <strong>short film production services in Hyderabad</strong>. We handle everything from concept development to final editing. Fill out the form to discuss your project and receive a customized production plan.
             </p>
-            <a href="/contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2" style="background-color: #064267; border: none; color: #fff !important;">
+            <a href="/contact" class="btn btn-gradient">
               <i class="bi bi-film me-2"></i> Start Your Short Film Project
             </a>
           </div>
@@ -1522,7 +1522,7 @@ export const servicesData: Record<string, Service> = {
               Want to streamline your business processes and manage customer relationships effectively? <strong>Ananya Hi Solutions</strong> provides expert <strong>CRM software development services in Hyderabad</strong>. Our team delivers tailor-made solutions for sales automation, lead management, analytics, and reporting. Fill out the form to discuss your CRM project and get a custom solution.
             </p>
             <div class="text-center mt-4 pt-2 border-top">
-              <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #1485cb; border: 1px solid #1485cb;">
+              <a href="/contact" class="btn btn-gradient">
                 <i class="bi bi-gear-fill me-2"></i> Get Your Custom CRM Solution
               </a>
             </div>
@@ -1578,11 +1578,9 @@ export const servicesData: Record<string, Service> = {
               Want to streamline your billing and payment process? <strong>Ananya Hi Solutions</strong> offers expert <strong>billing software development services in Hyderabad</strong>. Our team delivers tailor-made solutions for invoicing, payment tracking, tax calculation, and reporting. Fill out the form to discuss your project and get a custom solution.
             </p>
             <div class="text-center mt-4 pt-2 border-top">
-              <div class="d-inline-block rounded-pill" style="padding: 6px; background-color: #f0f6fa;">
-                <a href="/contact" class="btn text-white rounded-pill px-4 py-2 m-0" style="background-color: #064267; border: none;">
-                  <i class="bi bi-file-earmark-text-fill me-2"></i> Get Your Custom Billing Software
-                </a>
-              </div>
+              <a href="/contact" class="btn btn-gradient">
+                <i class="bi bi-file-earmark-text-fill me-2"></i> Get Your Custom Billing Software
+              </a>
             </div>
           </div>
         </div>
@@ -1636,7 +1634,7 @@ export const servicesData: Record<string, Service> = {
               Want to simplify college operations and improve efficiency? <strong>Ananya Hi Solutions</strong> provides expert <strong>College Management Software services in Hyderabad</strong>. We handle everything from admissions, attendance, examinations, fee management, to reporting. Fill out the form to discuss your project and get a custom solution.
             </p>
             <div class="text-center mt-4 pt-2 border-top">
-              <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #0b6fa8; border: 1px solid #0b6fa8;">
+              <a href="/contact" class="btn btn-gradient">
                 <i class="bi bi-mortarboard-fill me-2"></i> Get Your College Management Solution
               </a>
             </div>
@@ -1692,7 +1690,7 @@ export const servicesData: Record<string, Service> = {
               Want to deliver engaging online courses and training programs? Ananya Hi Solutions offers expert LMS software development services in Hyderabad. We handle everything from course creation, learner management, assessments, to reporting. Fill out the form to discuss your project and get a tailor-made LMS solution.
             </p>
             <div class="text-center mt-4 pt-2 border-top">
-              <a href="/contact" class="btn text-white rounded-pill px-4 py-2 shadow-sm" style="background-color: #064267; border: none;">
+              <a href="/contact" class="btn btn-gradient">
                 <i class="bi bi-journal-bookmark-fill me-2"></i> Get Your Custom LMS Solution
               </a>
             </div>
@@ -1756,8 +1754,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Want to see how we can scale your ad performance?</p>
-              <a id='unlock-ppc-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
-                <i class='bi bi-unlock-fill'></i> View Full Packages
+              <a id='unlock-ppc-pkg' href='/ananya-hi-solutions-package' class='btn btn-gradient'>
+                <i class='bi bi-unlock-fill me-2'></i> View Full Packages
               </a>
             </div>
           </div>
@@ -1814,8 +1812,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Let's create content that makes your brand unforgettable!</p>
-              <a id='talk-content-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
-                <i class='bi bi-chat-dots-fill'></i> Talk to Our Content Experts
+              <a id='talk-content-experts' href='/contact' class='btn btn-gradient'>
+                <i class='bi bi-chat-dots-fill me-2'></i> Talk to Our Content Experts
               </a>
             </div>
           </div>
@@ -1872,8 +1870,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2 border-top'>
               <p class='small fw-bold mb-3 text-dark'>Start sending impactful emails today!</p>
-              <a id='talk-email-experts' href='/contact' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #064267; border: none; color: #fff !important;'>
-                <i class='bi bi-envelope-fill'></i> Talk to Our Email Experts
+              <a id='talk-email-experts' href='/contact' class='btn btn-gradient'>
+                <i class='bi bi-envelope-fill me-2'></i> Talk to Our Email Experts
               </a>
             </div>
           </div>
@@ -1936,8 +1934,8 @@ export const servicesData: Record<string, Service> = {
             
             <div class='text-center mt-4 pt-2'>
               <p class='small fw-bold mb-3 text-dark'>Want to explore advanced plans?</p>
-              <a id='unlock-ecommerce-pkg' href='/ananya-hi-solutions-package' class='btn btn-primary rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2' style='background-color: #0070bb; border: none; color: #fff !important;'>
-                <i class='bi bi-unlock-fill'></i> Unlock Full Packages
+              <a id='unlock-ecommerce-pkg' href='/ananya-hi-solutions-package' class='btn btn-gradient'>
+                <i class='bi bi-unlock-fill me-2'></i> Unlock Full Packages
               </a>
             </div>
           </div>
